@@ -15,12 +15,17 @@ module.exports = {
         use: {
           loader: 'babel-loader'
         }
-      }
+      },
+      {
+        test: /\.css$/, // Add a rule for CSS files
+        use: ['style-loader', 'css-loader'], // Use style-loader and css-loader
+      },
     ]
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html'
     })
-  ]
+  ],
+  mode: 'development'
 };

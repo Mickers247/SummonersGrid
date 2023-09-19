@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 
 function Header() {
-  const [showModal, setShowModal] = useState(false);
+  const [showModal, setShowModal] = useState(true);
 
   const toggleModal = () => {
     setShowModal(!showModal);
@@ -11,7 +11,7 @@ function Header() {
   return (
     <header className="navbar navbar-dark bg-dark">
       <div className="container">
-        <h1 className="navbar-brand">My React App</h1>
+        <h1 className="navbar-brand">Summoner's Grid</h1>
         <button className="btn btn-info" onClick={toggleModal}>
           Info
         </button>

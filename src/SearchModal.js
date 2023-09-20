@@ -17,7 +17,7 @@ function SearchModal(props) {
     'Aurelion Sol',
     'Azir',
     'Bard',
-    'Bel Veth',
+    `Bel'Veth`,
     'Blitzcrank',
     'Brand',
     'Braum',
@@ -173,8 +173,9 @@ function SearchModal(props) {
   const [searchQuery, setSearchQuery] = useState('');
   const [suggestions, setSuggestions] = useState([]);
 
-  const handleInputChange = (e) => {
-    setSearchQuery(e.target.value);
+  const handleSuggestionClick = (selectedSuggestion) => {
+    setSearchQuery(selectedSuggestion);
+    setSuggestions([]); // Clear suggestions when a suggestion is clicked
   };
 
   const updateSuggestions = (input) => {
@@ -208,20 +209,13 @@ function SearchModal(props) {
         </Form.Group>
         <ul className="suggestions">
           {suggestions.map((suggestion, index) => (
-            <li key={index} onClick={() => handleSuggestionClick(suggestion)}>
-              {suggestion}
+            <li className="suggestion" key={index} onClick={() => handleSuggestionClick(suggestion)}>
+              <span className='suggestion-champ-name'>{suggestion}</span> 
+              <button className="btn btn-primary select-button">Select</button>
             </li>
           ))}
         </ul>
       </Modal.Body>
-      <Modal.Footer>
-        <Button variant="secondary" onClick={handleClose}>
-          Close
-        </Button>
-        <Button variant="primary" onClick={() => props.onSearch(searchQuery)}>
-          Search
-        </Button>
-      </Modal.Footer>
     </Modal>
   );
 }

@@ -5,6 +5,7 @@
 
     "champInformation": [
         {
+            "name": "Aatrox",
             "gender": "Male",
             "position": ["Top"],
             "species": "Darkin",
@@ -14,6 +15,7 @@
             "releaseYear": 2013
         },
         {
+            "name": "Ahri",
             "gender": "Female",
             "position": ["Middle"],
             "species": "Vastayan",
@@ -23,6 +25,7 @@
             "releaseYear": 2011
         },
         {
+            "name": "Akali",
             "gender": "Female",
             "position": ["Middle", "Top"],
             "species": "Human",
@@ -32,6 +35,7 @@
             "releaseYear": 2010
         },
         {
+            "name": "Alistar",
             "gender": "Male",
             "position": ["Support"],
             "species": "Minotaur",
@@ -41,6 +45,7 @@
             "releaseYear": 2009
         },
         {
+            "name": "Anivia",
             "gender": "Female",
             "position": ["Middle"],
             "species": ["God", "Spirit"],
@@ -50,6 +55,7 @@
             "releaseYear": 2009
         },
         {
+            "name": "Aphelios",
             "gender": "Male",
             "position": ["Bottom"],
             "species": ["Human", "Spiritualist"],
@@ -59,6 +65,7 @@
             "releaseYear": 2019
         },
         {
+            "name": "Akshan",
             "gender": "Male",
             "position": ["Middle", "Top"],
             "species": "Human",
@@ -68,6 +75,7 @@
             "releaseYear": 2021
         },
         {
+            "name": "Annie",
             "gender": "Female",
             "position": ["Middle", "Support"],
             "species": ["Human", "Magicborn"],
@@ -77,6 +85,7 @@
             "releaseYear": 2009
         },
         {
+            "name": "Aurelion Sol",
             "gender": "Male",
             "position": ["Middle"],
             "species": ["Celestial", "Dragon"],
@@ -86,6 +95,7 @@
             "releaseYear": 2016
         },
         {
+            "name": "Amumu",
             "gender": "Male",
             "position": ["Jungle", "Support"],
             "species": ["Undead", "Yordle"],
@@ -95,6 +105,7 @@
             "releaseYear": 2009
         },
         {
+            "name": "Azir",
             "gender": "Male",
             "position": ["Middle"],
             "species": "God-Warrior",
@@ -104,6 +115,7 @@
             "releaseYear": 2014
         },
         {
+            "name": "Ashe",
             "gender": "Female",
             "position": ["Bottom", "Support"],
             "species": ["Human", "Iceborn"],
@@ -113,6 +125,7 @@
             "releaseYear": 2009
         },
         {
+            "name": "Bard",
             "gender": "Male",
             "position": ["Support"],
             "species": "Celestial",
@@ -122,6 +135,7 @@
             "releaseYear": 2015
         },
         {
+            "name": "Bel'Veth",
             "gender": "Female",
             "position": ["Jungle"],
             "species": "Void-Being",
@@ -131,6 +145,7 @@
             "releaseYear": 2022
         },
         {
+            "name": "Blitzcrank",
             "gender": "Other",
             "position": ["Support"],
             "species": "Golem",
@@ -140,78 +155,106 @@
             "releaseYear": 2009
         },
         {
+            "name": "Brand",
             "gender": "Male",
             "position": ["Support"],
             "species": ["Human", "Magically Altered"],
-            "resource": "Ranged",
+            "rangeType": "Ranged",
+            "resource": "Mana",
             "regions": ["Freljord", "Runeterra"],
             "releaseYear": 2011
         },
         {
+            "name": "Braum",
             "gender": "Male",
             "position": ["Support"],
             "species": ["Human", "Iceborn"],
-            "resource": "Melee",
+            "rangeType": "Melee",
+            "resource": "Mana",
             "regions": ["Freljord"],
             "releaseYear": 2014
         },
         {
+            "name": "Briar",
+            "gender": "Female",
+            "position": ["Jungle"],
+            "species": ["Human", "Magically Altered"],
+            "resource": "Health costs",
+            "rangeType": "Melee",
+            "regions": ["Noxus"],
+            "releaseYear": 2023
+        },
+        {
+            "name": "Caitlyn",
             "gender": "Female",
             "position": ["Bottom"],
             "species": "Human",
-            "resource": "Ranged",
+            "rangeType": "Ranged",
+            "resource": "Mana",
             "regions": ["Piltover"],
             "releaseYear": 2011
         },
         {
+            "name": "Camille",
             "gender": "Female",
             "position": ["Top"],
             "species": ["Cyborg", "Human"],
-            "resource": "Melee",
+            "rangeType": "Melee",
+            "resource": "Mana",
             "regions": ["Piltover"],
             "releaseYear": 2016
         },
         {
+            "name": "Cassiopeia",
             "gender": "Female",
             "position": ["Middle"],
             "species": ["Human", "Magically Altered"],
-            "resource": "Ranged",
+            "rangeType": "Ranged",
+            "resource": "Mana",
             "regions": ["Noxus", "Shurima"],
             "releaseYear": 2010
         },
         {
+            "name": "Cho'Gath",
             "gender": "Male",
             "position": ["Top"],
             "species": "Void-Being",
-            "resource": "Melee",
+            "rangeType": "Melee",
             "regions": ["Void"],
             "releaseYear": 2009
         },
         {
+            "name": "Corki",
             "gender": "Male",
             "position": ["Middle"],
             "species": "Yordle",
-            "resource": "Ranged",
+            "rangeType": "Ranged",
+            "resource": "Mana",
             "regions": ["Bandle City", "Piltover"],
             "releaseYear": 2009
         },
         {
+            "name": "Darius",
             "gender": "Male",
             "position": ["Top"],
             "species": "Human",
-            "resource": "Melee",
+            "rangeType": "Melee",
+            "resource": "Mana",
             "regions": ["Noxus"],
             "releaseYear": 2012
         },
         {
+            "name": "Diana",
             "gender": "Female",
             "position": ["Jungle", "Middle"],
             "species": ["Aspect", "Human"],
-            "resource": "Melee",
+            "rangeType": "Melee",
+            "resource": "Mana",
             "regions": ["Targon"],
             "releaseYear": 2012
         },
         {
+            "name": "Dr. Mundo",
             "gender": "Male",
             "position": ["Top"],
             "species": ["Chemically Altered", "Human"],
@@ -221,22 +264,27 @@
             "releaseYear": 2009
         },
         {
+            "name": "Draven",
             "gender": "Male",
             "position": ["Bottom"],
             "species": "Human",
-            "resource": "Ranged",
+            "rangeType": "Ranged",
+            "resource": "Mana",
             "regions": ["Noxus"],
             "releaseYear": 2012
         },
         {
+            "name": "Ekko",
             "gender": "Male",
             "position": ["Jungle", "Middle"],
             "species": "Human",
-            "resource": "Melee",
+            "rangeType": "Melee",
+            "resource": "Mana",
             "regions": ["Zaun"],
             "releaseYear": 2015
         },
         {
+            "name": "Elise",
             "gender": "Female",
             "position": ["Jungle"],
             "species": ["Human", "Magically Altered"],
@@ -245,6 +293,7 @@
             "releaseYear": 2012
         },
         {
+            "name": "Evelynn",
             "gender": "Female",
             "position": ["Jungle"],
             "species": ["Demon", "Spirit"],
@@ -254,14 +303,17 @@
             "releaseYear": 2009
         },
         {
+            "name": "Ezreal",
             "gender": "Male",
             "position": ["Bottom"],
             "species": ["Human", "Magicborn"],
-            "resource": "Ranged",
+            "rangeType": "Ranged",
+            "resource": "Mana",
             "regions": ["Piltover"],
             "releaseYear": 2010
         },
         {
+            "name": "Fiddlesticks",
             "gender": "Other",
             "position": ["Jungle"],
             "species": ["Demon", "Spirit"],
@@ -271,22 +323,27 @@
             "releaseYear": 2009
         },
         {
+            "name": "Fiora",
             "gender": "Female",
             "position": ["Top"],
             "species": "Human",
-            "resource": "Melee",
+            "rangeType": "Melee",
+            "resource": "Mana",
             "regions": ["Demacia"],
             "releaseYear": 2012
         },
         {
+            "name": "Fizz",
             "gender": "Male",
             "position": ["Middle"],
             "species": "Yordle",
-            "resource": "Melee",
+            "rangeType": "Melee",
+            "resource": "Mana",
             "regions": ["Bilgewater"],
             "releaseYear": 2011
         },
         {
+            "name": "Galio",
             "gender": "Male",
             "position": ["Middle", "Support"],
             "species": "Golem",
@@ -296,14 +353,17 @@
             "releaseYear": 2010
         },
         {
+            "name": "Gangplank",
             "gender": "Male",
             "position": ["Top"],
             "species": "Human",
-            "resource": "Melee",
+            "rangeType": "Melee",
+            "resource": "Mana",
             "regions": ["Bilgewater"],
             "releaseYear": 2009
         },
         {
+            "name": "Garen",
             "gender": "Male",
             "position": ["Top"],
             "species": "Human",
@@ -313,6 +373,7 @@
             "releaseYear": 2010
         },
         {
+            "name": "Gnar",
             "gender": "Male",
             "position": ["Top"],
             "species": "Yordle",
@@ -322,6 +383,7 @@
             "releaseYear": 2014
         },
         {
+            "name": "Gragas",
             "gender": "Male",
             "position": ["Jungle", "Top"],
             "species": "Human",
@@ -331,22 +393,26 @@
             "releaseYear": 2010
         },
         {
+            "name": "Graves",
             "gender": "Male",
             "position": ["Jungle"],
             "species": "Human",
-            "resource": "Ranged",
+            "rangeType": "Ranged",
+            "resource": "Mana",
             "regions": ["Bilgewater"],
             "releaseYear": 2011
         },
         {
+            "name": "Gwen",
             "gender": "Female",
             "position": ["Top"],
             "species": ["Human", "Magically Altered"],
-            "resource": "Melee",
+            "rangeType": "Mana",
             "regions": ["Camavor", "Shadow Isles"],
             "releaseYear": 2021
         },
         {
+            "name": "Hecarim",
             "gender": "Male",
             "position": ["Jungle"],
             "species": "Undead",
@@ -356,6 +422,7 @@
             "releaseYear": 2012
         },
         {
+            "name": "Heimerdinger",
             "gender": "Male",
             "position": ["Middle", "Support"],
             "species": "Yordle",
@@ -365,6 +432,7 @@
             "releaseYear": 2009
         },
         {
+            "name": "Illaoi",
             "gender": "Female",
             "position": ["Top"],
             "species": ["Human", "Spiritualist"],
@@ -374,6 +442,7 @@
             "releaseYear": 2015
         },
         {
+            "name": "Irelia",
             "gender": "Female",
             "position": ["Middle", "Top"],
             "species": ["Human", "Spiritualist"],
@@ -383,6 +452,7 @@
             "releaseYear": 2010
         },
         {
+            "name": "Ivern",
             "gender": "Male",
             "position": ["Jungle"],
             "species": ["Human", "Magically Altered"],
@@ -392,6 +462,7 @@
             "releaseYear": 2016
         },
         {
+            "name": "Janna",
             "gender": "Female",
             "position": ["Support"],
             "species": ["God", "Spirit"],
@@ -401,6 +472,7 @@
             "releaseYear": 2009
         },
         {
+            "name": "Jarvan IV",
             "gender": "Male",
             "position": ["Jungle"],
             "species": "Human",
@@ -410,6 +482,7 @@
             "releaseYear": 2011
         },
         {
+            "name": "Jax",
             "gender": "Male",
             "position": ["Jungle", "Top"],
             "species": "Unknown",
@@ -419,6 +492,7 @@
             "releaseYear": 2009
         },
         {
+            "name": "Jayce",
             "gender": "Male",
             "position": ["Middle", "Top"],
             "species": "Human",
@@ -428,6 +502,7 @@
             "releaseYear": 2012
         },
         {
+            "name": "Jhin",
             "gender": "Male",
             "position": ["Bottom"],
             "species": ["Human", "Spiritualist"],
@@ -437,6 +512,7 @@
             "releaseYear": 2016
         },
         {
+            "name": "Jinx",
             "gender": "Female",
             "position": ["Bottom"],
             "species": ["Chemically Altered", "Human"],
@@ -446,6 +522,7 @@
             "releaseYear": 2013
         },
         {
+            "name": "K'Sante",
             "gender": "Male",
             "position": ["Top"],
             "species": "Human",
@@ -455,6 +532,7 @@
             "releaseYear": 2022
         },
         {
+            "name": "Kai'Sa",
             "gender": "Female",
             "position": ["Bottom"],
             "species": ["Human", "Void-Being"],
@@ -464,6 +542,7 @@
             "releaseYear": 2018
         },
         {
+            "name": "Kalista",
             "gender": "Female",
             "position": ["Bottom"],
             "species": "Undead",
@@ -473,6 +552,7 @@
             "releaseYear": 2014
         },
         {
+            "name": "Karma",
             "gender": "Female",
             "position": ["Support"],
             "species": ["Human", "Spiritualist"],
@@ -482,6 +562,7 @@
             "releaseYear": 2011
         },
         {
+            "name": "Karthus",
             "gender": "Male",
             "position": ["Jungle"],
             "species": "Undead",
@@ -491,6 +572,7 @@
             "releaseYear": 2009
         },
         {
+            "name": "Kassadin",
             "gender": "Male",
             "position": ["Middle"],
             "species": ["Human", "Void-Being"],
@@ -500,6 +582,7 @@
             "releaseYear": 2009
         },
         {
+            "name": "Katarina",
             "gender": "Female",
             "position": ["Middle"],
             "species": "Human",
@@ -509,6 +592,7 @@
             "releaseYear": 2009
         },
         {
+            "name": "Kayle",
             "gender": "Female",
             "position": ["Top"],
             "species": ["Aspect", "Human", "Magically Altered"],
@@ -518,6 +602,7 @@
             "releaseYear": 2009
         },
         {
+            "name": "Kayn",
             "gender": "Male",
             "position": ["Jungle"],
             "species": ["Darkin", "Human", "Magically Altered"],
@@ -527,6 +612,7 @@
             "releaseYear": 2017
         },
         {
+            "name": "Kennen",
             "gender": "Male",
             "position": ["Top"],
             "species": "Yordle",
@@ -536,6 +622,7 @@
             "releaseYear": 2010
         },
         {
+            "name": "Kha'Zix",
             "gender": "Male",
             "position": ["Jungle"],
             "species": "Void-Being",
@@ -545,6 +632,7 @@
             "releaseYear": 2012
         },
         {
+            "name": "Kindred",
             "gender": "Other",
             "position": ["Jungle"],
             "species": ["God", "Spirit"],
@@ -554,6 +642,7 @@
             "releaseYear": 2015
         },
         {
+            "name": "Kled",
             "gender": "Male",
             "position": ["Top"],
             "species": "Yordle",
@@ -563,6 +652,7 @@
             "releaseYear": 2016
         },
         {
+            "name": "Kog'Maw",
             "gender": "Male",
             "position": ["Bottom"],
             "species": "Void-Being",
@@ -572,14 +662,17 @@
             "releaseYear": 2010
         },
         {
+            "name": "LeBlanc",
             "gender": "Female",
             "position": ["Middle"],
             "species": ["Human", "Magically Altered"],
-            "resource": "Ranged",
+            "rangeType": "Ranged",
+            "resource": "Mana",
             "regions": ["Noxus"],
             "releaseYear": 2010
         },
         {
+            "name": "Lee Sin",
             "gender": "Male",
             "position": ["Jungle"],
             "species": ["Human", "Spiritualist"],
@@ -589,6 +682,7 @@
             "releaseYear": 2011
         },
         {
+            "name": "Leona",
             "gender": "Female",
             "position": ["Support"],
             "species": ["Aspect", "Human"],
@@ -598,6 +692,7 @@
             "releaseYear": 2011
         },
         {
+            "name": "Lillia",
             "gender": "Female",
             "position": ["Jungle", "Top"],
             "species": "Spirit",
@@ -607,6 +702,7 @@
             "releaseYear": 2020
         },
         {
+            "name": "Lissandra",
             "gender": "Female",
             "position": ["Middle"],
             "species": ["Human", "Iceborn"],
@@ -616,14 +712,17 @@
             "releaseYear": 2013
         },
         {
+            "name": "Lucian",
             "gender": "Male",
             "position": ["Bottom"],
             "species": "Human",
-            "resource": "Ranged",
+            "rangeType": "Ranged",
+            "resource": "Mana",
             "regions": ["Demacia", "Shadow Isles"],
             "releaseYear": 2013
         },
         {
+            "name": "Lulu",
             "gender": "Female",
             "position": ["Support"],
             "species": "Yordle",
@@ -633,6 +732,7 @@
             "releaseYear": 2012
         },
         {
+            "name": "Lux",
             "gender": "Female",
             "position": ["Middle", "Support"],
             "species": ["Human", "Magicborn"],
@@ -642,6 +742,7 @@
             "releaseYear": 2010
         },
         {
+            "name": "Malphite",
             "gender": "Male",
             "position": ["Top"],
             "species": "Golem",
@@ -651,14 +752,17 @@
             "releaseYear": 2009
         },
         {
+            "name": "Malzahar",
             "gender": "Male",
             "position": ["Middle"],
             "species": ["Human", "Void-Being"],
-            "resource": "Ranged",
+            "rangeType": "Ranged",
+            "resource": "Mana",
             "regions": ["Shurima", "Void"],
             "releaseYear": 2010
         },
         {
+            "name": "Maokai",
             "gender": "Male",
             "position": ["Jungle", "Support"],
             "species": "Spirit",
@@ -668,6 +772,7 @@
             "releaseYear": 2011
         },
         {
+            "name": "Master Yi",
             "gender": "Male",
             "position": ["Jungle"],
             "species": ["Human", "Spiritualist"],
@@ -677,22 +782,27 @@
             "releaseYear": 2009
         },
         {
+            "name": "Millio",
             "gender": "Male",
             "position": ["Support"],
             "species": ["Human", "Magicborn"],
-            "resource": "Ranged",
+            "rangeType": "Ranged",
+            "resource": "Mana",
             "regions": ["Ixtal"],
             "releaseYear": 2023
         },
         {
+            "name": "Miss Fortune",
             "gender": "Female",
             "position": ["Bottom"],
             "species": "Human",
-            "resource": "Ranged",
+            "rangeType": "Ranged",
+            "resource": "Mana",
             "regions": ["Bilgewater"],
             "releaseYear": 2010
         },
         {
+            "name": "Mordekaiser",
             "gender": "Male",
             "position": ["Top"],
             "species": "Revenant",
@@ -702,6 +812,7 @@
             "releaseYear": 2010
         },
         {
+            "name": "Morgana",
             "gender": "Female",
             "position": ["Support"],
             "species": ["Aspect", "Human", "Magically Altered"],
@@ -711,6 +822,7 @@
             "releaseYear": 2009
         },
         {
+            "name": "Naafiri",
             "gender": "Female",
             "position": ["Middle"],
             "species": ["Darkin", "Dog"],
@@ -720,6 +832,7 @@
             "releaseYear": 2023
         },
         {
+            "name": "Nami",
             "gender": "Female",
             "position": ["Support"],
             "species": "Vastayan",
@@ -729,6 +842,7 @@
             "releaseYear": 2012
         },
         {
+            "name": "Nasus",
             "gender": "Male",
             "position": ["Top"],
             "species": "God-Warrior",
@@ -738,6 +852,7 @@
             "releaseYear": 2009
         },
         {
+            "name": "Nautilus",
             "gender": "Male",
             "position": ["Support"],
             "species": "Revenant",
@@ -747,6 +862,7 @@
             "releaseYear": 2012
         },
         {
+            "name": "Neeko",
             "gender": "Female",
             "position": ["Middle", "Support"],
             "species": "Vastayan",
@@ -756,6 +872,7 @@
             "releaseYear": 2018
         },
         {
+            "name": "Nidalee",
             "gender": "Female",
             "position": ["Jungle"],
             "species": ["Human", "Spiritualist"],
@@ -765,6 +882,7 @@
             "releaseYear": 2009
         },
         {
+            "name": "Nilah",
             "gender": "Female",
             "position": ["Bottom"],
             "species": ["Human", "Magically Altered"],
@@ -774,6 +892,7 @@
             "releaseYear": 2022
         },
         {
+            "name": "Nocturne",
             "gender": "Male",
             "position": ["Jungle"],
             "species": ["Demon", "Spirit"],
@@ -783,6 +902,7 @@
             "releaseYear": 2011
         },
         {
+            "name": "Nunu & Willump",
             "gender": "Male",
             "position": ["Jungle"],
             "species": ["Human", "Yeti"],
@@ -792,6 +912,7 @@
             "releaseYear": 2009
         },
         {
+            "name": "Olaf",
             "gender": "Male",
             "position": ["Jungle", "Top"],
             "species": ["Human", "Iceborn"],
@@ -801,6 +922,7 @@
             "releaseYear": 2010
         },
         {
+            "name": "Orianna",
             "gender": "Female",
             "position": ["Middle"],
             "species": "Golem",
@@ -810,6 +932,7 @@
             "releaseYear": 2011
         },
         {
+            "name": "Ornn",
             "gender": "Male",
             "position": ["Top"],
             "species": ["God", "Spirit"],
@@ -819,6 +942,7 @@
             "releaseYear": 2017
         },
         {
+            "name": "Pantheon",
             "gender": "Male",
             "position": ["Jungle", "Middle", "Support"],
             "species": ["Aspect", "Human"],
@@ -828,6 +952,7 @@
             "releaseYear": 2010
         },
         {
+            "name": "Poppy",
             "gender": "Female",
             "position": ["Jungle", "Top"],
             "species": "Yordle",
@@ -837,6 +962,7 @@
             "releaseYear": 2010
         },
         {
+            "name": "Pyke",
             "gender": "Male",
             "position": ["Support"],
             "species": "Revenant",
@@ -846,6 +972,7 @@
             "releaseYear": 2018
         },
         {
+            "name": "Qiyana",
             "gender": "Female",
             "position": ["Middle"],
             "species": ["Human", "Magicborn"],
@@ -855,6 +982,7 @@
             "releaseYear": 2019
         },
         {
+            "name": "Quinn",
             "gender": "Female",
             "position": ["Top"],
             "species": "Human",
@@ -864,6 +992,7 @@
             "releaseYear": 2013
         },
         {
+            "name": "Rakan",
             "gender": "Male",
             "position": ["Support"],
             "species": "Vastayan",
@@ -873,6 +1002,7 @@
             "releaseYear": 2017
         },
         {
+            "name": "Rammus",
             "gender": "Male",
             "position": ["Jungle"],
             "species": "God-Warrior",
@@ -882,6 +1012,7 @@
             "releaseYear": 2009
         },
         {
+            "name": "Rek'Sai",
             "gender": "Female",
             "position": ["Jungle"],
             "species": "Void-Being",
@@ -891,6 +1022,7 @@
             "releaseYear": 2014
         },
         {
+            "name": "Rell",
             "gender": "Female",
             "position": ["Support"],
             "species": ["Human", "Magically Altered", "Magicborn"],
@@ -900,6 +1032,7 @@
             "releaseYear": 2020
         },
         {
+            "name": "Renata Glasc",
             "gender": "Female",
             "position": ["Support"],
             "species": ["Chemically Altered", "Human"],
@@ -909,6 +1042,7 @@
             "releaseYear": 2022
         },
         {
+            "name": "Renekton",
             "gender": "Male",
             "position": ["Top"],
             "species": "God-Warrior",
@@ -918,6 +1052,7 @@
             "releaseYear": 2011
         },
         {
+            "name": "Rengar",
             "gender": "Male",
             "position": ["Jungle", "Top"],
             "species": "Vastayan",
@@ -927,6 +1062,7 @@
             "releaseYear": 2012
         },
         {
+            "name": "Riven",
             "gender": "Female",
             "position": ["Top"],
             "species": "Human",
@@ -936,6 +1072,7 @@
             "releaseYear": 2011
         },
         {
+            "name": "Rumble",
             "gender": "Male",
             "position": ["Middle", "Top"],
             "species": "Yordle",
@@ -945,14 +1082,17 @@
             "releaseYear": 2011
         },
         {
+            "name": "Ryze",
             "gender": "Male",
             "position": ["Middle", "Top"],
             "species": ["Human", "Magically Altered"],
-            "resource": "Ranged",
+            "rangeType": "Ranged",
+            "resource": "Mana",
             "regions": ["Runeterra"],
             "releaseYear": 2009
         },
         {
+            "name": "Samira",
             "gender": "Female",
             "position": ["Bottom"],
             "species": "Human",
@@ -962,6 +1102,7 @@
             "releaseYear": 2020
         },
         {
+            "name": "Sejuani",
             "gender": "Female",
             "position": ["Jungle"],
             "species": ["Human", "Iceborn"],
@@ -971,6 +1112,7 @@
             "releaseYear": 2012
         },
         {
+            "name": "Senna",
             "gender": "Female",
             "position": ["Support"],
             "species": ["Human", "Undead"],
@@ -980,6 +1122,7 @@
             "releaseYear": 2019
         },
         {
+            "name": "Seraphine",
             "gender": "Female",
             "position": ["Support"],
             "species": ["Human", "Magicborn"],
@@ -989,6 +1132,7 @@
             "releaseYear": 2020
         },
         {
+            "name": "Sett",
             "gender": "Male",
             "position": ["Top"],
             "species": ["Human", "Vastayan"],
@@ -998,6 +1142,7 @@
             "releaseYear": 2020
         },
         {
+            "name": "Shaco",
             "gender": "Male",
             "position": ["Jungle"],
             "species": "Spirit",
@@ -1007,6 +1152,7 @@
             "releaseYear": 2009
         },
         {
+            "name": "Shen",
             "gender": "Male",
             "position": ["Top"],
             "species": ["Human", "Spiritualist"],
@@ -1016,6 +1162,7 @@
             "releaseYear": 2010
         },
         {
+            "name": "Shyvana",
             "gender": "Female",
             "position": ["Jungle"],
             "species": ["Dragon", "Magically Altered"],
@@ -1025,6 +1172,7 @@
             "releaseYear": 2011
         },
         {
+            "name": "Singed",
             "gender": "Male",
             "position": ["Top"],
             "species": ["Chemically Altered", "Human"],
@@ -1034,6 +1182,7 @@
             "releaseYear": 2009
         },
         {
+            "name": "Sion",
             "gender": "Male",
             "position": ["Top"],
             "species": "Revenant",
@@ -1043,6 +1192,7 @@
             "releaseYear": 2009
         },
         {
+            "name": "Sivir",
             "gender": "Female",
             "position": ["Bottom"],
             "species": "Human",
@@ -1052,6 +1202,7 @@
             "releaseYear": 2009
         },
         {
+            "name": "Skarner",
             "gender": "Male",
             "position": ["Jungle"],
             "species": "Brackern",
@@ -1061,6 +1212,7 @@
             "releaseYear": 2011
         },
         {
+            "name": "Sona",
             "gender": "Female",
             "position": ["Support"],
             "species": ["Human", "Magicborn"],
@@ -1070,6 +1222,7 @@
             "releaseYear": 2010
         },
         {
+            "name": "Soraka",
             "gender": "Female",
             "position": ["Support"],
             "species": "Celestial",
@@ -1079,6 +1232,7 @@
             "releaseYear": 2009
         },
         {
+            "name": "Swain",
             "gender": "Male",
             "position": ["Middle", "Support"],
             "species": ["Human", "Magically Altered"],
@@ -1088,6 +1242,7 @@
             "releaseYear": 2010
         },
         {
+            "name": "Sylas",
             "gender": "Male",
             "position": ["Middle"],
             "species": ["Human", "Magicborn"],
@@ -1097,6 +1252,7 @@
             "releaseYear": 2019
         },
         {
+            "name": "Syndra",
             "gender": "Female",
             "position": ["Middle"],
             "species": ["Human", "Magicborn"],
@@ -1106,6 +1262,7 @@
             "releaseYear": 2012
         },
         {
+            "name": "Tahm Kench",
             "gender": "Male",
             "position": ["Support", "Top"],
             "species": ["Demon", "Spirit"],
@@ -1115,6 +1272,7 @@
             "releaseYear": 2015
         },
         {
+            "name": "Taliyah",
             "gender": "Female",
             "position": ["Jungle", "Middle"],
             "species": ["Human", "Magicborn"],
@@ -1124,6 +1282,7 @@
             "releaseYear": 2016
         },
         {
+            "name": "Talon",
             "gender": "Male",
             "position": ["Jungle", "Middle"],
             "species": "Human",
@@ -1133,6 +1292,7 @@
             "releaseYear": 2011
         },
         {
+            "name": "Taric",
             "gender": "Male",
             "position": ["Support"],
             "species": ["Aspect", "Human"],
@@ -1142,6 +1302,7 @@
             "releaseYear": 2009
         },
         {
+            "name": "Teemo",
             "gender": "Male",
             "position": ["Top"],
             "species": "Yordle",
@@ -1151,6 +1312,7 @@
             "releaseYear": 2009
         },
         {
+            "name": "Thresh",
             "gender": "Male",
             "position": ["Support"],
             "species": "Undead",
@@ -1160,6 +1322,7 @@
             "releaseYear": 2013
         },
         {
+            "name": "Tristana",
             "gender": "Female",
             "position": ["Bottom"],
             "species": "Yordle",
@@ -1169,6 +1332,7 @@
             "releaseYear": 2009
         },
         {
+            "name": "Trundle",
             "gender": "Male",
             "position": ["Jungle", "Top"],
             "species": ["Iceborn", "Troll"],
@@ -1178,6 +1342,7 @@
             "releaseYear": 2010
         },
         {
+            "name": "Tryndamere",
             "gender": "Male",
             "position": ["Top"],
             "species": ["Human", "Magically Altered"],
@@ -1187,6 +1352,7 @@
             "releaseYear": 2009
         },
         {
+            "name": "Twisted Fate",
             "gender": "Male",
             "position": ["Middle"],
             "species": ["Human", "Magicborn"],
@@ -1196,6 +1362,7 @@
             "releaseYear": 2009
         },
         {
+            "name": "Twitch",
             "gender": "Male",
             "position": ["Bottom"],
             "species": ["Chemically Altered", "Rat"],
@@ -1205,6 +1372,7 @@
             "releaseYear": 2009
         },
         {
+            "name": "Udyr",
             "gender": "Male",
             "position": ["Jungle", "Top"],
             "species": ["Human", "Spiritualist"],
@@ -1214,38 +1382,47 @@
             "releaseYear": 2009
         },
         {
+            "name": "Urgot",
             "gender": "Male",
             "position": ["Top"],
             "species": ["Chemically Altered", "Cyborg", "Human"],
-            "resource": "Ranged",
+            "rangeType": "Ranged",
+            "resource": "Mana",
             "regions": ["Noxus", "Zaun"],
             "releaseYear": 2010
         },
         {
+            "name": "Varus",
             "gender": "Male",
             "position": ["Bottom", "Middle"],
             "species": ["Darkin", "Human"],
-            "resource": "Ranged",
+            "rangeType": "Ranged",
+            "resource": "Mana",
             "regions": ["Ionia", "Runeterra", "Shurima"],
             "releaseYear": 2012
         },
         {
+            "name": "Vayne",
             "gender": "Female",
             "position": ["Bottom", "Top"],
             "species": "Human",
-            "resource": "Ranged",
+            "rangeType": "Ranged",
+            "resource": "Mana",
             "regions": ["Demacia"],
             "releaseYear": 2011
         },
         {
+            "name": "Veigar",
             "gender": "Male",
             "position": ["Middle"],
             "species": ["Yordle"],
-            "resource": "Ranged",
+            "rangeType": "Ranged",
+            "resource": "Mana",
             "regions": ["Bandle City", "Runeterra"],
             "releaseYear": 2009
         },
         {
+            "name": "Vel'Koz",
             "gender": "Male",
             "position": ["Middle", "Support"],
             "species": "Void-Being",
@@ -1255,6 +1432,7 @@
             "releaseYear": 2014
         },
         {
+            "name": "Vex",
             "gender": "Female",
             "position": ["Middle"],
             "species": ["Yordle"],
@@ -1264,6 +1442,7 @@
             "releaseYear": 2021
         },
         {
+            "name": "Vi",
             "gender": "Female",
             "position": ["Jungle"],
             "species": "Human",
@@ -1273,6 +1452,7 @@
             "releaseYear": 2012
         },
         {
+            "name": "Viego",
             "gender": "Male",
             "position": ["Jungle"],
             "species": "Undead",
@@ -1282,6 +1462,7 @@
             "releaseYear": 2021
         },
         {
+            "name": "Viktor",
             "gender": "Male",
             "position": ["Middle"],
             "species": ["Cyborg", "Human"],
@@ -1291,6 +1472,7 @@
             "releaseYear": 2011
         },
         {
+            "name": "Vladimir",
             "gender": "Male",
             "position": ["Middle"],
             "species": ["Human", "Magically Altered"],
@@ -1300,6 +1482,7 @@
             "releaseYear": 2010
         },
         {
+            "name": "Volibear",
             "gender": "Male",
             "position": ["Jungle", "Top"],
             "species": ["God", "Spirit"],
@@ -1309,6 +1492,7 @@
             "releaseYear": 2011
         },
         {
+            "name": "Warwick",
             "gender": "Male",
             "position": ["Jungle", "Top"],
             "species": ["Chemically Altered", "Cyborg", "Human"],
@@ -1318,6 +1502,7 @@
             "releaseYear": 2009
         },
         {
+            "name": "Wukong",
             "gender": "Male",
             "position": ["Jungle", "Top"],
             "species": "Vastayan",
@@ -1327,6 +1512,7 @@
             "releaseYear": 2011
         },
         {
+            "name": "Xayah",
             "gender": "Female",
             "position": ["Bottom"],
             "species": "Vastayan",
@@ -1336,6 +1522,7 @@
             "releaseYear": 2017
         },
         {
+            "name": "Xerath",
             "gender": "Male",
             "position": ["Middle", "Support"],
             "species": "God-Warrior",
@@ -1345,6 +1532,7 @@
             "releaseYear": 2011
         },
         {
+            "name": "Xin Zhao",
             "gender": "Male",
             "position": ["Jungle"],
             "species": "Human",
@@ -1354,6 +1542,7 @@
             "releaseYear": 2010
         },
         {
+            "name": "Yasuo",
             "gender": "Male",
             "position": ["Middle"],
             "species": ["Human", "Magicborn"],
@@ -1363,6 +1552,7 @@
             "releaseYear": 2013
         },
         {
+            "name": "Yone",
             "gender": "Male",
             "position": ["Middle", "Top"],
             "species": ["Human", "Magically Altered"],
@@ -1372,6 +1562,7 @@
             "releaseYear": 2020
         },
         {
+            "name": "Yorick",
             "gender": "Male",
             "position": ["Top"],
             "species": ["Human", "Magically Altered"],
@@ -1381,6 +1572,7 @@
             "releaseYear": 2011
         },
         {
+            "name": "Yuumi",
             "gender": "Female",
             "position": ["Support"],
             "species": ["Cat", "Magically Altered"],
@@ -1390,6 +1582,7 @@
             "releaseYear": 2019
         },
         {
+            "name": "Zac",
             "gender": "Male",
             "position": ["Jungle"],
             "species": "Golem",
@@ -1399,6 +1592,7 @@
             "releaseYear": 2013
         },
         {
+            "name": "Zed",
             "gender": "Male",
             "position": ["Middle"],
             "species": ["Human", "Magically Altered"],
@@ -1408,6 +1602,7 @@
             "releaseYear": 2012
         },
         {
+            "name": "Zeri",
             "gender": "Female",
             "position": ["Bottom"],
             "species": ["Human", "Magicborn"],
@@ -1417,6 +1612,7 @@
             "releaseYear": 2022
         },
         {
+            "name": "Ziggs",
             "gender": "Male",
             "position": ["Bottom", "Middle"],
             "species": ["Yordle"],
@@ -1426,6 +1622,7 @@
             "releaseYear": 2012
         },
         {
+            "name": "Zilean",
             "gender": "Male",
             "position": ["Support"],
             "species": ["Human", "Magicborn"],
@@ -1435,6 +1632,7 @@
             "releaseYear": 2009
         },
         {
+            "name": "Zoe",
             "gender": "Female",
             "position": ["Middle"],
             "species": ["Aspect", "Human"],
@@ -1444,6 +1642,7 @@
             "releaseYear": 2017
         },
         {
+            "name": "Zyra",
             "gender": "Female",
             "position": ["Support"],
             "species": "Unknown",

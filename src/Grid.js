@@ -27,20 +27,20 @@ function Grid() {
       <div className="row">
         <div className="col"> {/* Empty cell in the top-left corner */}
         </div>
-        <div className="col">
-          <div className="text-center">Label 1</div>
+        <div className="col category-label">
+          <div className="text-center">Shurima</div>
         </div>
-        <div className="col">
-          <div className="text-center">Label 2</div>
+        <div className="col category-label">
+          <div className="text-center">Yordle</div>
         </div>
-        <div className="col">
-          <div className="text-center">Label 3</div>
+        <div className="col category-label">
+          <div className="text-center">2010</div>
         </div>
       </div>
 
       <div className="row">
-        <div className="col">
-          <div className="text-center">Label A</div>
+        <div className="col category-label">
+          <div className="text-center">Top</div>
         </div>
         <div className="col text-center">
             <button className="btn grid-square-button" onClick={handleSearchClick}>Cell 1</button>
@@ -54,8 +54,8 @@ function Grid() {
       </div>
 
       <div className="row">
-        <div className="col">
-          <div className="text-center">Label B</div>
+        <div className="col category-label">
+          <div className="text-center">Mid</div>
         </div>
         <div className="col text-center">
           <button className="btn grid-square-button">Cell 4</button>
@@ -69,8 +69,8 @@ function Grid() {
       </div>
 
       <div className="row">
-        <div className="col">
-          <div className="text-center">Label C</div>
+        <div className="col category-label">
+          <div className="text-center">Support</div>
         </div>
         <div className="col text-center">
             <button className="btn grid-square-button">Cell 7</button>

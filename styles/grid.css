@@ -1,11 +1,44 @@
 .grid-container {
     height: 80vw;
     width: 80vw;
+    max-width: 700px;
+    max-height: 700px;
 }
 .row {
     height: 20vw;
+    max-height: 175px;
 }
 
 .grid-square-button {
-    
+    height: 100%;
+    width: 100%;
+}
+
+.text-center {
+    vertical-align: middle;
+    width: 100%
+}
+
+.select-button {
+    align-self: right;
+    margin: 10px 0;
+}
+
+.suggestion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.suggestions {
+    list-style: none;
+}
+
+.suggestion-champ-name {
+    display: inline-flex;
+    align-items: center;
+}
+
+.category-label {
+    display: inline-flex;
+    align-items: center;
 }

@@ -2,9 +2,21 @@
 import React, { useState } from 'react';
 import SearchModal from './SearchModal';
 import '../styles/grid.css'
+import champData from  './champ-data.json';
 
 function Grid() {
   const [showSearchModal, setShowSearchModal] = useState(false);
+
+  const getGridData = () => {
+    return [
+      {
+        xlabels: [{type: 'regions', attribute: 'Shurima'},{type: 'species', attribute: 'Yordle'},{type: 'releaseYear', attribute: '2010'}],
+        ylabels: [{type: 'role', attribute: 'Top'},{type: 'role', attribute: 'Mid'},{type: 'role', attribute: 'Support'}]
+      }
+    ]
+  }
+
+  const gridData = getGridData()
   
   const handleSearchClick = () => {
     setShowSearchModal(true);
@@ -14,13 +26,21 @@ function Grid() {
     setShowSearchModal(false);
   };
 
-  const handleSearch = (searchQuery) => {
+  const handleSearch = (searchQuery, cellNo) => {
     // Handle the search functionality here using the searchQuery
     console.log('Search Query:', searchQuery);
+    console.log()
+    checkSelection(cellNo, searchQuery)
 
     // Close the modal
     handleModalClose();
   };
+
+  const checkSelection = (cellNo, searchQuery) => {
+    const champ = champData.champInformation.find(champion => champion.name === searchQuery);
+    console.log(champ)
+    
+  }
 
   return (
     <div className="grid-container container">

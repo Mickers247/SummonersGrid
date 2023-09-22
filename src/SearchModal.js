@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Modal, Button, Form } from 'react-bootstrap';
 
 function SearchModal(props) {
+  const { show, onClose, onSearch } = props;
   const championList = [
     'Aatrox',
     'Ahri',
@@ -176,6 +177,7 @@ function SearchModal(props) {
   const handleSuggestionClick = (selectedSuggestion) => {
     setSearchQuery(selectedSuggestion);
     setSuggestions([]); // Clear suggestions when a suggestion is clicked
+    onSearch(selectedSuggestion, 1);
   };
 
   const updateSuggestions = (input) => {
@@ -187,11 +189,11 @@ function SearchModal(props) {
 
   const handleClose = () => {
     setSearchQuery(''); // Clear the search query when closing the modal
-    props.onClose();
+    onClose();
   };
 
   return (
-    <Modal show={props.show} onHide={handleClose}>
+    <Modal show={show} onHide={handleClose}>
       <Modal.Header closeButton>
         <Modal.Title>Search</Modal.Title>
       </Modal.Header>

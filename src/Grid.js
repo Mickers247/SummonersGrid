@@ -8,13 +8,11 @@ function Grid() {
   const [showSearchModal, setShowSearchModal] = useState(false);
 
   const getGridData = () => {
-    return [
-      {
+    return {
         xlabels: [{type: 'regions', attribute: 'Shurima'},{type: 'species', attribute: 'Yordle'},{type: 'releaseYear', attribute: '2010'}],
-        ylabels: [{type: 'role', attribute: 'Top'},{type: 'role', attribute: 'Mid'},{type: 'role', attribute: 'Support'}]
+        ylabels: [{type: 'position', attribute: 'Top'},{type: 'position', attribute: 'Mid'},{type: 'position', attribute: 'Support'}]
       }
-    ]
-  }
+  };
 
   const gridData = getGridData()
   
@@ -29,17 +27,38 @@ function Grid() {
   const handleSearch = (searchQuery, cellNo) => {
     // Handle the search functionality here using the searchQuery
     console.log('Search Query:', searchQuery);
-    console.log()
-    checkSelection(cellNo, searchQuery)
+    const attr1 = getColumnQuery(cellNo - 1)
+    const attr2 = getRowQuery(cellNo - 1)
+    checkSelection(attr1, attr2, searchQuery)
 
     // Close the modal
     handleModalClose();
   };
 
-  const checkSelection = (cellNo, searchQuery) => {
+  const getColumnQuery = (cellNo) => {
+    const column = cellNo%3 === 0 ?  0 : cellNo%3
+    return gridData.xlabels[column]
+  };
+
+  const getRowQuery = (cellNo) => {
+    const row = Math.ceil(cellNo/3)
+    return gridData.ylabels[row]
+  }
+
+  const checkSelection = (attr1, attr2, searchQuery) => {
     const champ = champData.champInformation.find(champion => champion.name === searchQuery);
     console.log(champ)
-    
+    const xIsTrue = checkAttribute(champ, attr1)
+    const yIsTrue = checkAttribute(champ, attr2)
+    console.log(xIsTrue)
+    console.log(yIsTrue)
+  }
+  const checkAttribute = (champ, attr) => {
+    if (attr.type === 'position' || attr.type === 'regions' || attr.type === 'species') {
+      return champ[attr.type].includes(attr.attribute) 
+    } else {
+      return champ[attr.type] === attr.attribute
+    }
   }
 
   return (

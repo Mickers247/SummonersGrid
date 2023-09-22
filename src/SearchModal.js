@@ -178,6 +178,7 @@ function SearchModal(props) {
     setSearchQuery(selectedSuggestion);
     setSuggestions([]); // Clear suggestions when a suggestion is clicked
     onSearch(selectedSuggestion);
+    setSearchQuery('');
   };
 
   const updateSuggestions = (input) => {
@@ -189,6 +190,7 @@ function SearchModal(props) {
 
   const handleClose = () => {
     setSearchQuery(''); // Clear the search query when closing the modal
+    setSuggestions([]);
     onClose();
   };
 

@@ -177,7 +177,7 @@ function SearchModal(props) {
   const handleSuggestionClick = (selectedSuggestion) => {
     setSearchQuery(selectedSuggestion);
     setSuggestions([]); // Clear suggestions when a suggestion is clicked
-    onSearch(selectedSuggestion, 1);
+    onSearch(selectedSuggestion);
   };
 
   const updateSuggestions = (input) => {

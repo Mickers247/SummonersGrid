@@ -6,17 +6,19 @@ import champData from  './champ-data.json';
 
 function Grid() {
   const [showSearchModal, setShowSearchModal] = useState(false);
+  const [currentCell, setCurrentCell] = useState(0)
 
   const getGridData = () => {
     return {
         xlabels: [{type: 'regions', attribute: 'Shurima'},{type: 'species', attribute: 'Yordle'},{type: 'releaseYear', attribute: '2010'}],
-        ylabels: [{type: 'position', attribute: 'Top'},{type: 'position', attribute: 'Mid'},{type: 'position', attribute: 'Support'}]
+        ylabels: [{type: 'position', attribute: 'Top'},{type: 'position', attribute: 'Middle'},{type: 'position', attribute: 'Support'}]
       }
   };
 
   const gridData = getGridData()
   
-  const handleSearchClick = () => {
+  const handleSearchClick = (cellNo) => {
+    setCurrentCell(cellNo)
     setShowSearchModal(true);
   };
 
@@ -24,11 +26,11 @@ function Grid() {
     setShowSearchModal(false);
   };
 
-  const handleSearch = (searchQuery, cellNo) => {
+  const handleSearch = (searchQuery) => {
     // Handle the search functionality here using the searchQuery
     console.log('Search Query:', searchQuery);
-    const attr1 = getColumnQuery(cellNo - 1)
-    const attr2 = getRowQuery(cellNo - 1)
+    const attr1 = getColumnQuery(currentCell - 1)
+    const attr2 = getRowQuery(currentCell)
     checkSelection(attr1, attr2, searchQuery)
 
     // Close the modal
@@ -41,7 +43,10 @@ function Grid() {
   };
 
   const getRowQuery = (cellNo) => {
-    const row = Math.ceil(cellNo/3)
+    const row = Math.ceil(cellNo/3) - 1
+    console.log(row)
+    console.log(cellNo)
+    console.log(gridData.ylabels[row])
     return gridData.ylabels[row]
   }
 
@@ -56,6 +61,9 @@ function Grid() {
   const checkAttribute = (champ, attr) => {
     if (attr.type === 'position' || attr.type === 'regions' || attr.type === 'species') {
       return champ[attr.type].includes(attr.attribute) 
+    } else if (attr.type === 'releaseYear' ) {
+      const year = parseInt(attr.attribute)
+      return champ[attr.type] === year
     } else {
       return champ[attr.type] === attr.attribute
     }
@@ -82,13 +90,13 @@ function Grid() {
           <div className="text-center">Top</div>
         </div>
         <div className="col text-center">
-            <button className="btn grid-square-button" onClick={handleSearchClick}>Cell 1</button>
+            <button className="btn grid-square-button" onClick={() => handleSearchClick(1)}>Cell 1</button>
         </div>
         <div className="col text-center">
-            <button className="btn grid-square-button">Cell 2</button>
+            <button className="btn grid-square-button" onClick={() => handleSearchClick(2)}>Cell 2</button>
         </div>
         <div className="col text-center">
-            <button className="btn grid-square-button">Cell 3</button>
+            <button className="btn grid-square-button" onClick={() => handleSearchClick(3)}>Cell 3</button>
         </div>
       </div>
 
@@ -97,13 +105,13 @@ function Grid() {
           <div className="text-center">Mid</div>
         </div>
         <div className="col text-center">
-          <button className="btn grid-square-button">Cell 4</button>
+          <button className="btn grid-square-button" onClick={() =>handleSearchClick(4)}>Cell 4</button>
         </div>
         <div className="col text-center">
-            <button className="btn grid-square-button">Cell 5</button>
+            <button className="btn grid-square-button" onClick={() => handleSearchClick(5)}>Cell 5</button>
         </div>
         <div className="col text-center">
-            <button className="btn grid-square-button">Cell 6</button>
+            <button className="btn grid-square-button" onClick={() => handleSearchClick(6)}>Cell 6</button>
         </div>
       </div>
 
@@ -112,13 +120,13 @@ function Grid() {
           <div className="text-center">Support</div>
         </div>
         <div className="col text-center">
-            <button className="btn grid-square-button">Cell 7</button>
+            <button className="btn grid-square-button" onClick={() => handleSearchClick(7)}>Cell 7</button>
         </div>
         <div className="col text-center">
-            <button className="btn grid-square-button">Cell 8</button>
+            <button className="btn grid-square-button" onClick={() => handleSearchClick(8)}>Cell 8</button>
         </div>
         <div className="col text-center">
-            <button className="btn grid-square-button">Cell 9</button>
+            <button className="btn grid-square-button" onClick={() => handleSearchClick(9)}>Cell 9</button>
         </div>
       </div>
       <SearchModal show={showSearchModal} onClose={handleModalClose} onSearch={handleSearch} />

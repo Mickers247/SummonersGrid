@@ -12,6 +12,7 @@
             "resource": "Manaless",
             "rangeType": "Melee",
             "regions": ["Runeterra", "Shurima"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/266.png",
             "releaseYear": 2013
         },
         {
@@ -22,6 +23,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Ionia"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/103.png",
             "releaseYear": 2011
         },
         {
@@ -32,6 +34,7 @@
             "resource": "Energy",
             "rangeType": "Melee",
             "regions": ["Ionia"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/84.png",
             "releaseYear": 2010
         },
         {
@@ -42,6 +45,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Runeterra"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/12.png",
             "releaseYear": 2009
         },
         {
@@ -52,6 +56,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Freljord"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/34.png",
             "releaseYear": 2009
         },
         {
@@ -62,6 +67,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Targon"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/523.png",
             "releaseYear": 2019
         },
         {
@@ -72,6 +78,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Shurima"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/166.png",
             "releaseYear": 2021
         },
         {
@@ -82,6 +89,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Noxus", "Runeterra"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/1.png",
             "releaseYear": 2009
         },
         {
@@ -92,6 +100,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Runeterra", "Targon"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/136.png",
             "releaseYear": 2016
         },
         {
@@ -102,6 +111,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Shurima"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/32.png",
             "releaseYear": 2009
         },
         {
@@ -112,6 +122,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Shurima"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/268.png",
             "releaseYear": 2014
         },
         {
@@ -122,6 +133,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Freljord"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/22.png",
             "releaseYear": 2009
         },
         {
@@ -132,6 +144,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Runeterra"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/432.png",
             "releaseYear": 2015
         },
         {
@@ -142,6 +155,7 @@
             "resource": "Manaless",
             "rangeType": "Melee",
             "regions": ["Void"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/200.png",
             "releaseYear": 2022
         },
         {
@@ -152,6 +166,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Zaun"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/53.png",
             "releaseYear": 2009
         },
         {
@@ -162,6 +177,7 @@
             "rangeType": "Ranged",
             "resource": "Mana",
             "regions": ["Freljord", "Runeterra"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/432.png",
             "releaseYear": 2011
         },
         {
@@ -172,6 +188,7 @@
             "rangeType": "Melee",
             "resource": "Mana",
             "regions": ["Freljord"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/201.png",
             "releaseYear": 2014
         },
         {
@@ -182,6 +199,7 @@
             "resource": "Health costs",
             "rangeType": "Melee",
             "regions": ["Noxus"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/233.png",
             "releaseYear": 2023
         },
         {
@@ -192,6 +210,7 @@
             "rangeType": "Ranged",
             "resource": "Mana",
             "regions": ["Piltover"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/51.png",
             "releaseYear": 2011
         },
         {
@@ -202,6 +221,7 @@
             "rangeType": "Melee",
             "resource": "Mana",
             "regions": ["Piltover"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/164.png",
             "releaseYear": 2016
         },
         {
@@ -212,6 +232,7 @@
             "rangeType": "Ranged",
             "resource": "Mana",
             "regions": ["Noxus", "Shurima"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/69.png",
             "releaseYear": 2010
         },
         {
@@ -221,6 +242,7 @@
             "species": ["Void-Being"],
             "rangeType": "Melee",
             "regions": ["Void"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/31.png",
             "releaseYear": 2009
         },
         {
@@ -231,6 +253,7 @@
             "rangeType": "Ranged",
             "resource": "Mana",
             "regions": ["Bandle City", "Piltover"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/42.png",
             "releaseYear": 2009
         },
         {
@@ -241,6 +264,7 @@
             "rangeType": "Melee",
             "resource": "Mana",
             "regions": ["Noxus"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/122.png",
             "releaseYear": 2012
         },
         {
@@ -251,6 +275,7 @@
             "rangeType": "Melee",
             "resource": "Mana",
             "regions": ["Targon"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/131.png",
             "releaseYear": 2012
         },
         {
@@ -261,6 +286,7 @@
             "resource": "Health costs",
             "rangeType": "Melee",
             "regions": ["Zaun"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/36.png",
             "releaseYear": 2009
         },
         {
@@ -271,6 +297,7 @@
             "rangeType": "Ranged",
             "resource": "Mana",
             "regions": ["Noxus"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/119.png",
             "releaseYear": 2012
         },
         {
@@ -281,6 +308,7 @@
             "rangeType": "Melee",
             "resource": "Mana",
             "regions": ["Zaun"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/245.png",
             "releaseYear": 2015
         },
         {
@@ -290,6 +318,7 @@
             "species": ["Human", "Magically Altered"],
             "resource": ["Melee", "Ranged"],
             "regions": ["Noxus", "Shadow Isles"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/60.png",
             "releaseYear": 2012
         },
         {
@@ -300,6 +329,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Runeterra"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/28.png",
             "releaseYear": 2009
         },
         {
@@ -310,6 +340,7 @@
             "rangeType": "Ranged",
             "resource": "Mana",
             "regions": ["Piltover"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/81.png",
             "releaseYear": 2010
         },
         {
@@ -320,6 +351,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Runeterra"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/9.png",
             "releaseYear": 2009
         },
         {
@@ -330,6 +362,7 @@
             "rangeType": "Melee",
             "resource": "Mana",
             "regions": ["Demacia"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/114.png",
             "releaseYear": 2012
         },
         {
@@ -340,6 +373,7 @@
             "rangeType": "Melee",
             "resource": "Mana",
             "regions": ["Bilgewater"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/105.png",
             "releaseYear": 2011
         },
         {
@@ -350,6 +384,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Demacia"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/3.png",
             "releaseYear": 2010
         },
         {
@@ -360,6 +395,7 @@
             "rangeType": "Melee",
             "resource": "Mana",
             "regions": ["Bilgewater"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/41.png",
             "releaseYear": 2009
         },
         {
@@ -370,6 +406,7 @@
             "resource": "Manaless",
             "rangeType": "Melee",
             "regions": ["Demacia"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/86.png",
             "releaseYear": 2010
         },
         {
@@ -380,6 +417,7 @@
             "resource": "Rage",
             "rangeType": ["Melee", "Ranged"],
             "regions": ["Freljord"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/150.png",
             "releaseYear": 2014
         },
         {
@@ -390,6 +428,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Freljord"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/79.png",
             "releaseYear": 2010
         },
         {
@@ -400,6 +439,7 @@
             "rangeType": "Ranged",
             "resource": "Mana",
             "regions": ["Bilgewater"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/104.png",
             "releaseYear": 2011
         },
         {
@@ -409,6 +449,7 @@
             "species": ["Human", "Magically Altered"],
             "rangeType": "Mana",
             "regions": ["Camavor", "Shadow Isles"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/887.png",
             "releaseYear": 2021
         },
         {
@@ -419,6 +460,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Camavor", "Shadow Isles"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/120.png",
             "releaseYear": 2012
         },
         {
@@ -429,6 +471,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Piltover"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/74.png",
             "releaseYear": 2009
         },
         {
@@ -439,6 +482,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Bilgewater"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/420.png",
             "releaseYear": 2015
         },
         {
@@ -449,6 +493,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Ionia"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/39.png",
             "releaseYear": 2010
         },
         {
@@ -459,6 +504,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Freljord", "Ionia"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/427.png",
             "releaseYear": 2016
         },
         {
@@ -469,6 +515,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Shurima", "Zaun"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/40.png",
             "releaseYear": 2009
         },
         {
@@ -479,6 +526,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Demacia"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/59.png",
             "releaseYear": 2011
         },
         {
@@ -489,6 +537,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Icathia", "Runeterra", "Shurima"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/24.png",
             "releaseYear": 2009
         },
         {
@@ -499,6 +548,7 @@
             "resource": "Mana",
             "rangeType": ["Melee", "Ranged"],
             "regions": ["Piltover"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/126.png",
             "releaseYear": 2012
         },
         {
@@ -509,6 +559,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Ionia"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/202.png",
             "releaseYear": 2016
         },
         {
@@ -519,6 +570,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Zaun"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/222.png",
             "releaseYear": 2013
         },
         {
@@ -529,6 +581,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Shurima"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/897.png",
             "releaseYear": 2022
         },
         {
@@ -539,6 +592,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Shurima", "Void"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/145.png",
             "releaseYear": 2018
         },
         {
@@ -549,6 +603,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Camavor", "Shadow Isles"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/429.png",
             "releaseYear": 2014
         },
         {
@@ -559,6 +614,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Ionia"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/43.png",
             "releaseYear": 2011
         },
         {
@@ -569,6 +625,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Noxus", "Shadow Isles"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/30.png",
             "releaseYear": 2009
         },
         {
@@ -579,6 +636,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Shurima", "Void"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/38.png",
             "releaseYear": 2009
         },
         {
@@ -589,6 +647,7 @@
             "resource": "Manaless",
             "rangeType": "Melee",
             "regions": ["Noxus"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/55.png",
             "releaseYear": 2009
         },
         {
@@ -599,6 +658,7 @@
             "resource": "Mana",
             "rangeType": ["Melee", "Ranged"],
             "regions": ["Demacia", "Targon"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/10.png",
             "releaseYear": 2009
         },
         {
@@ -609,6 +669,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Ionia", "Noxus", "Runeterra", "Shurima"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/141.png",
             "releaseYear": 2017
         },
         {
@@ -619,6 +680,7 @@
             "resource": "Energy",
             "rangeType": "Ranged",
             "regions": ["Ionia"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/85.png",
             "releaseYear": 2010
         },
         {
@@ -629,6 +691,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Void"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/121.png",
             "releaseYear": 2012
         },
         {
@@ -639,6 +702,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Runeterra"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/203.png",
             "releaseYear": 2015
         },
         {
@@ -649,6 +713,7 @@
             "resource": "Courage",
             "rangeType": "Melee",
             "regions": ["Noxus"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/240.png",
             "releaseYear": 2016
         },
         {
@@ -659,6 +724,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Void"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/96.png",
             "releaseYear": 2010
         },
         {
@@ -669,6 +735,7 @@
             "rangeType": "Ranged",
             "resource": "Mana",
             "regions": ["Noxus"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/7.png",
             "releaseYear": 2010
         },
         {
@@ -679,6 +746,7 @@
             "resource": "Energy",
             "rangeType": "Melee",
             "regions": ["Ionia"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/64.png",
             "releaseYear": 2011
         },
         {
@@ -689,6 +757,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Targon"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/89.png",
             "releaseYear": 2011
         },
         {
@@ -699,6 +768,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Ionia"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/876.png",
             "releaseYear": 2020
         },
         {
@@ -709,6 +779,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Freljord"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/127.png",
             "releaseYear": 2013
         },
         {
@@ -719,6 +790,7 @@
             "rangeType": "Ranged",
             "resource": "Mana",
             "regions": ["Demacia", "Shadow Isles"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/236.png",
             "releaseYear": 2013
         },
         {
@@ -729,6 +801,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Bandle City"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/117.png",
             "releaseYear": 2012
         },
         {
@@ -739,6 +812,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Demacia"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/99.png",
             "releaseYear": 2010
         },
         {
@@ -749,6 +823,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Ixtal", "Shurima"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/54.png",
             "releaseYear": 2009
         },
         {
@@ -759,6 +834,7 @@
             "rangeType": "Ranged",
             "resource": "Mana",
             "regions": ["Shurima", "Void"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/90.png",
             "releaseYear": 2010
         },
         {
@@ -769,6 +845,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Shadow Isles"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/57.png",
             "releaseYear": 2011
         },
         {
@@ -779,6 +856,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Ionia"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/11.png",
             "releaseYear": 2009
         },
         {
@@ -789,6 +867,7 @@
             "rangeType": "Ranged",
             "resource": "Mana",
             "regions": ["Ixtal"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/902.png",
             "releaseYear": 2023
         },
         {
@@ -799,6 +878,7 @@
             "rangeType": "Ranged",
             "resource": "Mana",
             "regions": ["Bilgewater"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/21.png",
             "releaseYear": 2010
         },
         {
@@ -809,6 +889,7 @@
             "resource": "Shield",
             "rangeType": "Melee",
             "regions": ["Noxus"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/82.png",
             "releaseYear": 2010
         },
         {
@@ -819,6 +900,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Demacia", "Targon"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/25.png",
             "releaseYear": 2009
         },
         {
@@ -829,6 +911,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Shurima"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/950.png",
             "releaseYear": 2023
         },
         {
@@ -839,6 +922,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Runeterra"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/267.png",
             "releaseYear": 2012
         },
         {
@@ -849,6 +933,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Shurima"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/75.png",
             "releaseYear": 2009
         },
         {
@@ -859,6 +944,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Bilgewater"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/111.png",
             "releaseYear": 2012
         },
         {
@@ -869,6 +955,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Ixtal"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/518.png",
             "releaseYear": 2018
         },
         {
@@ -879,6 +966,7 @@
             "resource": "Mana",
             "rangeType": ["Melee", "Ranged"],
             "regions": ["Ixtal"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/76.png",
             "releaseYear": 2009
         },
         {
@@ -889,6 +977,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Bilgewater"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/895.png",
             "releaseYear": 2022
         },
         {
@@ -899,6 +988,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Runeterra"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/56.png",
             "releaseYear": 2011
         },
         {
@@ -909,6 +999,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Freljord"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/20.png",
             "releaseYear": 2009
         },
         {
@@ -919,6 +1010,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Freljord"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/2.png",
             "releaseYear": 2010
         },
         {
@@ -929,6 +1021,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Piltover"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/61.png",
             "releaseYear": 2011
         },
         {
@@ -939,6 +1032,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Freljord"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/516.png",
             "releaseYear": 2017
         },
         {
@@ -949,6 +1043,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Targon"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/80.png",
             "releaseYear": 2010
         },
         {
@@ -959,6 +1054,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Demacia"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/78.png",
             "releaseYear": 2010
         },
         {
@@ -969,6 +1065,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Bilgewater"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/555.png",
             "releaseYear": 2018
         },
         {
@@ -979,6 +1076,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Ixtal"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/246.png",
             "releaseYear": 2019
         },
         {
@@ -989,6 +1087,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Demacia"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/133.png",
             "releaseYear": 2013
         },
         {
@@ -999,6 +1098,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Ionia"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/497.png",
             "releaseYear": 2017
         },
         {
@@ -1009,6 +1109,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Shurima"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/33.png",
             "releaseYear": 2009
         },
         {
@@ -1019,6 +1120,7 @@
             "resource": "Rage",
             "rangeType": "Melee",
             "regions": ["Shurima", "Void"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/421.png",
             "releaseYear": 2014
         },
         {
@@ -1029,6 +1131,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Noxus"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/526.png",
             "releaseYear": 2020
         },
         {
@@ -1039,6 +1142,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Zaun"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/888.png",
             "releaseYear": 2022
         },
         {
@@ -1049,6 +1153,7 @@
             "resource": "Fury",
             "rangeType": "Melee",
             "regions": ["Shurima"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/58.png",
             "releaseYear": 2011
         },
         {
@@ -1059,6 +1164,7 @@
             "resource": "Ferocity",
             "rangeType": "Melee",
             "regions": ["Ixtal", "Shurima"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/107.png",
             "releaseYear": 2012
         },
         {
@@ -1069,6 +1175,7 @@
             "resource": "Manaless",
             "rangeType": "Melee",
             "regions": ["Ionia", "Noxus"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/92.png",
             "releaseYear": 2011
         },
         {
@@ -1079,6 +1186,7 @@
             "resource": "Heat",
             "rangeType": "Melee",
             "regions": ["Bandle City"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/68.png",
             "releaseYear": 2011
         },
         {
@@ -1089,6 +1197,7 @@
             "rangeType": "Ranged",
             "resource": "Mana",
             "regions": ["Runeterra"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/13.png",
             "releaseYear": 2009
         },
         {
@@ -1099,6 +1208,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Noxus", "Shurima"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/360.png",
             "releaseYear": 2020
         },
         {
@@ -1109,6 +1219,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Freljord"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/113.png",
             "releaseYear": 2012
         },
         {
@@ -1119,6 +1230,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Shadow Isles"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/235.png",
             "releaseYear": 2019
         },
         {
@@ -1129,6 +1241,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Piltover", "Zaun"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/147.png",
             "releaseYear": 2020
         },
         {
@@ -1139,6 +1252,7 @@
             "resource": "Grit",
             "rangeType": "Melee",
             "regions": ["Ionia"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/875.png",
             "releaseYear": 2020
         },
         {
@@ -1149,6 +1263,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Runeterra"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/35.png",
             "releaseYear": 2009
         },
         {
@@ -1159,6 +1274,7 @@
             "resource": "Energy",
             "rangeType": "Melee",
             "regions": ["Ionia"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/98.png",
             "releaseYear": 2010
         },
         {
@@ -1169,6 +1285,7 @@
             "resource": "Fury",
             "rangeType": "Melee",
             "regions": ["Demacia"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/102.png",
             "releaseYear": 2011
         },
         {
@@ -1179,6 +1296,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Piltover", "Zaun"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/27.png",
             "releaseYear": 2009
         },
         {
@@ -1189,6 +1307,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Noxus"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/14.png",
             "releaseYear": 2009
         },
         {
@@ -1199,6 +1318,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Shurima"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/15.png",
             "releaseYear": 2009
         },
         {
@@ -1209,6 +1329,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Shurima"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/72.png",
             "releaseYear": 2011
         },
         {
@@ -1219,6 +1340,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Demacia", "Ionia"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/37.png",
             "releaseYear": 2010
         },
         {
@@ -1229,6 +1351,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Ionia", "Targon"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/16.png",
             "releaseYear": 2009
         },
         {
@@ -1239,6 +1362,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Noxus"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/50.png",
             "releaseYear": 2010
         },
         {
@@ -1249,6 +1373,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Demacia", "Freljord"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/517.png",
             "releaseYear": 2019
         },
         {
@@ -1259,6 +1384,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Ionia"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/134.png",
             "releaseYear": 2012
         },
         {
@@ -1269,6 +1395,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Bilgewater", "Runeterra"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/223.png",
             "releaseYear": 2015
         },
         {
@@ -1279,6 +1406,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Shurima"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/163.png",
             "releaseYear": 2016
         },
         {
@@ -1289,6 +1417,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Noxus"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/91.png",
             "releaseYear": 2011
         },
         {
@@ -1299,6 +1428,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Demacia", "Targon"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/44.png",
             "releaseYear": 2009
         },
         {
@@ -1309,6 +1439,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Bandle City"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/17.png",
             "releaseYear": 2009
         },
         {
@@ -1319,6 +1450,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Shadow Isles"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/412.png",
             "releaseYear": 2013
         },
         {
@@ -1329,6 +1461,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Bandle City"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/18.png",
             "releaseYear": 2009
         },
         {
@@ -1339,6 +1472,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Freljord"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/48.png",
             "releaseYear": 2010
         },
         {
@@ -1349,6 +1483,7 @@
             "resource": "Fury",
             "rangeType": "Melee",
             "regions": ["Freljord"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/23.png",
             "releaseYear": 2009
         },
         {
@@ -1359,6 +1494,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Bilgewater"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/4.png",
             "releaseYear": 2009
         },
         {
@@ -1369,6 +1505,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Zaun"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/29.png",
             "releaseYear": 2009
         },
         {
@@ -1379,6 +1516,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Freljord", "Ionia"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/77.png",
             "releaseYear": 2009
         },
         {
@@ -1389,6 +1527,7 @@
             "rangeType": "Ranged",
             "resource": "Mana",
             "regions": ["Noxus", "Zaun"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/6.png",
             "releaseYear": 2010
         },
         {
@@ -1399,6 +1538,7 @@
             "rangeType": "Ranged",
             "resource": "Mana",
             "regions": ["Ionia", "Runeterra", "Shurima"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/110.png",
             "releaseYear": 2012
         },
         {
@@ -1409,6 +1549,7 @@
             "rangeType": "Ranged",
             "resource": "Mana",
             "regions": ["Demacia"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/67.png",
             "releaseYear": 2011
         },
         {
@@ -1419,6 +1560,7 @@
             "rangeType": "Ranged",
             "resource": "Mana",
             "regions": ["Bandle City", "Runeterra"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/45.png",
             "releaseYear": 2009
         },
         {
@@ -1429,6 +1571,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Void"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/161.png",
             "releaseYear": 2014
         },
         {
@@ -1439,6 +1582,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Bandle City", "Shadow Isles"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/711.png",
             "releaseYear": 2021
         },
         {
@@ -1449,6 +1593,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Piltover", "Zaun"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/254.png",
             "releaseYear": 2012
         },
         {
@@ -1459,6 +1604,7 @@
             "resource": "Manaless",
             "rangeType": "Melee",
             "regions": ["Camavor", "Shadow Isles"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/234.png",
             "releaseYear": 2021
         },
         {
@@ -1469,6 +1615,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Piltover", "Zaun"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/112.png",
             "releaseYear": 2011
         },
         {
@@ -1479,6 +1626,7 @@
             "resource": "Bloodthirst",
             "rangeType": "Ranged",
             "regions": ["Camavor", "Noxus", "Shadow Isles"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/8.png",
             "releaseYear": 2010
         },
         {
@@ -1489,6 +1637,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Freljord"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/106.png",
             "releaseYear": 2011
         },
         {
@@ -1499,6 +1648,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Zaun"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/19.png",
             "releaseYear": 2009
         },
         {
@@ -1509,6 +1659,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Ionia"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/62.png",
             "releaseYear": 2011
         },
         {
@@ -1519,6 +1670,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Ionia"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/498.png",
             "releaseYear": 2017
         },
         {
@@ -1529,6 +1681,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Shurima"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/101.png",
             "releaseYear": 2011
         },
         {
@@ -1539,6 +1692,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Demacia", "Ionia", "Noxus"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/5.png",
             "releaseYear": 2010
         },
         {
@@ -1549,6 +1703,7 @@
             "resource": "Flow",
             "rangeType": "Melee",
             "regions": ["Ionia"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/157.png",
             "releaseYear": 2013
         },
         {
@@ -1559,6 +1714,7 @@
             "resource": "Manaless",
             "rangeType": "Melee",
             "regions": ["Ionia"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/777.png",
             "releaseYear": 2020
         },
         {
@@ -1569,6 +1725,7 @@
             "resource": "Mana",
             "rangeType": "Melee",
             "regions": ["Shadow Isles"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/83.png",
             "releaseYear": 2011
         },
         {
@@ -1579,6 +1736,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Bandle City"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/350.png",
             "releaseYear": 2019
         },
         {
@@ -1589,6 +1747,7 @@
             "resource": "Health costs",
             "rangeType": "Melee",
             "regions": ["Zaun"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/154.png",
             "releaseYear": 2013
         },
         {
@@ -1599,6 +1758,7 @@
             "resource": "Energy",
             "rangeType": "Melee",
             "regions": ["Ionia"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/238.png",
             "releaseYear": 2012
         },
         {
@@ -1609,6 +1769,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Zaun"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/221.png",
             "releaseYear": 2022
         },
         {
@@ -1619,6 +1780,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Zaun"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/115.png",
             "releaseYear": 2012
         },
         {
@@ -1629,6 +1791,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Icathia", "Runeterra", "Shurima"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/26.png",
             "releaseYear": 2009
         },
         {
@@ -1639,6 +1802,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Targon"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/142.png",
             "releaseYear": 2017
         },
         {
@@ -1649,6 +1813,7 @@
             "resource": "Mana",
             "rangeType": "Ranged",
             "regions": ["Ixtal"],
+            "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/143.png",
             "releaseYear": 2012
         }
     ]

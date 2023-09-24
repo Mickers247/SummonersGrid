@@ -6,12 +6,30 @@ import champData from  './champ-data.json';
 
 function Grid() {
   const [showSearchModal, setShowSearchModal] = useState(false);
-  const [currentCell, setCurrentCell] = useState(0)
+  const [currentCell, setCurrentCell] = useState(0);
+  const [gridStatus, setGridStatus] = useState([
+    {answered: false, champ: {}},
+    {answered: false, champ: {}},
+    {answered: false, champ: {}},
+    {answered: false, champ: {}},
+    {answered: false, champ: {}},
+    {answered: false, champ: {}},
+    {answered: false, champ: {}},
+    {answered: false, champ: {}},
+    {answered: false, champ: {}},
+  ]);
 
   const getGridData = () => {
     return {
-        xlabels: [{type: 'regions', attribute: 'Shurima'},{type: 'species', attribute: 'Yordle'},{type: 'releaseYear', attribute: '2010'}],
-        ylabels: [{type: 'position', attribute: 'Top'},{type: 'position', attribute: 'Middle'},{type: 'position', attribute: 'Support'}]
+        xlabels: [
+          {type: 'regions', attribute: 'Shurima'},
+          {type: 'species', attribute: 'Yordle'}
+          ,{type: 'releaseYear', attribute: '2010'}
+        ],
+        ylabels: [
+          {type: 'position', attribute: 'Top', image: 'https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-top.png'},
+          {type: 'position', attribute: 'Middle', image: 'https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-middle.png'},
+          {type: 'position', attribute: 'Support', image: 'https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-utility.png'}]
       }
   };
 
@@ -44,9 +62,6 @@ function Grid() {
 
   const getRowQuery = (cellNo) => {
     const row = Math.ceil(cellNo/3) - 1
-    console.log(row)
-    console.log(cellNo)
-    console.log(gridData.ylabels[row])
     return gridData.ylabels[row]
   }
 
@@ -55,8 +70,11 @@ function Grid() {
     console.log(champ)
     const xIsTrue = checkAttribute(champ, attr1)
     const yIsTrue = checkAttribute(champ, attr2)
-    console.log(xIsTrue)
-    console.log(yIsTrue)
+    if (xIsTrue && yIsTrue) {
+      let updatedGrid = [...gridStatus]
+      updatedGrid[currentCell-1] = {answered: true, champ: champ}
+      setGridStatus(updatedGrid)
+    }
   }
   const checkAttribute = (champ, attr) => {
     if (attr.type === 'position' || attr.type === 'regions' || attr.type === 'species') {
@@ -75,58 +93,112 @@ function Grid() {
         <div className="col"> {/* Empty cell in the top-left corner */}
         </div>
         <div className="col category-label">
-          <div className="text-center">Shurima</div>
+          <div className="text-center">{gridData.xlabels[0].attribute}</div>
         </div>
         <div className="col category-label">
-          <div className="text-center">Yordle</div>
+          <div className="text-center">{gridData.xlabels[1].attribute}</div>
         </div>
         <div className="col category-label">
-          <div className="text-center">2010</div>
+          <div className="text-center">{gridData.xlabels[2].attribute}</div>
         </div>
       </div>
 
       <div className="row">
         <div className="col category-label">
-          <div className="text-center">Top</div>
+          { gridData.ylabels[0].type !== 'position' ? (
+            <div className="text-center">Top</div>
+          ) : (
+            <img src={gridData.ylabels[0].image} alt={gridData.ylabels[0].attribute} className='img-fluid'></img>
+          )
+
+          }
         </div>
         <div className="col text-center">
-            <button className="btn grid-square-button" onClick={() => handleSearchClick(1)}>Cell 1</button>
+          {gridStatus[0].answered ? (
+            <img src={gridStatus[0].champ.thumbnail} alt={gridStatus[0].champ.thumbnail} className='img-fluid'></img>
+          ) : (
+            <button className="btn grid-square-button" onClick={() => handleSearchClick(1)}></button>
+          )}
         </div>
         <div className="col text-center">
-            <button className="btn grid-square-button" onClick={() => handleSearchClick(2)}>Cell 2</button>
+        {gridStatus[1].answered ? (
+            <img src={gridStatus[1].champ.thumbnail} alt={gridStatus[1].champ.thumbnail} className='img-fluid'></img>
+          ) : (
+            <button className="btn grid-square-button" onClick={() => handleSearchClick(2)}></button>
+          )}
         </div>
         <div className="col text-center">
-            <button className="btn grid-square-button" onClick={() => handleSearchClick(3)}>Cell 3</button>
+        {gridStatus[2].answered ? (
+            <img src={gridStatus[2].champ.thumbnail} alt={gridStatus[2].champ.thumbnail} className='img-fluid'></img>
+          ) : (
+            <button className="btn grid-square-button" onClick={() => handleSearchClick(3)}></button>
+          )}
         </div>
       </div>
 
       <div className="row">
         <div className="col category-label">
-          <div className="text-center">Mid</div>
+        { gridData.ylabels[1].type !== 'position' ? (
+            <div className="text-center">Top</div>
+          ) : (
+            <img src={gridData.ylabels[1].image} alt={gridData.ylabels[1].attribute} className='img-fluid'></img>
+          )
+
+          }
         </div>
         <div className="col text-center">
-          <button className="btn grid-square-button" onClick={() =>handleSearchClick(4)}>Cell 4</button>
+        {gridStatus[3].answered ? (
+            <img src={gridStatus[3].champ.thumbnail} alt={gridStatus[3].champ.thumbnail} className='img-fluid'></img>
+          ) : (
+            <button className="btn grid-square-button" onClick={() => handleSearchClick(4)}></button>
+          )}
         </div>
         <div className="col text-center">
-            <button className="btn grid-square-button" onClick={() => handleSearchClick(5)}>Cell 5</button>
+        {gridStatus[4].answered ? (
+            <img src={gridStatus[4].champ.thumbnail} alt={gridStatus[4].champ.thumbnail} className='img-fluid'></img>
+          ) : (
+            <button className="btn grid-square-button" onClick={() => handleSearchClick(5)}></button>
+          )}
         </div>
         <div className="col text-center">
-            <button className="btn grid-square-button" onClick={() => handleSearchClick(6)}>Cell 6</button>
+        {gridStatus[5].answered ? (
+            <img src={gridStatus[5].champ.thumbnail} alt={gridStatus[5].champ.thumbnail} className='img-fluid'></img>
+          ) : (
+            <button className="btn grid-square-button" onClick={() => handleSearchClick(6)}></button>
+          )}
         </div>
       </div>
 
       <div className="row">
         <div className="col category-label">
-          <div className="text-center">Support</div>
+        { gridData.ylabels[2].type !== 'position' ? (
+            <div className="text-center">Top</div>
+          ) : (
+            <img src={gridData.ylabels[2].image} alt={gridData.ylabels[2].attribute} className='img-fluid'></img>
+          )
+
+          }
         </div>
         <div className="col text-center">
-            <button className="btn grid-square-button" onClick={() => handleSearchClick(7)}>Cell 7</button>
+        {gridStatus[6].answered ? (
+            <img src={gridStatus[6].champ.thumbnail} alt={gridStatus[6].champ.thumbnail} className='img-fluid'></img>
+          ) : (
+            <button className="btn grid-square-button" onClick={() => handleSearchClick(7)}></button>
+          )}
         </div>
         <div className="col text-center">
-            <button className="btn grid-square-button" onClick={() => handleSearchClick(8)}>Cell 8</button>
+        {gridStatus[7].answered ? (
+            <img src={gridStatus[7].champ.thumbnail} alt={gridStatus[7].champ.thumbnail} className='img-fluid'></img>
+          ) : (
+            <button className="btn grid-square-button" onClick={() => handleSearchClick(8)}></button>
+          )}
         </div>
         <div className="col text-center">
-            <button className="btn grid-square-button" onClick={() => handleSearchClick(9)}>Cell 9</button>
+        {gridStatus[8].answered ? (
+            <img src={gridStatus[8].champ.thumbnail} alt={gridStatus[8].champ.thumbnail} className='img-fluid'></img>
+          ) : (
+            <button className="btn grid-square-button" onClick={() => handleSearchClick(9)}></button>
+          )}
         </div>
       </div>
       <SearchModal show={showSearchModal} onClose={handleModalClose} onSearch={handleSearch} />

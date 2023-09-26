@@ -2,6 +2,46 @@
     "champions": [
 
     ],
+    "ylabelOptions": [
+        {"type": "position", "attribute": "Top", "image": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-top.png"},
+        {"type": "position", "attribute": "Middle", "image": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-middle.png"},
+        {"type": "position", "attribute": "Support", "image": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-utility.png"},
+        {"type": "position", "attribute": "Bottom", "image": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-bottom.png"},
+        {"type": "position", "attribute": "Jungle", "image": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-jungle.png"}
+    ],
+
+    "xlabelOptions": [
+        {"type": "regions", "attribute": "Ionia"},
+        {"type": "regions", "attribute": "Runeterra"},
+        {"type": "regions", "attribute": "Freljord"},
+        {"type": "regions", "attribute": "Targon"},
+        {"type": "regions", "attribute": "Shurima"},
+        {"type": "regions", "attribute": "Noxus"},
+        {"type": "regions", "attribute": "Void"},
+        {"type": "regions", "attribute": "Piltover"},
+        {"type": "regions", "attribute": "Demacia"},
+        {"type": "regions", "attribute": "Bandle City"},
+        {"type": "regions", "attribute": "Zaun"},
+        {"type": "regions", "attribute": "Bilgewater"},
+        {"type": "regions", "attribute": "Camavor"},
+        {"type": "regions", "attribute": "Ixtal"},
+        {"type": "regions", "attribute": "Shadow Isles"},
+        {"type": "species", "attribute": "Darkin"},
+        {"type": "species", "attribute": "Vastayan"},
+        {"type": "species", "attribute": "Human"},
+        {"type": "species", "attribute": "God"},
+        {"type": "species", "attribute": "Spirit"},
+        {"type": "species", "attribute": "Spiritualist"},
+        {"type": "species", "attribute": "Magicborn"},
+        {"type": "species", "attribute": "Celesital"},
+        {"type": "species", "attribute": "Dragon"},
+        {"type": "species", "attribute": "Yordle"},
+        {"type": "species", "attribute": "Undead"},
+        {"type": "species", "attribute": "God-Warrior"},
+        {"type": "species", "attribute": "Human"},
+        {"type": "species", "attribute": "Iceborn"},
+        {"type": "species", "attribute": "Void-Being"}
+    ],
 
     "champInformation": [
         {

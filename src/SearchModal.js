@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Modal, Button, Form } from 'react-bootstrap';
 
 function SearchModal(props) {
-  const { show, onClose, onSearch } = props;
+  const { show, onClose, onSearch, chosenChamps } = props;
   const championList = [
     'Aatrox',
     'Ahri',
@@ -212,11 +212,13 @@ function SearchModal(props) {
           />
         </Form.Group>
         <ul className="suggestions">
-          {suggestions.map((suggestion, index) => (
-            <li className="suggestion" key={index} onClick={() => handleSuggestionClick(suggestion)}>
-              <span className='suggestion-champ-name'>{suggestion}</span> 
-              <button className="btn btn-primary select-button">Select</button>
-            </li>
+          {suggestions
+            .filter((suggestion) => !chosenChamps.includes(suggestion))
+            .map((suggestion, index) => ( 
+              <li className="suggestion" key={index} onClick={() => handleSuggestionClick(suggestion)}>
+                <span className='suggestion-champ-name'>{suggestion}</span> 
+                <button className="btn btn-primary select-button">Select</button>
+              </li>
           ))}
         </ul>
       </Modal.Body>

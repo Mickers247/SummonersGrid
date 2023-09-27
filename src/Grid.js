@@ -78,15 +78,12 @@ function Grid() {
 
   const getGridData = useMemo(() => {
     const rng = seedrandom(generateSeedFromDate());
-    console.log(rng())
     const ylabelOptions = champData.ylabelOptions
-    console.log(ylabelOptions)
     const randomyIndices = []
     const ylabelLength = ylabelOptions.length
 
     for (let i = 0; i < 3; ) {
       const randomIndex = Math.floor(rng() * ylabelLength);
-      console.log(randomIndex);
     
       if (!randomyIndices.includes(randomIndex)) {
         randomyIndices.push(randomIndex);
@@ -101,13 +98,11 @@ function Grid() {
     ]
 
     const xlabelOptions = champData.xlabelOptions
-    console.log(xlabelOptions)
     const randomxIndices = []
     const xlabelLength = xlabelOptions.length
 
     for (let i = 0; i < 3; ) {
       const randomxIndex = Math.floor(rng() * xlabelLength);
-      console.log(randomxIndex);
     
       if (!randomxIndices.includes(randomxIndex) && validateXlabel(xlabelOptions[randomxIndex], ylabels)) {
         randomxIndices.push(randomxIndex);
@@ -172,6 +167,16 @@ function Grid() {
       setGridStatus(updatedGrid)
     }
     setGuessesLeft(guessesLeft - 1)
+  }
+
+  const getChosenChamps = (grid) => {
+    const theChosenOnes = []
+    for (let i = 0; i < grid.length; i++) {
+      if (grid[i].answered) {
+        theChosenOnes.push(grid[i].champ.name)
+      }
+    }
+    return theChosenOnes
   }
 
   return (
@@ -283,7 +288,7 @@ function Grid() {
             )}
           </div>
         </div>
-        <SearchModal show={showSearchModal} onClose={handleModalClose} onSearch={handleSearch} />
+        <SearchModal show={showSearchModal} onClose={handleModalClose} onSearch={handleSearch} chosenChamps={getChosenChamps(gridStatus)} />
         <ResultModal show={showResultModal} hasWon={gridStatus.every((item) => item.answered)} onClose={() => setshowResultModal(false)} />
       </div>
       <span>{`Mana: ${guessesLeft}`}</span>

@@ -47,51 +47,84 @@ function Grid() {
     return seed;
   };
 
+  const checkAttribute = (champ, attr) => {
+    if (attr.type === 'position' || attr.type === 'regions' || attr.type === 'species') {
+      return champ[attr.type].includes(attr.attribute) 
+    } else if (attr.type === 'releaseYear' ) {
+      const year = parseInt(attr.attribute)
+      return champ[attr.type] === year
+    } else {
+      return champ[attr.type] === attr.attribute
+    }
+  }
+
+  const validateXlabel = (attr, ylabels) => {
+    const validyLabels = []
+    for (let i = 0; i < champData.champInformation.length; i++) {
+      const champ = champData.champInformation[i]
+      if (checkAttribute(champ, attr)) {
+        for (let j = 0; j < ylabels.length; j++) {
+          if(checkAttribute(champ, ylabels[j]) && !validyLabels.includes(j)) {
+            validyLabels.push(j)
+          }
+        }
+      }
+      if (validyLabels.length === ylabels.length) {
+        return true
+      }
+    }
+    return false
+  }
+
   const getGridData = useMemo(() => {
-    const rng = seedrandom('generateSeedFromDate()');
+    const rng = seedrandom(generateSeedFromDate());
     console.log(rng())
     const ylabelOptions = champData.ylabelOptions
     console.log(ylabelOptions)
     const randomyIndices = []
     const ylabelLength = ylabelOptions.length
 
-    for (let i=0; i < 3; i++) {
-      const randomIndex = Math.floor(rng() * ylabelLength)
-      console.log(randomIndex)
-      if(randomyIndices.includes(randomIndex)) {
-        i--;
-      } else {
-        randomyIndices.push(randomIndex)
+    for (let i = 0; i < 3; ) {
+      const randomIndex = Math.floor(rng() * ylabelLength);
+      console.log(randomIndex);
+    
+      if (!randomyIndices.includes(randomIndex)) {
+        randomyIndices.push(randomIndex);
+        i++;
       }
     }
+
+    const ylabels = [ 
+      ylabelOptions[randomyIndices[0]],
+      ylabelOptions[randomyIndices[1]],
+      ylabelOptions[randomyIndices[2]],
+    ]
 
     const xlabelOptions = champData.xlabelOptions
     console.log(xlabelOptions)
     const randomxIndices = []
     const xlabelLength = xlabelOptions.length
 
-    for (let i=0; i < 3; i++) {
-      const randomxIndex = Math.floor(rng() * xlabelLength)
-      console.log(randomxIndex)
-      if(randomxIndices.includes(randomxIndex)) {
-        i--;
-      } else {
-        randomxIndices.push(randomxIndex)
+    for (let i = 0; i < 3; ) {
+      const randomxIndex = Math.floor(rng() * xlabelLength);
+      console.log(randomxIndex);
+    
+      if (!randomxIndices.includes(randomxIndex) && validateXlabel(xlabelOptions[randomxIndex], ylabels)) {
+        randomxIndices.push(randomxIndex);
+        i++;
       }
     }
 
     const data = {
-        xlabels: [ 
-          xlabelOptions[randomxIndices[0]],
-          xlabelOptions[randomxIndices[1]],
-          xlabelOptions[randomxIndices[2]],
-        ],
-        ylabels: [ 
-          ylabelOptions[randomyIndices[0]],
-          ylabelOptions[randomyIndices[1]],
-          ylabelOptions[randomyIndices[2]],
-        ]
-      }
+      xlabels: [ 
+        xlabelOptions[randomxIndices[0]],
+        xlabelOptions[randomxIndices[1]],
+        xlabelOptions[randomxIndices[2]],
+      ],
+      ylabels
+    }
+
+
 
       return data
   }, []);
@@ -139,16 +172,6 @@ function Grid() {
       setGridStatus(updatedGrid)
     }
     setGuessesLeft(guessesLeft - 1)
-  }
-  const checkAttribute = (champ, attr) => {
-    if (attr.type === 'position' || attr.type === 'regions' || attr.type === 'species') {
-      return champ[attr.type].includes(attr.attribute) 
-    } else if (attr.type === 'releaseYear' ) {
-      const year = parseInt(attr.attribute)
-      return champ[attr.type] === year
-    } else {
-      return champ[attr.type] === attr.attribute
-    }
   }
 
   return (

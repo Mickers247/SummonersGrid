@@ -185,7 +185,7 @@ function SearchModal(props) {
     const filteredChampions = championList.filter((champion) =>
       champion.toLowerCase().includes(input.toLowerCase())
     );
-    setSuggestions(filteredChampions);
+    input === '' ? setSuggestions([]) : setSuggestions(filteredChampions);
   };
 
   const handleClose = () => {
@@ -203,7 +203,7 @@ function SearchModal(props) {
         <Form.Group>
           <Form.Control
             type="text"
-            placeholder="Enter your search query..."
+            placeholder="Search a champion"
             value={searchQuery}
             onChange={(e) => {
               setSearchQuery(e.target.value);

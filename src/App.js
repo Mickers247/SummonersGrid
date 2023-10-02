@@ -5,7 +5,7 @@ import Grid from './Grid';
 function App() {
   return (
     <div className="container">
-      <h1>Today's Grid</h1>
+      <h1 className='grid-title'>Today's Grid</h1>
       <Grid></Grid>
     </div>
   );

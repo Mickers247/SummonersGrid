@@ -1,12 +1,27 @@
+@font-face {
+    font-family: 'BeaufortForLol';
+    src: url('./BeaufortForLoL-TTF/BeaufortforLOL-Regular.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'BeaufortForLolBold';
+    src: url('./BeaufortForLoL-TTF/BeaufortforLOL-Bold.ttf') format('truetype');
+  }
+
+
+
 .grid-container {
+    font-family: 'BeaufortForLolBold', sans-serif;
+    color: rgb(200, 155, 60);
     height: 80vw;
     width: 80vw;
-    max-width: 700px;
-    max-height: 700px;
+    max-width: 600px;
+    max-height: 600px;
+    animation: growAnimation 2s ease-in-out; /* Apply the animation */
 }
 .row {
     height: 20vw;
-    max-height: 175px;
+    max-height: 150px;
 }
 
 .grid-square-button {
@@ -41,4 +56,144 @@
 .category-label {
     display: inline-flex;
     align-items: center;
+}
+
+.green-border {
+  animation: pulse-green-border 1s ease-in-out;
+}
+
+@keyframes pulse-green-border {
+  0% {
+    border-color: transparent;
+    box-shadow: 0 0 0 0 rgba(0, 255, 0, 0.7);
+  }
+  50% {
+    border-color: transparent;
+    box-shadow: 0 0 0 20px rgba(0, 255, 0, 0);
+  }
+  100% {
+    border-color: green;
+    box-shadow: 0 0 0 0 rgba(0, 255, 0, 0);
+  }
+}
+
+.red-border {
+    animation: pulse-red-border 1s ease-in-out;
+  }
+  
+  @keyframes pulse-red-border {
+    0% {
+      border-color: transparent;
+      box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.7);
+    }
+    50% {
+      border-color: transparent;
+      box-shadow: 0 0 0 20px rgba(0, 255, 0, 0);
+    }
+    100% {
+      border-color: red;
+      box-shadow: 0 0 0 0 rgba(0, 255, 0, 0);
+    }
+  }
+
+.shrink-grow-image {
+    animation: shrink-and-grow 1s ease-in-out;
+  }
+  
+  @keyframes shrink-and-grow {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.8);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .overflow-upwards {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    display: block;
+    line-height: 1em; /* a */
+    max-height: 2em; /* a x number of line to show (ex : 2 line)  */
+  }
+  
+  @keyframes growAnimation {
+    0% {
+      transform: scale(0); /* Start with a scale of 0 (tiny) */
+    }
+    100% {
+      transform: scale(1); /* End with a scale of 1 (full size) */
+    }
+  }
+
+  h1 {
+    color: rgb(200, 155, 60);
+    font-family: 'BeaufortForLolBold', sans-serif;
+    text-align: center;
+  }
+
+.header-bar {
+    background-color: rgb(0, 90, 130);
+}
+
+.score-texts {
+    font-family: 'BeaufortForLolBold', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.coffee-button  {
+    max-height: 40px !important;
+    max-width: 277px !important;
+    padding-right: 20px;
+}
+
+.btn-twitter {
+  margin-right: 20px
+}
+
+.btn-info svg {
+  font-size: 23px;
+}
+@media only screen and (max-width: 767px) {
+  .coffee-button {
+      max-height: 25px !important;
+  }
+  .btn-info {
+    max-height: 25px !important;
+    max-width: 25px !important;
+  }
+  .btn-info svg {
+    font-size: 18px;
+    margin-top: -17px;
+    margin-left: -9px;
+  }
+}
+
+.tooltip-container {
+  position: relative;
+}
+
+.tooltip-content {
+  display: none;
+  position: absolute;
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%);
+  padding: 5px;
+  background-color: rgb(0, 90, 130);
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  white-space: nowrap;
+}
+
+.tooltip-container:hover .tooltip-content {
+  display: block;
+}
+
+.grid-title {
+  padding: 15px
 }

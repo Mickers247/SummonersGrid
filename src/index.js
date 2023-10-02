@@ -3,6 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App'; // Import the App component
 import Header from './Header';
+import '../styles/grid.css'
 
 ReactDOM.render(
   <React.StrictMode>

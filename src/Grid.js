@@ -2,14 +2,30 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import SearchModal from './SearchModal';
 import ResultModal from './ResultModal';
-import '../styles/grid.css'
 import champData from  './champ-data.json';
 import seedrandom from 'seedrandom';
 
-const savedGridStatus = JSON.parse(localStorage.getItem('gridStatus'));
-const savedGuessesLeft = localStorage.getItem('guessesLeft');
+
 
 function Grid() {
+  // Function to generate a seed from the current date
+  const generateSeedFromDate = () => {
+    const currentDate = new Date();
+    const seed = currentDate.toISOString().slice(0, 10); // Use YYYY-MM-DD format
+    return seed;
+  };
+
+  const savedGridStatus = JSON.parse(localStorage.getItem('gridStatus'));
+  const savedGuessesLeft = localStorage.getItem('guessesLeft');
+  const savedLastPuzzleDate = localStorage.getItem('savedLastPuzzleDate');
+
+  if (savedLastPuzzleDate !== generateSeedFromDate()) {
+    localStorage.removeItem('gridStatus')
+    localStorage.removeItem('guessesLeft')
+  }
+  localStorage.setItem('savedLastPuzzleDate', generateSeedFromDate())
+  console.log(localStorage)
+
   const [showSearchModal, setShowSearchModal] = useState(false);
   const [showResultModal, setshowResultModal] = useState(false);
   const [currentCell, setCurrentCell] = useState(0);
@@ -25,6 +41,7 @@ function Grid() {
     {answered: false, champ: {}},
     {answered: false, champ: {}},
   ]);
+
   
 
   useEffect(() => {
@@ -39,13 +56,6 @@ function Grid() {
       setshowResultModal(true);
     }
   }, [guessesLeft])
-
-  // Function to generate a seed from the current date
-  const generateSeedFromDate = () => {
-    const currentDate = new Date();
-    const seed = currentDate.toISOString().slice(0, 10); // Use YYYY-MM-DD format
-    return seed;
-  };
 
   const checkAttribute = (champ, attr) => {
     if (attr.type === 'position' || attr.type === 'regions' || attr.type === 'species') {
@@ -156,6 +166,30 @@ function Grid() {
     return gridData.ylabels[row]
   }
 
+  const correctAnimation = (cellNo) => {
+    const cellId = 'cell-' + cellNo
+    const element = document.getElementById(cellId)
+
+    if (element) {
+      element.classList.add('green-border');
+      setTimeout(() => {
+        element.classList.remove('green-border');
+      }, 1000);
+    }
+  }
+
+  const wrongAnimation = (cellNo) => {
+    const cellId = 'cell-' + cellNo
+    const element = document.getElementById(cellId)
+
+    if (element) {
+      element.classList.add('red-border');
+      setTimeout(() => {
+        element.classList.remove('red-border');
+      }, 1000);
+    } 
+  }
+
   const checkSelection = (attr1, attr2, searchQuery) => {
     const champ = champData.champInformation.find(champion => champion.name === searchQuery);
     console.log(champ)
@@ -165,6 +199,9 @@ function Grid() {
       let updatedGrid = [...gridStatus]
       updatedGrid[currentCell-1] = {answered: true, champ: champ}
       setGridStatus(updatedGrid)
+      correctAnimation(currentCell)
+    } else {
+      wrongAnimation(currentCell)
     }
     setGuessesLeft(guessesLeft - 1)
   }
@@ -179,6 +216,16 @@ function Grid() {
     return theChosenOnes
   }
 
+  const amountCorrect = () => {
+    let sum = 0
+    for (let i=0; i < gridStatus.length; i++) {
+      if (gridStatus[i].answered) {
+        sum++;
+      }
+    }
+    return sum
+  }
+
   return (
     <div>
       <div className="grid-container container">
@@ -186,13 +233,28 @@ function Grid() {
           <div className="col"> {/* Empty cell in the top-left corner */}
           </div>
           <div className="col category-label">
-            <div className="text-center">{gridData.xlabels[0].attribute}</div>
+            <div className="text-center tooltip-container">
+              {`${gridData.xlabels[0].attribute}`}
+              <div className="tooltip-content">
+                {`${gridData.xlabels[0].type.toUpperCase()}`}
+              </div>
+            </div>
           </div>
           <div className="col category-label">
-            <div className="text-center">{gridData.xlabels[1].attribute}</div>
+            <div className="text-center tooltip-container">
+              {`${gridData.xlabels[1].attribute}`}
+              <div className="tooltip-content">
+                {`${gridData.xlabels[1].type.toUpperCase()}`}
+              </div>
+            </div>
           </div>
           <div className="col category-label">
-            <div className="text-center">{gridData.xlabels[2].attribute}</div>
+            <div className="text-center tooltip-container">
+              {`${gridData.xlabels[2].attribute}`}
+              <div className="tooltip-content">
+                {`${gridData.xlabels[2].type.toUpperCase()}`}
+              </div>
+            </div>
           </div>
         </div>
         <div className="row">
@@ -204,23 +266,32 @@ function Grid() {
             )
             }
           </div>
-          <div className="col text-center">
+          <div className="col text-center" id="cell-1">
             {gridStatus[0].answered ? (
-              <img src={gridStatus[0].champ.thumbnail} alt={gridStatus[0].champ.thumbnail} className='img-fluid'></img>
+              <>
+                <img src={gridStatus[0].champ.thumbnail} alt={gridStatus[0].champ.thumbnail} className='img-fluid shrink-grow-image'></img>
+                <span>{gridStatus[0].champ.name}</span>
+              </>
             ) : (
               <button className="btn grid-square-button" onClick={() => handleSearchClick(1)} disabled={guessesLeft < 1}></button>
             )}
           </div>
-          <div className="col text-center">
+          <div className="col text-center" id="cell-2">
           {gridStatus[1].answered ? (
-              <img src={gridStatus[1].champ.thumbnail} alt={gridStatus[1].champ.thumbnail} className='img-fluid'></img>
+            <>
+              <img src={gridStatus[1].champ.thumbnail} alt={gridStatus[1].champ.thumbnail} className='img-fluid shrink-grow-image'></img>
+              <span className='overflow-upwards'>{gridStatus[1].champ.name}</span>
+            </>
             ) : (
               <button className="btn grid-square-button" onClick={() => handleSearchClick(2)} disabled={guessesLeft < 1}></button>
             )}
           </div>
-          <div className="col text-center">
+          <div className="col text-center" id="cell-3">
           {gridStatus[2].answered ? (
-              <img src={gridStatus[2].champ.thumbnail} alt={gridStatus[2].champ.thumbnail} className='img-fluid'></img>
+            <>
+              <img src={gridStatus[2].champ.thumbnail} alt={gridStatus[2].champ.thumbnail} className='img-fluid shrink-grow-image'></img>
+              <span className='overflow-upwards'>{gridStatus[2].champ.name}</span>
+            </>
             ) : (
               <button className="btn grid-square-button" onClick={() => handleSearchClick(3)} disabled={guessesLeft < 1}></button>
             )}
@@ -235,23 +306,32 @@ function Grid() {
             )
             }
           </div>
-          <div className="col text-center">
+          <div className="col text-center" id="cell-4">
           {gridStatus[3].answered ? (
-              <img src={gridStatus[3].champ.thumbnail} alt={gridStatus[3].champ.thumbnail} className='img-fluid'></img>
+            <>
+              <img src={gridStatus[3].champ.thumbnail} alt={gridStatus[3].champ.thumbnail} className='img-fluid shrink-grow-image'></img>
+              <span className='overflow-upwards'>{gridStatus[3].champ.name}</span>
+            </>
             ) : (
               <button className="btn grid-square-button" onClick={() => handleSearchClick(4)} disabled={guessesLeft < 1}></button>
             )}
           </div>
-          <div className="col text-center">
+          <div className="col text-center" id="cell-5">
           {gridStatus[4].answered ? (
-              <img src={gridStatus[4].champ.thumbnail} alt={gridStatus[4].champ.thumbnail} className='img-fluid'></img>
+            <>
+              <img src={gridStatus[4].champ.thumbnail} alt={gridStatus[4].champ.thumbnail} className='img-fluid shrink-grow-image'></img>
+              <span className='overflow-upwards'>{gridStatus[4].champ.name}</span>
+            </>
             ) : (
               <button className="btn grid-square-button" onClick={() => handleSearchClick(5)} disabled={guessesLeft < 1}></button>
             )}
           </div>
-          <div className="col text-center">
+          <div className="col text-center" id="cell-6">
           {gridStatus[5].answered ? (
-              <img src={gridStatus[5].champ.thumbnail} alt={gridStatus[5].champ.thumbnail} className='img-fluid'></img>
+            <>
+              <img src={gridStatus[5].champ.thumbnail} alt={gridStatus[5].champ.thumbnail} className='img-fluid shrink-grow-image'></img>
+              <span className='overflow-upwards'>{gridStatus[5].champ.name}</span>
+            </>
             ) : (
               <button className="btn grid-square-button" onClick={() => handleSearchClick(6)} disabled={guessesLeft < 1}></button>
             )}
@@ -266,23 +346,32 @@ function Grid() {
             )
             }
           </div>
-          <div className="col text-center">
+          <div className="col text-center" id="cell-7">
           {gridStatus[6].answered ? (
-              <img src={gridStatus[6].champ.thumbnail} alt={gridStatus[6].champ.thumbnail} className='img-fluid'></img>
+            <>
+              <img src={gridStatus[6].champ.thumbnail} alt={gridStatus[6].champ.thumbnail} className='img-fluid shrink-grow-image'></img>
+              <span className='overflow-upwards'>{gridStatus[6].champ.name}</span>
+            </>
             ) : (
               <button className="btn grid-square-button" onClick={() => handleSearchClick(7)} disabled={guessesLeft < 1}></button>
             )}
           </div>
-          <div className="col text-center">
+          <div className="col text-center" id="cell-8">
           {gridStatus[7].answered ? (
-              <img src={gridStatus[7].champ.thumbnail} alt={gridStatus[7].champ.thumbnail} className='img-fluid'></img>
+            <>
+              <img src={gridStatus[7].champ.thumbnail} alt={gridStatus[7].champ.thumbnail} className='img-fluid shrink-grow-image'></img>
+              <span className='overflow-upwards'>{gridStatus[7].champ.name}</span>
+            </>
             ) : (
               <button className="btn grid-square-button" onClick={() => handleSearchClick(8)} disabled={guessesLeft < 1}></button>
             )}
           </div>
-          <div className="col text-center">
+          <div className="col text-center" id="cell-9">
           {gridStatus[8].answered ? (
-              <img src={gridStatus[8].champ.thumbnail} alt={gridStatus[8].champ.thumbnail} className='img-fluid'></img>
+            <>
+              <img src={gridStatus[8].champ.thumbnail} alt={gridStatus[8].champ.thumbnail} className='img-fluid shrink-grow-image'></img>
+              <span className='overflow-upwards'>{gridStatus[8].champ.name}</span>
+            </>
             ) : (
               <button className="btn grid-square-button" onClick={() => handleSearchClick(9)} disabled={guessesLeft < 1}></button>
             )}
@@ -291,7 +380,7 @@ function Grid() {
         <SearchModal show={showSearchModal} onClose={handleModalClose} onSearch={handleSearch} chosenChamps={getChosenChamps(gridStatus)} />
         <ResultModal show={showResultModal} hasWon={gridStatus.every((item) => item.answered)} onClose={() => setshowResultModal(false)} />
       </div>
-      <span>{`Mana: ${guessesLeft}`}</span>
+      <h4 className='score-texts'>{`Mana: ${guessesLeft}/9     Points: ${amountCorrect()}/9`}</h4>
     </div>
   );
 }

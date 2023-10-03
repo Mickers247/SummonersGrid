@@ -11,7 +11,9 @@ function Grid() {
   // Function to generate a seed from the current date
   const generateSeedFromDate = () => {
     const currentDate = new Date();
-    const seed = currentDate.toISOString().slice(0, 10); // Use YYYY-MM-DD format
+    const offset = currentDate.getTimezoneOffset();
+    const correctedDate = new Date(currentDate.getTime() - offset * 60000);
+    const seed = correctedDate.toISOString().slice(0, 10);
     return seed;
   };
 
@@ -24,7 +26,6 @@ function Grid() {
     localStorage.removeItem('guessesLeft')
   }
   localStorage.setItem('savedLastPuzzleDate', generateSeedFromDate())
-  console.log(localStorage)
 
   const [showSearchModal, setShowSearchModal] = useState(false);
   const [showResultModal, setshowResultModal] = useState(false);
@@ -146,8 +147,6 @@ function Grid() {
   };
 
   const handleSearch = (searchQuery) => {
-    // Handle the search functionality here using the searchQuery
-    console.log('Search Query:', searchQuery);
     const attr1 = getColumnQuery(currentCell - 1)
     const attr2 = getRowQuery(currentCell)
     checkSelection(attr1, attr2, searchQuery)
@@ -192,7 +191,6 @@ function Grid() {
 
   const checkSelection = (attr1, attr2, searchQuery) => {
     const champ = champData.champInformation.find(champion => champion.name === searchQuery);
-    console.log(champ)
     const xIsTrue = checkAttribute(champ, attr1)
     const yIsTrue = checkAttribute(champ, attr2)
     if (xIsTrue && yIsTrue) {

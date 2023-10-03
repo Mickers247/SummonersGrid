@@ -1,17 +1,21 @@
 // src/ResultModal.js
 import React from 'react';
 import { Modal, Button } from 'react-bootstrap';
+import victoryImage from './images/victory.png'
+import defeatImage from './images/defeat.png'
 
 function ResultModal({ show, hasWon, onClose }) {
 
-    const message = hasWon ? 'You have won!' : 'You have lost'
+    const message = hasWon ? 'You have won!' : 'You have lost :('
 
   return (
     <Modal show={show} onHide={onClose}>
       <Modal.Header closeButton>
-        <Modal.Title>Game Result</Modal.Title>
+        <Modal.Title>{message}</Modal.Title>
       </Modal.Header>
-      <Modal.Body>{message}</Modal.Body>
+      <Modal.Body>
+        <img className='results-image' src={hasWon ? victoryImage : defeatImage}></img>
+      </Modal.Body>
       <Modal.Footer>
         <Button variant="primary" onClick={onClose}>
           Close

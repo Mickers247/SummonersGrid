@@ -197,3 +197,8 @@
 .grid-title {
   padding: 15px
 }
+
+.results-image {
+  width: 100%;
+  max-width: 450px;
+}

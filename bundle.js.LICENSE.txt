@@ -10,6 +10,8 @@
   * (c) Dustin Diaz 2014 | License MIT
   */
 
+/*! clipboard-copy. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
+
 /**
  * @license React
  * react-dom.production.min.js

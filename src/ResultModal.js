@@ -3,10 +3,20 @@ import React from 'react';
 import { Modal, Button } from 'react-bootstrap';
 import victoryImage from './images/victory.png'
 import defeatImage from './images/defeat.png'
+import TweetButton from './TweetButton';
 
 function ResultModal({ show, hasWon, onClose }) {
 
     const message = hasWon ? 'You have won!' : 'You have lost :('
+    const customText = `Summoner's Grid Results
+
+    Score: 9/9
+    ✅ ✅ ✅ 
+    ✅ ✅ ✅ 
+    ✅ ✅ ✅ 
+    
+    Play at: https://summonersgrid.com
+    #SGOTD via @summonersgrid`;
 
   return (
     <Modal show={show} onHide={onClose}>
@@ -20,6 +30,7 @@ function ResultModal({ show, hasWon, onClose }) {
         }
       </Modal.Body>
       <Modal.Footer>
+        { hasWon ? <TweetButton text={customText} /> : (<></>)}
         <Button variant="primary" onClick={onClose}>
           Close
         </Button>

@@ -1,6 +1,7 @@
 // src/Header.js
 import React, { useState } from 'react';
 import { FaInfoCircle, FaTwitter } from 'react-icons/fa';
+import SummonersGridLogo from './images/SummonersGrid.png'
 
 function Header() {
   const [showModal, setShowModal] = useState(true);
@@ -12,7 +13,10 @@ function Header() {
   return (
     <header className="navbar navbar-dark header-bar">
       <div className="container">
-        <h1 className="navbar-brand">Summoner's Grid</h1>
+        <div className='logo-and-title'>
+          <img src={SummonersGridLogo} alt={"logo"} className='img-fluid header-logo'></img>
+          <h1 className="navbar-brand">Summoner's Grid</h1>
+        </div>
         <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="mickers247s" data-color="#FFDD00" data-emoji="🍺" data-font="Arial" data-text="Buy me a beer" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
         <div>
           <a href="https://www.buymeacoffee.com/mickers247s" target="_blank"><img className="coffee-button" src="https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png" alt="Buy Me A Coffee" /></a>

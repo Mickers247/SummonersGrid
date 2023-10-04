@@ -4,6 +4,7 @@ import SearchModal from './SearchModal';
 import ResultModal from './ResultModal';
 import champData from  './champ-data.json';
 import seedrandom from 'seedrandom';
+import SummonersGridLogo from './images/SummonersGrid.png'
 
 
 
@@ -228,7 +229,8 @@ function Grid() {
     <div>
       <div className="grid-container container">
         <div className="row">
-          <div className="col"> {/* Empty cell in the top-left corner */}
+          <div className="col category-label">
+            <img src={SummonersGridLogo} alt={"logo"} className='img-fluid'></img>
           </div>
           <div className="col category-label">
             <div className="text-center tooltip-container">

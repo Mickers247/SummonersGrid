@@ -172,6 +172,9 @@
     margin-top: -17px;
     margin-left: -9px;
   }
+  .header-logo {
+    display: none;
+  }
 }
 
 .tooltip-container {
@@ -201,4 +204,14 @@
 .results-image {
   width: 100%;
   max-width: 450px;
+}
+
+.header-logo {
+  max-height: 50px;
+  padding-right: 25px;
+}
+
+.logo-and-title {
+  display: flex;
+  align-items: center;
 }

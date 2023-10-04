@@ -53,7 +53,7 @@ function Header() {
                   <li>Regions are not only where the character originated from, but important regions for their respective lore. Many champions are linked to multiple regions.</li>
                   <li>New puzzles are generated everyday, so make sure to come back if you do not get all 9 today!</li>
                   <li>If you encounter issues, bugs, or have any general feedback, feel free to mention or message the twitter. The site is still actively being devloped so feel free to suggest new features!</li>
-                  <li>Last updated on: 10/03/23</li>
+                  <li>Last updated on: 10/04/23</li>
                 </ul>
               </div>
               <div className="modal-footer">

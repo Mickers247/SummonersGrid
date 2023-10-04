@@ -32,10 +32,7 @@
             "type": "regions",
             "attribute": "Ionia"
         },
-        {
-            "type": "regions",
-            "attribute": "Runeterra"
-        },
+
         {
             "type": "regions",
             "attribute": "Freljord"

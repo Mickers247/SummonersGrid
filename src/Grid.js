@@ -17,15 +17,9 @@ function Grid() {
     const seed = correctedDate.toISOString().slice(0, 10);
     return seed;
   };
-
-  const savedGuessesLeft = localStorage.getItem('guessesLeft');
   const savedLastPuzzleDate = localStorage.getItem('savedLastPuzzleDate');
 
-  console.log(savedLastPuzzleDate)
-  console.log(generateSeedFromDate())
-
   if (!savedLastPuzzleDate || savedLastPuzzleDate !== generateSeedFromDate()) {
-    console.log('clearingData')
     localStorage.removeItem('gridStatus')
     localStorage.removeItem('guessesLeft')
   }
@@ -96,10 +90,7 @@ function Grid() {
 
     const randomxIndicesString = randomxIndices.toString()
     const storedRandomxIndicesString = localStorage.getItem('randomxIndicesString')
-    console.log(randomxIndicesString)
-    console.log(storedRandomxIndicesString)
     if (!storedRandomxIndicesString || storedRandomxIndicesString !== randomxIndicesString) {
-      console.log('clearing')
       localStorage.removeItem('gridStatus')
       localStorage.removeItem('guessesLeft')
     }
@@ -123,6 +114,7 @@ function Grid() {
   const gridData = getGridData
 
   const savedGridStatus = JSON.parse(localStorage.getItem('gridStatus'));
+  const savedGuessesLeft = localStorage.getItem('guessesLeft');
 
   const [showSearchModal, setShowSearchModal] = useState(false);
   const [showResultModal, setshowResultModal] = useState(false);
@@ -395,7 +387,7 @@ function Grid() {
           </div>
         </div>
         <SearchModal show={showSearchModal} onClose={handleModalClose} onSearch={handleSearch} chosenChamps={getChosenChamps(gridStatus)} />
-        <ResultModal show={showResultModal} hasWon={gridStatus.every((item) => item.answered)} onClose={() => setshowResultModal(false)} />
+        <ResultModal show={showResultModal} hasWon={gridStatus.every((item) => item.answered)} gridStatus={gridStatus} onClose={() => setshowResultModal(false)} />
       </div>
       <h4 className='score-texts'>{`Mana: ${guessesLeft}/9     Points: ${amountCorrect()}/9`}</h4>
     </div>

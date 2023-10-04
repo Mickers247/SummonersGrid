@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaTwitter } from 'react-icons/fa';
 import { TwitterTweetEmbed } from 'react-twitter-embed';
+import { Modal, Button } from 'react-bootstrap';
 
 const TweetButton = ({ text }) => {
   const tweetText = encodeURIComponent(text);
@@ -9,7 +10,7 @@ const TweetButton = ({ text }) => {
   return (
     <div>
       <a href={tweetUrl} target="_blank" rel="noopener noreferrer">
-        <button className="btn" ><div>Share Results <FaTwitter/></div></button>
+        <Button variant="secondary" className="btn" ><FaTwitter/></Button>
       </a>
     </div>
   );

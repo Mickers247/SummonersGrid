@@ -15,6 +15,9 @@ function ResultModal({ show, hasWon, onClose }) {
       </Modal.Header>
       <Modal.Body>
         <img className='results-image' src={hasWon ? victoryImage : defeatImage}></img>
+        {
+          hasWon ? (<div>Impressive! Come back tomorrow to continue the win streak!</div>) : (<div>Make sure to come back tomorrow to try again!</div>)
+        }
       </Modal.Body>
       <Modal.Footer>
         <Button variant="primary" onClick={onClose}>

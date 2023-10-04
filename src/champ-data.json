@@ -1,1881 +1,4402 @@
 {
-    "champions": [
-
-    ],
+    "champions": [],
     "ylabelOptions": [
-        {"type": "position", "attribute": "Top", "image": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-top.png"},
-        {"type": "position", "attribute": "Middle", "image": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-middle.png"},
-        {"type": "position", "attribute": "Support", "image": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-utility.png"},
-        {"type": "position", "attribute": "Bottom", "image": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-bottom.png"},
-        {"type": "position", "attribute": "Jungle", "image": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-jungle.png"}
+        {
+            "type": "position",
+            "attribute": "Top",
+            "image": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-top.png"
+        },
+        {
+            "type": "position",
+            "attribute": "Middle",
+            "image": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-middle.png"
+        },
+        {
+            "type": "position",
+            "attribute": "Support",
+            "image": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-utility.png"
+        },
+        {
+            "type": "position",
+            "attribute": "Bottom",
+            "image": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-bottom.png"
+        },
+        {
+            "type": "position",
+            "attribute": "Jungle",
+            "image": "https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-clash/global/default/assets/images/position-selector/positions/icon-position-jungle.png"
+        }
     ],
-
     "xlabelOptions": [
-        {"type": "regions", "attribute": "Ionia"},
-        {"type": "regions", "attribute": "Runeterra"},
-        {"type": "regions", "attribute": "Freljord"},
-        {"type": "regions", "attribute": "Targon"},
-        {"type": "regions", "attribute": "Shurima"},
-        {"type": "regions", "attribute": "Noxus"},
-        {"type": "regions", "attribute": "Void"},
-        {"type": "regions", "attribute": "Piltover"},
-        {"type": "regions", "attribute": "Demacia"},
-        {"type": "regions", "attribute": "Bandle City"},
-        {"type": "regions", "attribute": "Zaun"},
-        {"type": "regions", "attribute": "Bilgewater"},
-        {"type": "regions", "attribute": "Camavor"},
-        {"type": "regions", "attribute": "Ixtal"},
-        {"type": "regions", "attribute": "Shadow Isles"},
-        {"type": "species", "attribute": "Vastayan"},
-        {"type": "species", "attribute": "Human"},
-        {"type": "species", "attribute": "God"},
-        {"type": "species", "attribute": "Spirit"},
-        {"type": "species", "attribute": "Spiritualist"},
-        {"type": "species", "attribute": "Magicborn"},
-        {"type": "species", "attribute": "Yordle"},
-        {"type": "species", "attribute": "Undead"},
-        {"type": "species", "attribute": "God-Warrior"},
-        {"type": "species", "attribute": "Human"},
-        {"type": "species", "attribute": "Iceborn"},
-        {"type": "species", "attribute": "Void-Being"},
-        {"type": "species", "attribute": "Golem"},
-        {"type": "species", "attribute": "Magically Altered"},
-        {"type": "species", "attribute": "Chemically Altered"},
-        {"type": "species", "attribute": "Cyborg"},
-        {"type": "species", "attribute": "Aspect"},
-        {"type": "species", "attribute": "Darkin"},
-        {"type": "species", "attribute": "Void-Being"},
-        {"type": "releaseYear", "attribute": 2009},
-        {"type": "releaseYear", "attribute": 2010},
-        {"type": "releaseYear", "attribute": 2011},
-        {"type": "releaseYear", "attribute": 2012},
-        {"type": "releaseYear", "attribute": 2013},
-        {"type": "releaseYear", "attribute": 2014},
-        {"type": "releaseYear", "attribute": 2015},
-        {"type": "releaseYear", "attribute": 2016},
-        {"type": "releaseYear", "attribute": 2017},
-        {"type": "releaseYear", "attribute": 2018},
-        {"type": "releaseYear", "attribute": 2019},
-        {"type": "releaseYear", "attribute": 2020},
-        {"type": "releaseYear", "attribute": 2021},
-        {"type": "releaseYear", "attribute": 2022},
-        {"type": "releaseYear", "attribute": 2023}
+        {
+            "type": "regions",
+            "attribute": "Ionia"
+        },
+        {
+            "type": "regions",
+            "attribute": "Runeterra"
+        },
+        {
+            "type": "regions",
+            "attribute": "Freljord"
+        },
+        {
+            "type": "regions",
+            "attribute": "Targon"
+        },
+        {
+            "type": "regions",
+            "attribute": "Shurima"
+        },
+        {
+            "type": "regions",
+            "attribute": "Noxus"
+        },
+        {
+            "type": "regions",
+            "attribute": "Void"
+        },
+        {
+            "type": "regions",
+            "attribute": "Piltover"
+        },
+        {
+            "type": "regions",
+            "attribute": "Demacia"
+        },
+        {
+            "type": "regions",
+            "attribute": "Bandle City"
+        },
+        {
+            "type": "regions",
+            "attribute": "Zaun"
+        },
+        {
+            "type": "regions",
+            "attribute": "Bilgewater"
+        },
+        {
+            "type": "regions",
+            "attribute": "Camavor"
+        },
+        {
+            "type": "regions",
+            "attribute": "Ixtal"
+        },
+        {
+            "type": "regions",
+            "attribute": "Shadow Isles"
+        },
+        {
+            "type": "species",
+            "attribute": "Vastayan"
+        },
+        {
+            "type": "species",
+            "attribute": "Human"
+        },
+        {
+            "type": "species",
+            "attribute": "God"
+        },
+        {
+            "type": "species",
+            "attribute": "Spirit"
+        },
+        {
+            "type": "species",
+            "attribute": "Spiritualist"
+        },
+        {
+            "type": "species",
+            "attribute": "Magicborn"
+        },
+        {
+            "type": "species",
+            "attribute": "Yordle"
+        },
+        {
+            "type": "species",
+            "attribute": "Undead"
+        },
+        {
+            "type": "species",
+            "attribute": "God-Warrior"
+        },
+        {
+            "type": "species",
+            "attribute": "Human"
+        },
+        {
+            "type": "species",
+            "attribute": "Iceborn"
+        },
+        {
+            "type": "species",
+            "attribute": "Void-Being"
+        },
+        {
+            "type": "species",
+            "attribute": "Golem"
+        },
+        {
+            "type": "species",
+            "attribute": "Magically Altered"
+        },
+        {
+            "type": "species",
+            "attribute": "Chemically Altered"
+        },
+        {
+            "type": "species",
+            "attribute": "Cyborg"
+        },
+        {
+            "type": "species",
+            "attribute": "Aspect"
+        },
+        {
+            "type": "species",
+            "attribute": "Darkin"
+        },
+        {
+            "type": "species",
+            "attribute": "Void-Being"
+        },
+        {
+            "type": "releaseYear",
+            "attribute": 2009
+        },
+        {
+            "type": "releaseYear",
+            "attribute": 2010
+        },
+        {
+            "type": "releaseYear",
+            "attribute": 2011
+        },
+        {
+            "type": "releaseYear",
+            "attribute": 2012
+        },
+        {
+            "type": "releaseYear",
+            "attribute": 2013
+        },
+        {
+            "type": "releaseYear",
+            "attribute": 2014
+        },
+        {
+            "type": "releaseYear",
+            "attribute": 2015
+        },
+        {
+            "type": "releaseYear",
+            "attribute": 2016
+        },
+        {
+            "type": "releaseYear",
+            "attribute": 2017
+        },
+        {
+            "type": "releaseYear",
+            "attribute": 2018
+        },
+        {
+            "type": "releaseYear",
+            "attribute": 2019
+        },
+        {
+            "type": "releaseYear",
+            "attribute": 2020
+        },
+        {
+            "type": "releaseYear",
+            "attribute": 2021
+        },
+        {
+            "type": "releaseYear",
+            "attribute": 2022
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Battle Boss"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Arcade"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Arclight"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Battlecast"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Heartseeker"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Blackfrost"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Cafe Cuties"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Crime City"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Debonair"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Dragonslayer"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Coven"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Elderwood"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Dark Star"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Broken Covenant"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Battle Academia"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Guardian of the Sands"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Hextech"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "High Noon"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Vandal"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Infernal"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Inkshadow"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Marauder"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Warden"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Lunar Beast"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Firecracker"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Blood Moon"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Snow Moon"
+        },
 
+        {
+            "type": "skinLines",
+            "attribute": "Fright Night"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Empyrean"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Odyssey"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "PROJECT"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "PsyOps"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Pulsefire"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Shan Hai Scrolls"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Snow Day"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Space Groove"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Spirit Blossom"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Star Guardian"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Astronaut"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Pool Party"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Super Galaxy"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Bewitching"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Sentinel"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Dawnbringer"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Nightbringer"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Victorious"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Warring Kingdoms"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Worldbreaker"
+        },
+        {
+            "type": "skinLines",
+            "attribute": "Soul Fighter"
+        },
+        {
+            "type": "releaseYear",
+            "attribute": 2023
+        }
     ],
-
     "champInformation": [
         {
             "name": "Aatrox",
             "gender": "Male",
-            "position": ["Top"],
-            "species": ["Darkin"],
+            "position": [
+                "Top"
+            ],
+            "species": [
+                "Darkin"
+            ],
             "resource": "Manaless",
             "rangeType": "Melee",
-            "regions": ["Runeterra", "Shurima"],
+            "regions": [
+                "Runeterra",
+                "Shurima"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/266.png",
-            "releaseYear": 2013
+            "releaseYear": 2013,
+            
+            "skinLines": [
+                "Blood Moon",
+                "Odyssey",
+                "Victorious"
+            ]
         },
         {
             "name": "Ahri",
             "gender": "Female",
-            "position": ["Middle"],
-            "species": ["Vastayan"],
+            "position": [
+                "Middle"
+            ],
+            "species": [
+                "Vastayan"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Ionia"],
+            "regions": [
+                "Ionia"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/103.png",
-            "releaseYear": 2011
+            "releaseYear": 2011,
+            
+            "skinLines": [
+                "Arcade",
+                "Coven",
+                "Elderwood",
+                "Snow Moon",
+                "Spirit Blossom",
+                "Star Guardian"
+            ]
         },
         {
             "name": "Akali",
             "gender": "Female",
-            "position": ["Middle", "Top"],
-            "species": ["Human"],
+            "position": [
+                "Middle",
+                "Top"
+            ],
+            "species": [
+                "Human"
+            ],
             "resource": "Energy",
             "rangeType": "Melee",
-            "regions": ["Ionia"],
+            "regions": [
+                "Ionia"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/84.png",
-            "releaseYear": 2010
+            "releaseYear": 2010,
+            
+            "skinLines": [
+                "Coven",
+                "Infernal",
+                "Blood Moon",
+                "Star Guardian"
+            ]
         },
         {
             "name": "Alistar",
             "gender": "Male",
-            "position": ["Support"],
-            "species": ["Minotaur"],
+            "position": [
+                "Support"
+            ],
+            "species": [
+                "Minotaur"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Runeterra"],
+            "regions": [
+                "Runeterra"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/12.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Blackfrost",
+                "Hextech",
+                "Infernal",
+                "Marauder",
+                "Lunar Beast"
+            ]
         },
         {
             "name": "Anivia",
             "gender": "Female",
-            "position": ["Middle"],
-            "species": ["God", "Spirit"],
+            "position": [
+                "Middle"
+            ],
+            "species": [
+                "God",
+                "Spirit"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Freljord"],
+            "regions": [
+                "Freljord"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/34.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Blackfrost",
+                "Hextech",
+                "Bewitching",
+                "Victorious"
+            ]
         },
         {
             "name": "Aphelios",
             "gender": "Male",
-            "position": ["Bottom"],
-            "species": ["Human", "Spiritualist"],
+            "position": [
+                "Bottom"
+            ],
+            "species": [
+                "Human",
+                "Spiritualist"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Targon"],
+            "regions": [
+                "Targon"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/523.png",
-            "releaseYear": 2019
+            "releaseYear": 2019,
+            
+            "skinLines": [
+                "Lunar Beast",
+                "Spirit Blossom"
+            ]
         },
         {
             "name": "Akshan",
             "gender": "Male",
-            "position": ["Middle", "Top"],
-            "species": ["Human"],
+            "position": [
+                "Middle",
+                "Top"
+            ],
+            "species": [
+                "Human"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Shurima"],
+            "regions": [
+                "Shurima"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/166.png",
-            "releaseYear": 2021
+            "releaseYear": 2021,
+            "skinLines":[
+
+            ]
         },
         {
             "name": "Annie",
             "gender": "Female",
-            "position": ["Middle", "Support"],
-            "species": ["Human", "Magicborn"],
+            "position": [
+                "Middle",
+                "Support"
+            ],
+            "species": [
+                "Human",
+                "Magicborn"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Noxus", "Runeterra"],
+            "regions": [
+                "Noxus",
+                "Runeterra"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/1.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Cafe Cuties",
+                "Hextech",
+                "Lunar Beast",
+                "Fright Night",
+                "Super Galaxy"
+            ]
         },
         {
             "name": "Aurelion Sol",
             "gender": "Male",
-            "position": ["Middle"],
-            "species": ["Celestial", "Dragon"],
+            "position": [
+                "Middle"
+            ],
+            "species": [
+                "Celestial",
+                "Dragon"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Runeterra", "Targon"],
+            "regions": [
+                "Runeterra",
+                "Targon"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/136.png",
-            "releaseYear": 2016
+            "releaseYear": 2016,
+            
+            "skinLines": [
+                "Inkshadow"
+            ]
         },
         {
             "name": "Amumu",
             "gender": "Male",
-            "position": ["Jungle", "Support"],
-            "species": ["Undead", "Yordle"],
+            "position": [
+                "Jungle",
+                "Support"
+            ],
+            "species": [
+                "Undead",
+                "Yordle"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Shurima"],
+            "regions": [
+                "Shurima"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/32.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Hextech",
+                "Infernal"
+            ]
         },
         {
             "name": "Azir",
             "gender": "Male",
-            "position": ["Middle"],
-            "species": ["God-Warrior"],
+            "position": [
+                "Middle"
+            ],
+            "species": [
+                "God-Warrior"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Shurima"],
+            "regions": [
+                "Shurima"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/268.png",
-            "releaseYear": 2014
+            "releaseYear": 2014,
+            
+            "skinLines": [
+                "Elderwood",
+                "Warring Kingdoms"
+            ]
         },
         {
             "name": "Ashe",
             "gender": "Female",
-            "position": ["Bottom", "Support"],
-            "species": ["Human", "Iceborn"],
+            "position": [
+                "Bottom",
+                "Support"
+            ],
+            "species": [
+                "Human",
+                "Iceborn"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Freljord"],
+            "regions": [
+                "Freljord"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/22.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Heartseeker",
+                "Coven",
+                "High Noon",
+                "Marauder"
+            ]
         },
         {
             "name": "Bard",
             "gender": "Male",
-            "position": ["Support"],
-            "species": ["Celestial"],
+            "position": [
+                "Support"
+            ],
+            "species": [
+                "Celestial"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Runeterra"],
+            "regions": [
+                "Runeterra"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/432.png",
-            "releaseYear": 2015
+            "releaseYear": 2015,
+            
+            "skinLines": [
+                "Cafe Cuties",
+                "Elderwood",
+                "Shan Hai Scrolls",
+                "Snow Day",
+                "Astronaut"
+            ]
         },
         {
             "name": "Bel'Veth",
             "gender": "Female",
-            "position": ["Jungle"],
-            "species": ["Void-Being"],
+            "position": [
+                "Jungle"
+            ],
+            "species": [
+                "Void-Being"
+            ],
             "resource": "Manaless",
             "rangeType": "Melee",
-            "regions": ["Void"],
+            "regions": [
+                "Void"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/200.png",
-            "releaseYear": 2022
+            "releaseYear": 2022,
+            
+            "skinLines": [
+                "Battle Boss"
+            ]
         },
         {
             "name": "Blitzcrank",
             "gender": "Other",
-            "position": ["Support"],
-            "species": ["Golem"],
+            "position": [
+                "Support"
+            ],
+            "species": [
+                "Golem"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Zaun"],
+            "regions": [
+                "Zaun"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/53.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Battle Boss",
+                "Space Groove",
+                "Victorious"
+            ]
         },
         {
             "name": "Brand",
             "gender": "Male",
-            "position": ["Support"],
-            "species": ["Human", "Magically Altered"],
+            "position": [
+                "Support"
+            ],
+            "species": [
+                "Human",
+                "Magically Altered"
+            ],
             "rangeType": "Ranged",
             "resource": "Mana",
-            "regions": ["Freljord", "Runeterra"],
+            "regions": [
+                "Freljord",
+                "Runeterra"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/432.png",
-            "releaseYear": 2011
+            "releaseYear": 2011,
+            
+            "skinLines": [
+                "Battle Boss",
+                "Arclight",
+                "Debonair",
+                "Vandal"
+            ]
         },
         {
             "name": "Braum",
             "gender": "Male",
-            "position": ["Support"],
-            "species": ["Human", "Iceborn"],
+            "position": [
+                "Support"
+            ],
+            "species": [
+                "Human",
+                "Iceborn"
+            ],
             "rangeType": "Melee",
             "resource": "Mana",
-            "regions": ["Freljord"],
+            "regions": [
+                "Freljord"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/201.png",
-            "releaseYear": 2014
+            "releaseYear": 2014,
+            
+            "skinLines": [
+                "Crime City",
+                "Dragonslayer",
+                "Pool Party"
+            ]
         },
         {
             "name": "Briar",
             "gender": "Female",
-            "position": ["Jungle"],
-            "species": ["Human", "Magically Altered"],
+            "position": [
+                "Jungle"
+            ],
+            "species": [
+                "Human",
+                "Magically Altered"
+            ],
             "resource": "Health costs",
             "rangeType": "Melee",
-            "regions": ["Noxus"],
+            "regions": [
+                "Noxus"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/233.png",
-            "releaseYear": 2023
+            "releaseYear": 2023,
+            "skinLines": [
+
+            ]
         },
         {
             "name": "Caitlyn",
             "gender": "Female",
-            "position": ["Bottom"],
-            "species": ["Human"],
+            "position": [
+                "Bottom"
+            ],
+            "species": [
+                "Human"
+            ],
             "rangeType": "Ranged",
             "resource": "Mana",
-            "regions": ["Piltover"],
+            "regions": [
+                "Piltover"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/51.png",
-            "releaseYear": 2011
+            "releaseYear": 2011,
+            
+            "skinLines": [
+                "Arcade",
+                "Battle Academia",
+                "Snow Moon",
+                "Pool Party"
+            ]
         },
         {
             "name": "Camille",
             "gender": "Female",
-            "position": ["Top"],
-            "species": ["Cyborg", "Human"],
+            "position": [
+                "Top"
+            ],
+            "species": [
+                "Cyborg",
+                "Human"
+            ],
             "rangeType": "Melee",
             "resource": "Mana",
-            "regions": ["Piltover"],
+            "regions": [
+                "Piltover"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/164.png",
-            "releaseYear": 2016
+            "releaseYear": 2016,
+            
+            "skinLines": [
+                "Coven"
+            ]
         },
         {
             "name": "Cassiopeia",
             "gender": "Female",
-            "position": ["Middle"],
-            "species": ["Human", "Magically Altered"],
+            "position": [
+                "Middle"
+            ],
+            "species": [
+                "Human",
+                "Magically Altered"
+            ],
             "rangeType": "Ranged",
             "resource": "Mana",
-            "regions": ["Noxus", "Shurima"],
+            "regions": [
+                "Noxus",
+                "Shurima"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/69.png",
-            "releaseYear": 2010
+            "releaseYear": 2010,
+            
+            "skinLines": [
+                "Coven",
+                "Spirit Blossom",
+                "Bewitching"
+            ]
         },
         {
             "name": "Cho'Gath",
             "gender": "Male",
-            "position": ["Top"],
-            "species": ["Void-Being"],
+            "position": [
+                "Top"
+            ],
+            "species": [
+                "Void-Being"
+            ],
             "rangeType": "Melee",
-            "regions": ["Void"],
+            "regions": [
+                "Void"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/31.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Battlecast",
+                "Dark Star",
+                "Broken Covenant",
+                "Shan Hai Scrolls"
+            ]
         },
         {
             "name": "Corki",
             "gender": "Male",
-            "position": ["Middle"],
-            "species": ["Yordle"],
+            "position": [
+                "Middle"
+            ],
+            "species": [
+                "Yordle"
+            ],
             "rangeType": "Ranged",
             "resource": "Mana",
-            "regions": ["Bandle City", "Piltover"],
+            "regions": [
+                "Bandle City",
+                "Piltover"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/42.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Arcade",
+                "Astronaut"
+            ]
         },
         {
             "name": "Darius",
             "gender": "Male",
-            "position": ["Top"],
-            "species": ["Human"],
+            "position": [
+                "Top"
+            ],
+            "species": [
+                "Human"
+            ],
             "rangeType": "Melee",
             "resource": "Mana",
-            "regions": ["Noxus"],
+            "regions": [
+                "Noxus"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/122.png",
-            "releaseYear": 2012
+            "releaseYear": 2012,
+            
+            "skinLines": [
+                "High Noon",
+                "Lunar Beast",
+                "Spirit Blossom"
+            ]
         },
         {
             "name": "Diana",
             "gender": "Female",
-            "position": ["Jungle", "Middle"],
-            "species": ["Aspect", "Human"],
+            "position": [
+                "Jungle",
+                "Middle"
+            ],
+            "species": [
+                "Aspect",
+                "Human"
+            ],
             "rangeType": "Melee",
             "resource": "Mana",
-            "regions": ["Targon"],
+            "regions": [
+                "Targon"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/131.png",
-            "releaseYear": 2012
+            "releaseYear": 2012,
+            
+            "skinLines": [
+                "Dragonslayer",
+                "Infernal",
+                "Firecracker",
+                "Blood Moon",
+                "Sentinel"
+            ]
         },
         {
             "name": "Dr. Mundo",
             "gender": "Male",
-            "position": ["Top"],
-            "species": ["Chemically Altered", "Human"],
+            "position": [
+                "Top"
+            ],
+            "species": [
+                "Chemically Altered",
+                "Human"
+            ],
             "resource": "Health costs",
             "rangeType": "Melee",
-            "regions": ["Zaun"],
+            "regions": [
+                "Zaun"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/36.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            "skinLines": ["Pool Party"]
         },
         {
             "name": "Draven",
             "gender": "Male",
-            "position": ["Bottom"],
-            "species": ["Human"],
+            "position": [
+                "Bottom"
+            ],
+            "species": [
+                "Human"
+            ],
             "rangeType": "Ranged",
             "resource": "Mana",
-            "regions": ["Noxus"],
+            "regions": [
+                "Noxus"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/119.png",
-            "releaseYear": 2012
+            "releaseYear": 2012,
+            
+            "skinLines": [
+                "Debonair",
+                "Fright Night",
+                "Pool Party"
+            ]
         },
         {
             "name": "Ekko",
             "gender": "Male",
-            "position": ["Jungle", "Middle"],
-            "species": ["Human"],
+            "position": [
+                "Jungle",
+                "Middle"
+            ],
+            "species": [
+                "Human"
+            ],
             "rangeType": "Melee",
             "resource": "Mana",
-            "regions": ["Zaun"],
+            "regions": [
+                "Zaun"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/245.png",
-            "releaseYear": 2015
+            "releaseYear": 2015,
+            
+            "skinLines": [
+                "Pulsefire",
+                "Star Guardian"
+            ]
         },
         {
             "name": "Elise",
             "gender": "Female",
-            "position": ["Jungle"],
-            "species": ["Human", "Magically Altered"],
-            "resource": ["Melee", "Ranged"],
-            "regions": ["Noxus", "Shadow Isles"],
+            "position": [
+                "Jungle"
+            ],
+            "species": [
+                "Human",
+                "Magically Altered"
+            ],
+            "resource": [
+                "Melee",
+                "Ranged"
+            ],
+            "regions": [
+                "Noxus",
+                "Shadow Isles"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/60.png",
-            "releaseYear": 2012
+            "releaseYear": 2012,
+            
+            "skinLines": [
+                "Coven",
+                "Blood Moon",
+                "Super Galaxy",
+                "Bewitching",
+                "Victorious"
+            ]
         },
         {
             "name": "Evelynn",
             "gender": "Female",
-            "position": ["Jungle"],
-            "species": ["Demon", "Spirit"],
+            "position": [
+                "Jungle"
+            ],
+            "species": [
+                "Demon",
+                "Spirit"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Runeterra"],
+            "regions": [
+                "Runeterra"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/28.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Coven",
+                "Blood Moon",
+                "Spirit Blossom",
+                "Soul Fighter"
+            ]
         },
         {
             "name": "Ezreal",
             "gender": "Male",
-            "position": ["Bottom"],
-            "species": ["Human", "Magicborn"],
+            "position": [
+                "Bottom"
+            ],
+            "species": [
+                "Human",
+                "Magicborn"
+            ],
             "rangeType": "Ranged",
             "resource": "Mana",
-            "regions": ["Piltover"],
+            "regions": [
+                "Piltover"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/81.png",
-            "releaseYear": 2010
+            "releaseYear": 2010,
+            
+            "skinLines": [
+                "Arcade",
+                "Debonair",
+                "Battle Academia",
+                "PsyOps",
+                "Pulsefire",
+                "Star Guardian"
+            ]
         },
         {
             "name": "Fiddlesticks",
             "gender": "Other",
-            "position": ["Jungle"],
-            "species": ["Demon", "Spirit"],
+            "position": [
+                "Jungle"
+            ],
+            "species": [
+                "Demon",
+                "Spirit"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Runeterra"],
+            "regions": [
+                "Runeterra"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/9.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            "skinLines": [
+
+            ]
         },
         {
             "name": "Fiora",
             "gender": "Female",
-            "position": ["Top"],
-            "species": ["Human"],
+            "position": [
+                "Top"
+            ],
+            "species": [
+                "Human"
+            ],
             "rangeType": "Melee",
             "resource": "Mana",
-            "regions": ["Demacia"],
+            "regions": [
+                "Demacia"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/114.png",
-            "releaseYear": 2012
+            "releaseYear": 2012,
+            
+            "skinLines": [
+                "Lunar Beast",
+                "Pulsefire",
+                "Pool Party",
+                "Bewitching"
+            ]
         },
         {
             "name": "Fizz",
             "gender": "Male",
-            "position": ["Middle"],
-            "species": ["Yordle"],
+            "position": [
+                "Middle"
+            ],
+            "species": [
+                "Yordle"
+            ],
             "rangeType": "Melee",
             "resource": "Mana",
-            "regions": ["Bilgewater"],
+            "regions": [
+                "Bilgewater"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/105.png",
-            "releaseYear": 2011
+            "releaseYear": 2011,
+            
+            "skinLines": [
+                "Astronaut",
+                "Super Galaxy"
+            ]
         },
         {
             "name": "Galio",
             "gender": "Male",
-            "position": ["Middle", "Support"],
-            "species": ["Golem"],
+            "position": [
+                "Middle",
+                "Support"
+            ],
+            "species": [
+                "Golem"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Demacia"],
+            "regions": [
+                "Demacia"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/3.png",
-            "releaseYear": 2010
+            "releaseYear": 2010,
+            
+            "skinLines": [
+                "Debonair",
+                "Hextech",
+                "Infernal"
+            ]
         },
         {
             "name": "Gangplank",
             "gender": "Male",
-            "position": ["Top"],
-            "species": ["Human"],
+            "position": [
+                "Top"
+            ],
+            "species": [
+                "Human"
+            ],
             "rangeType": "Melee",
             "resource": "Mana",
-            "regions": ["Bilgewater"],
+            "regions": [
+                "Bilgewater"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/41.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Pool Party"
+            ]
         },
         {
             "name": "Garen",
             "gender": "Male",
-            "position": ["Top"],
-            "species": ["Human"],
+            "position": [
+                "Top"
+            ],
+            "species": [
+                "Human"
+            ],
             "resource": "Manaless",
             "rangeType": "Melee",
-            "regions": ["Demacia"],
+            "regions": [
+                "Demacia"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/86.png",
-            "releaseYear": 2010
+            "releaseYear": 2010,
+            
+            "skinLines": [
+                "Battle Academia",
+                "Warring Kingdoms"
+            ]
         },
         {
             "name": "Gnar",
             "gender": "Male",
-            "position": ["Top"],
-            "species": ["Yordle"],
+            "position": [
+                "Top"
+            ],
+            "species": [
+                "Yordle"
+            ],
             "resource": "Rage",
-            "rangeType": ["Melee", "Ranged"],
-            "regions": ["Freljord"],
+            "rangeType": [
+                "Melee",
+                "Ranged"
+            ],
+            "regions": [
+                "Freljord"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/150.png",
-            "releaseYear": 2014
+            "releaseYear": 2014,
+            
+            "skinLines": [
+                "Elderwood",
+                "Snow Day",
+                "Astronaut",
+                "Super Galaxy"
+            ]
         },
         {
             "name": "Gragas",
             "gender": "Male",
-            "position": ["Jungle", "Top"],
-            "species": ["Human"],
+            "position": [
+                "Jungle",
+                "Top"
+            ],
+            "species": [
+                "Human"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Freljord"],
+            "regions": [
+                "Freljord"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/79.png",
-            "releaseYear": 2010
+            "releaseYear": 2010,
+            
+            "skinLines": [
+                "Vandal",
+                "Warden",
+                "Space Groove"
+            ]
         },
         {
             "name": "Graves",
             "gender": "Male",
-            "position": ["Jungle"],
-            "species": ["Human"],
+            "position": [
+                "Jungle"
+            ],
+            "species": [
+                "Human"
+            ],
             "rangeType": "Ranged",
             "resource": "Mana",
-            "regions": ["Bilgewater"],
+            "regions": [
+                "Bilgewater"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/104.png",
-            "releaseYear": 2011
+            "releaseYear": 2011,
+            
+            "skinLines": [
+                "Crime City",
+                "Snow Day",
+                "Pool Party",
+                "Sentinel",
+                "Victorious"
+            ]
         },
         {
             "name": "Gwen",
             "gender": "Female",
-            "position": ["Top"],
-            "species": ["Human", "Magically Altered"],
+            "position": [
+                "Top"
+            ],
+            "species": [
+                "Human",
+                "Magically Altered"
+            ],
             "rangeType": "Mana",
-            "regions": ["Camavor", "Shadow Isles"],
+            "regions": [
+                "Camavor",
+                "Shadow Isles"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/887.png",
-            "releaseYear": 2021
+            "releaseYear": 2021,
+            
+            "skinLines": [
+                "Cafe Cuties",
+                "Space Groove",
+                "Soul Fighter"
+            ]
         },
         {
             "name": "Hecarim",
             "gender": "Male",
-            "position": ["Jungle"],
-            "species": ["Undead"],
+            "position": [
+                "Jungle"
+            ],
+            "species": [
+                "Undead"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Camavor", "Shadow Isles"],
+            "regions": [
+                "Camavor",
+                "Shadow Isles"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/120.png",
-            "releaseYear": 2012
+            "releaseYear": 2012,
+            
+            "skinLines": [
+                "Arcade",
+                "Elderwood",
+                "High Noon",
+                "Worldbreaker"
+            ]
         },
         {
             "name": "Heimerdinger",
             "gender": "Male",
-            "position": ["Middle", "Support"],
-            "species": ["Yordle"],
+            "position": [
+                "Middle",
+                "Support"
+            ],
+            "species": [
+                "Yordle"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Piltover"],
+            "regions": [
+                "Piltover"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/74.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Pool Party"
+            ]
         },
         {
             "name": "Illaoi",
             "gender": "Female",
-            "position": ["Top"],
-            "species": ["Human", "Spiritualist"],
+            "position": [
+                "Top"
+            ],
+            "species": [
+                "Human",
+                "Spiritualist"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Bilgewater"],
+            "regions": [
+                "Bilgewater"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/420.png",
-            "releaseYear": 2015
+            "releaseYear": 2015,
+            
+            "skinLines": [
+                "Snow Moon"
+            ]
         },
         {
             "name": "Irelia",
             "gender": "Female",
-            "position": ["Middle", "Top"],
-            "species": ["Human", "Spiritualist"],
+            "position": [
+                "Middle",
+                "Top"
+            ],
+            "species": [
+                "Human",
+                "Spiritualist"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Ionia"],
+            "regions": [
+                "Ionia"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/39.png",
-            "releaseYear": 2010
+            "releaseYear": 2010,
+            
+            "skinLines": [
+                "High Noon",
+                "Sentinel"
+            ]
         },
         {
             "name": "Ivern",
             "gender": "Male",
-            "position": ["Jungle"],
-            "species": ["Human", "Magically Altered"],
+            "position": [
+                "Jungle"
+            ],
+            "species": [
+                "Human",
+                "Magically Altered"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Freljord", "Ionia"],
+            "regions": [
+                "Freljord",
+                "Ionia"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/427.png",
-            "releaseYear": 2016
+            "releaseYear": 2016,
+            
+            "skinLines": [
+                "Astronaut"
+            ]
         },
         {
             "name": "Janna",
             "gender": "Female",
-            "position": ["Support"],
-            "species": ["God", "Spirit"],
+            "position": [
+                "Support"
+            ],
+            "species": [
+                "God",
+                "Spirit"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Shurima", "Zaun"],
+            "regions": [
+                "Shurima",
+                "Zaun"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/40.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Hextech",
+                "Guardian of the Sands",
+                "Star Guardian",
+                "Bewitching",
+                "Victorious"
+            ]
         },
         {
             "name": "Jarvan IV",
             "gender": "Male",
-            "position": ["Jungle"],
-            "species": ["Human"],
+            "position": [
+                "Jungle"
+            ],
+            "species": [
+                "Human"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Demacia"],
+            "regions": [
+                "Demacia"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/59.png",
-            "releaseYear": 2011
+            "releaseYear": 2011,
+            
+            "skinLines": [
+                "Dragonslayer",
+                "Dark Star",
+                "Hextech",
+                "Lunar Beast",
+                "Pool Party",
+                "Victorious",
+                "Warring Kingdoms"
+            ]
         },
         {
             "name": "Jax",
             "gender": "Male",
-            "position": ["Jungle", "Top"],
-            "species": ["Unknown"],
+            "position": [
+                "Jungle",
+                "Top"
+            ],
+            "species": [
+                "Unknown"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Icathia", "Runeterra", "Shurima"],
+            "regions": [
+                "Icathia",
+                "Runeterra",
+                "Shurima"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/24.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Vandal",
+                "Warden",
+                "Empyrean"
+            ]
         },
         {
             "name": "Jayce",
             "gender": "Male",
-            "position": ["Middle", "Top"],
-            "species": ["Human"],
+            "position": [
+                "Middle",
+                "Top"
+            ],
+            "species": [
+                "Human"
+            ],
             "resource": "Mana",
-            "rangeType": ["Melee", "Ranged"],
-            "regions": ["Piltover"],
+            "rangeType": [
+                "Melee",
+                "Ranged"
+            ],
+            "regions": [
+                "Piltover"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/126.png",
-            "releaseYear": 2012
+            "releaseYear": 2012,
+            
+            "skinLines": [
+                "Debonair",
+                "Battle Academia"
+            ]
         },
         {
             "name": "Jhin",
             "gender": "Male",
-            "position": ["Bottom"],
-            "species": ["Human", "Spiritualist"],
+            "position": [
+                "Bottom"
+            ],
+            "species": [
+                "Human",
+                "Spiritualist"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Ionia"],
+            "regions": [
+                "Ionia"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/202.png",
-            "releaseYear": 2016
+            "releaseYear": 2016,
+            
+            "skinLines": [
+                "High Noon",
+                "Blood Moon",
+                "Empyrean",
+                "Shan Hai Scrolls",
+                "Soul Fighter"
+            ]
         },
         {
             "name": "Jinx",
             "gender": "Female",
-            "position": ["Bottom"],
-            "species": ["Chemically Altered", "Human"],
+            "position": [
+                "Bottom"
+            ],
+            "species": [
+                "Chemically Altered",
+                "Human"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Zaun"],
+            "regions": [
+                "Zaun"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/222.png",
-            "releaseYear": 2013
+            "releaseYear": 2013,
+            
+            "skinLines": [
+                "Heartseeker",
+                "Crime City",
+                "Firecracker",
+                "Odyssey",
+                "Star Guardian"
+            ]
         },
         {
             "name": "K'Sante",
             "gender": "Male",
-            "position": ["Top"],
-            "species": ["Human"],
+            "position": [
+                "Top"
+            ],
+            "species": [
+                "Human"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Shurima"],
+            "regions": [
+                "Shurima"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/897.png",
-            "releaseYear": 2022
+            "releaseYear": 2022,
+            
+            "skinLines": [
+                "Empyrean"
+            ]
         },
         {
             "name": "Kai'Sa",
             "gender": "Female",
-            "position": ["Bottom"],
-            "species": ["Human", "Void-Being"],
+            "position": [
+                "Bottom"
+            ],
+            "species": [
+                "Human",
+                "Void-Being"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Shurima", "Void"],
+            "regions": [
+                "Shurima",
+                "Void"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/145.png",
-            "releaseYear": 2018
+            "releaseYear": 2018,
+            
+            "skinLines": [
+                "Arcade",
+                "Inkshadow",
+                "Star Guardian"
+            ]
         },
         {
             "name": "Kalista",
             "gender": "Female",
-            "position": ["Bottom"],
-            "species": ["Undead"],
+            "position": [
+                "Bottom"
+            ],
+            "species": [
+                "Undead"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Camavor", "Shadow Isles"],
+            "regions": [
+                "Camavor",
+                "Shadow Isles"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/429.png",
-            "releaseYear": 2014
+            "releaseYear": 2014,
+            
+            "skinLines": [
+                "Marauder",
+                "Blood Moon"
+            ]
         },
         {
             "name": "Karma",
             "gender": "Female",
-            "position": ["Support"],
-            "species": ["Human", "Spiritualist"],
+            "position": [
+                "Support"
+            ],
+            "species": [
+                "Human",
+                "Spiritualist"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Ionia"],
+            "regions": [
+                "Ionia"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/43.png",
-            "releaseYear": 2011
+            "releaseYear": 2011,
+            
+            "skinLines": [
+                "Dark Star",
+                "Warden",
+                "Odyssey",
+                "Dawnbringer"
+            ]
         },
         {
             "name": "Karthus",
             "gender": "Male",
-            "position": ["Jungle"],
-            "species": ["Undead"],
+            "position": [
+                "Jungle"
+            ],
+            "species": [
+                "Undead"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Noxus", "Shadow Isles"],
+            "regions": [
+                "Noxus",
+                "Shadow Isles"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/30.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Elderwood",
+                "Infernal"
+            ]
         },
         {
             "name": "Kassadin",
             "gender": "Male",
-            "position": ["Middle"],
-            "species": ["Human", "Void-Being"],
+            "position": [
+                "Middle"
+            ],
+            "species": [
+                "Human",
+                "Void-Being"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Shurima", "Void"],
+            "regions": [
+                "Shurima",
+                "Void"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/38.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Hextech"
+            ]
         },
         {
             "name": "Katarina",
             "gender": "Female",
-            "position": ["Middle"],
-            "species": ["Human"],
+            "position": [
+                "Middle"
+            ],
+            "species": [
+                "Human"
+            ],
             "resource": "Manaless",
             "rangeType": "Melee",
-            "regions": ["Noxus"],
+            "regions": [
+                "Noxus"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/55.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Battle Academia",
+                "High Noon",
+                "Blood Moon",
+                "Warring Kingdoms"
+            ]
         },
         {
             "name": "Kayle",
             "gender": "Female",
-            "position": ["Top"],
-            "species": ["Aspect", "Human", "Magically Altered"],
+            "position": [
+                "Top"
+            ],
+            "species": [
+                "Aspect",
+                "Human",
+                "Magically Altered"
+            ],
             "resource": "Mana",
-            "rangeType": ["Melee", "Ranged"],
-            "regions": ["Demacia", "Targon"],
+            "rangeType": [
+                "Melee",
+                "Ranged"
+            ],
+            "regions": [
+                "Demacia",
+                "Targon"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/10.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Dragonslayer",
+                "PsyOps"
+            ]
         },
         {
             "name": "Kayn",
             "gender": "Male",
-            "position": ["Jungle"],
-            "species": ["Darkin", "Human", "Magically Altered"],
+            "position": [
+                "Jungle"
+            ],
+            "species": [
+                "Darkin",
+                "Human",
+                "Magically Altered"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Ionia", "Noxus", "Runeterra", "Shurima"],
+            "regions": [
+                "Ionia",
+                "Noxus",
+                "Runeterra",
+                "Shurima"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/141.png",
-            "releaseYear": 2017
+            "releaseYear": 2017,
+            
+            "skinLines": [
+                "Snow Moon",
+                "Odyssey"
+            ]
         },
         {
             "name": "Kennen",
             "gender": "Male",
-            "position": ["Top"],
-            "species": ["Yordle"],
+            "position": [
+                "Top"
+            ],
+            "species": [
+                "Yordle"
+            ],
             "resource": "Energy",
             "rangeType": "Ranged",
-            "regions": ["Ionia"],
+            "regions": [
+                "Ionia"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/85.png",
-            "releaseYear": 2010
+            "releaseYear": 2010,
+            
+            "skinLines": [
+                "Infernal",
+                "Blood Moon",
+                "Astronaut"
+            ]
         },
         {
             "name": "Kha'Zix",
             "gender": "Male",
-            "position": ["Jungle"],
-            "species": ["Void-Being"],
+            "position": [
+                "Jungle"
+            ],
+            "species": [
+                "Void-Being"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Void"],
+            "regions": [
+                "Void"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/121.png",
-            "releaseYear": 2012
+            "releaseYear": 2012,
+            
+            "skinLines": [
+                "Dark Star",
+                "Guardian of the Sands",
+                "Odyssey"
+            ]
         },
         {
             "name": "Kindred",
             "gender": "Other",
-            "position": ["Jungle"],
-            "species": ["God", "Spirit"],
+            "position": [
+                "Jungle"
+            ],
+            "species": [
+                "God",
+                "Spirit"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Runeterra"],
+            "regions": [
+                "Runeterra"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/203.png",
-            "releaseYear": 2015
+            "releaseYear": 2015,
+            
+            "skinLines": [
+                "Spirit Blossom",
+                "Super Galaxy"
+            ]
         },
         {
             "name": "Kled",
             "gender": "Male",
-            "position": ["Top"],
-            "species": ["Yordle"],
+            "position": [
+                "Top"
+            ],
+            "species": [
+                "Yordle"
+            ],
             "resource": "Courage",
             "rangeType": "Melee",
-            "regions": ["Noxus"],
+            "regions": [
+                "Noxus"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/240.png",
-            "releaseYear": 2016
+            "releaseYear": 2016,
+            
+            "skinLines": [
+                "Marauder"
+            ]
         },
         {
             "name": "Kog'Maw",
             "gender": "Male",
-            "position": ["Bottom"],
-            "species": ["Void-Being"],
+            "position": [
+                "Bottom"
+            ],
+            "species": [
+                "Void-Being"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Void"],
+            "regions": [
+                "Void"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/96.png",
-            "releaseYear": 2010
+            "releaseYear": 2010,
+            
+            "skinLines": [
+                "Battlecast",
+                "Hextech",
+                "Shan Hai Scrolls"
+            ]
         },
         {
             "name": "LeBlanc",
             "gender": "Female",
-            "position": ["Middle"],
-            "species": ["Human", "Magically Altered"],
+            "position": [
+                "Middle"
+            ],
+            "species": [
+                "Human",
+                "Magically Altered"
+            ],
             "rangeType": "Ranged",
             "resource": "Mana",
-            "regions": ["Noxus"],
+            "regions": [
+                "Noxus"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/7.png",
-            "releaseYear": 2010
+            "releaseYear": 2010,
+            
+            "skinLines": [
+                "Debonair",
+                "Coven",
+                "Elderwood",
+                "Bewitching"
+            ]
         },
         {
             "name": "Lee Sin",
             "gender": "Male",
-            "position": ["Jungle"],
-            "species": ["Human", "Spiritualist"],
+            "position": [
+                "Jungle"
+            ],
+            "species": [
+                "Human",
+                "Spiritualist"
+            ],
             "resource": "Energy",
             "rangeType": "Melee",
-            "regions": ["Ionia"],
+            "regions": [
+                "Ionia"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/64.png",
-            "releaseYear": 2011
+            "releaseYear": 2011,
+            
+            "skinLines": [
+                "Pool Party"
+            ]
         },
         {
             "name": "Leona",
             "gender": "Female",
-            "position": ["Support"],
-            "species": ["Aspect", "Human"],
+            "position": [
+                "Support"
+            ],
+            "species": [
+                "Aspect",
+                "Human"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Targon"],
+            "regions": [
+                "Targon"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/89.png",
-            "releaseYear": 2011
+            "releaseYear": 2011,
+            
+            "skinLines": [
+                "Debonair",
+                "Battle Academia",
+                "High Noon",
+                "Pool Party"
+            ]
         },
         {
             "name": "Lillia",
             "gender": "Female",
-            "position": ["Jungle", "Top"],
-            "species": ["Spirit"],
+            "position": [
+                "Jungle",
+                "Top"
+            ],
+            "species": [
+                "Spirit"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Ionia"],
+            "regions": [
+                "Ionia"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/876.png",
-            "releaseYear": 2020
+            "releaseYear": 2020,
+            
+            "skinLines": [
+                "Shan Hai Scrolls",
+                "Spirit Blossom"
+            ]
         },
         {
             "name": "Lissandra",
             "gender": "Female",
-            "position": ["Middle"],
-            "species": ["Human", "Iceborn"],
+            "position": [
+                "Middle"
+            ],
+            "species": [
+                "Human",
+                "Iceborn"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Freljord"],
+            "regions": [
+                "Freljord"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/127.png",
-            "releaseYear": 2013
+            "releaseYear": 2013,
+            
+            "skinLines": [
+                "Coven",
+                "Space Groove"
+            ]
         },
         {
             "name": "Lucian",
             "gender": "Male",
-            "position": ["Bottom"],
-            "species": ["Human"],
+            "position": [
+                "Bottom"
+            ],
+            "species": [
+                "Human"
+            ],
             "rangeType": "Ranged",
             "resource": "Mana",
-            "regions": ["Demacia", "Shadow Isles"],
+            "regions": [
+                "Demacia",
+                "Shadow Isles"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/236.png",
-            "releaseYear": 2013
+            "releaseYear": 2013,
+            
+            "skinLines": [
+                "Heartseeker",
+                "High Noon",
+                "Pulsefire",
+                "Victorious"
+            ]
         },
         {
             "name": "Lulu",
             "gender": "Female",
-            "position": ["Support"],
-            "species": ["Yordle"],
+            "position": [
+                "Support"
+            ],
+            "species": [
+                "Yordle"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Bandle City"],
+            "regions": [
+                "Bandle City"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/117.png",
-            "releaseYear": 2012
+            "releaseYear": 2012,
+            
+            "skinLines": [
+                "Space Groove",
+                "Star Guardian",
+                "Pool Party"
+            ]
         },
         {
             "name": "Lux",
             "gender": "Female",
-            "position": ["Middle", "Support"],
-            "species": ["Human", "Magicborn"],
+            "position": [
+                "Middle",
+                "Support"
+            ],
+            "species": [
+                "Human",
+                "Magicborn"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Demacia"],
+            "regions": [
+                "Demacia"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/99.png",
-            "releaseYear": 2010
+            "releaseYear": 2010,
+            
+            "skinLines": [
+                "Battle Academia",
+                "Empyrean",
+                "Space Groove",
+                "Star Guardian",
+                "Soul Fighter"
+            ]
         },
         {
             "name": "Malphite",
             "gender": "Male",
-            "position": ["Top"],
-            "species": ["Golem"],
+            "position": [
+                "Top"
+            ],
+            "species": [
+                "Golem"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Ixtal", "Shurima"],
+            "regions": [
+                "Ixtal",
+                "Shurima"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/54.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Dark Star",
+                "Odyssey"
+            ]
         },
         {
             "name": "Malzahar",
             "gender": "Male",
-            "position": ["Middle"],
-            "species": ["Human", "Void-Being"],
+            "position": [
+                "Middle"
+            ],
+            "species": [
+                "Human",
+                "Void-Being"
+            ],
             "rangeType": "Ranged",
             "resource": "Mana",
-            "regions": ["Shurima", "Void"],
+            "regions": [
+                "Shurima",
+                "Void"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/90.png",
-            "releaseYear": 2010
+            "releaseYear": 2010,
+            
+            "skinLines": [
+                "Battle Boss",
+                "Debonair",
+                "Hextech",
+                "Snow Day",
+                "Worldbreaker"
+            ]
         },
         {
             "name": "Maokai",
             "gender": "Male",
-            "position": ["Jungle", "Support"],
-            "species": ["Spirit"],
+            "position": [
+                "Jungle",
+                "Support"
+            ],
+            "species": [
+                "Spirit"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Shadow Isles"],
+            "regions": [
+                "Shadow Isles"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/57.png",
-            "releaseYear": 2011
+            "releaseYear": 2011,
+            
+            "skinLines": [
+                "Astronaut",
+                "Victorious",
+                "Worldbreaker"
+            ]
         },
         {
             "name": "Master Yi",
             "gender": "Male",
-            "position": ["Jungle"],
-            "species": ["Human", "Spiritualist"],
+            "position": [
+                "Jungle"
+            ],
+            "species": [
+                "Human",
+                "Spiritualist"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Ionia"],
+            "regions": [
+                "Ionia"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/11.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Debonair",
+                "Inkshadow",
+                "Blood Moon",
+                "PsyOps",
+                "Spirit Blossom"
+            ]
         },
         {
             "name": "Millio",
             "gender": "Male",
-            "position": ["Support"],
-            "species": ["Human", "Magicborn"],
+            "position": [
+                "Support"
+            ],
+            "species": [
+                "Human",
+                "Magicborn"
+            ],
             "rangeType": "Ranged",
             "resource": "Mana",
-            "regions": ["Ixtal"],
+            "regions": [
+                "Ixtal"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/902.png",
-            "releaseYear": 2023
+            "releaseYear": 2023,
+            "skinLines": [
+
+            ]
         },
         {
             "name": "Miss Fortune",
             "gender": "Female",
-            "position": ["Bottom"],
-            "species": ["Human"],
+            "position": [
+                "Bottom"
+            ],
+            "species": [
+                "Human"
+            ],
             "rangeType": "Ranged",
             "resource": "Mana",
-            "regions": ["Bilgewater"],
+            "regions": [
+                "Bilgewater"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/21.png",
-            "releaseYear": 2010
+            "releaseYear": 2010,
+            
+            "skinLines": [
+                "Arcade",
+                "Crime City",
+                "Broken Covenant",
+                "Star Guardian",
+                "Pool Party",
+                "Bewitching"
+            ]
         },
         {
             "name": "Mordekaiser",
             "gender": "Male",
-            "position": ["Top"],
-            "species": ["Revenant"],
+            "position": [
+                "Top"
+            ],
+            "species": [
+                "Revenant"
+            ],
             "resource": "Shield",
             "rangeType": "Melee",
-            "regions": ["Noxus"],
+            "regions": [
+                "Noxus"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/82.png",
-            "releaseYear": 2010
+            "releaseYear": 2010,
+            
+            "skinLines": [
+                "Dark Star",
+                "High Noon",
+                "Infernal"
+            ]
         },
         {
             "name": "Morgana",
             "gender": "Female",
-            "position": ["Support"],
-            "species": ["Aspect", "Human", "Magically Altered"],
+            "position": [
+                "Support"
+            ],
+            "species": [
+                "Aspect",
+                "Human",
+                "Magically Altered"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Demacia", "Targon"],
+            "regions": [
+                "Demacia",
+                "Targon"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/25.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Coven",
+                "Snow Moon",
+                "Bewitching",
+                "Dawnbringer",
+                "Victorious"
+            ]
         },
         {
             "name": "Naafiri",
             "gender": "Female",
-            "position": ["Middle"],
-            "species": ["Darkin", "Dog"],
+            "position": [
+                "Middle"
+            ],
+            "species": [
+                "Darkin",
+                "Dog"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Shurima"],
+            "regions": [
+                "Shurima"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/950.png",
-            "releaseYear": 2023
+            "releaseYear": 2023,
+            
+            "skinLines": [
+                "Soul Fighter"
+            ]
         },
         {
             "name": "Nami",
             "gender": "Female",
-            "position": ["Support"],
-            "species": ["Vastayan"],
+            "position": [
+                "Support"
+            ],
+            "species": [
+                "Vastayan"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Runeterra"],
+            "regions": [
+                "Runeterra"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/267.png",
-            "releaseYear": 2012
+            "releaseYear": 2012,
+            
+            "skinLines": [
+                "Coven",
+                "Space Groove",
+                "Bewitching"
+            ]
         },
         {
             "name": "Nasus",
             "gender": "Male",
-            "position": ["Top"],
-            "species": ["God-Warrior"],
+            "position": [
+                "Top"
+            ],
+            "species": [
+                "God-Warrior"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Shurima"],
+            "regions": [
+                "Shurima"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/75.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Battlecast",
+                "Infernal",
+                "Space Groove",
+                "Worldbreaker"
+            ]
         },
         {
             "name": "Nautilus",
             "gender": "Male",
-            "position": ["Support"],
-            "species": ["Revenant"],
+            "position": [
+                "Support"
+            ],
+            "species": [
+                "Revenant"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Bilgewater"],
+            "regions": [
+                "Bilgewater"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/111.png",
-            "releaseYear": 2012
+            "releaseYear": 2012,
+            
+            "skinLines": [
+                "Warden",
+                "Fright Night",
+                "Shan Hai Scrolls",
+                "Astronaut",
+                "Worldbreaker"
+            ]
         },
         {
             "name": "Neeko",
             "gender": "Female",
-            "position": ["Middle", "Support"],
-            "species": ["Vastayan"],
+            "position": [
+                "Middle",
+                "Support"
+            ],
+            "species": [
+                "Vastayan"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Ixtal"],
+            "regions": [
+                "Ixtal"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/518.png",
-            "releaseYear": 2018
+            "releaseYear": 2018,
+            
+            "skinLines": [
+                "Shan Hai Scrolls",
+                "Star Guardian",
+                "Bewitching"
+            ]
         },
         {
             "name": "Nidalee",
             "gender": "Female",
-            "position": ["Jungle"],
-            "species": ["Human", "Spiritualist"],
+            "position": [
+                "Jungle"
+            ],
+            "species": [
+                "Human",
+                "Spiritualist"
+            ],
             "resource": "Mana",
-            "rangeType": ["Melee", "Ranged"],
-            "regions": ["Ixtal"],
+            "rangeType": [
+                "Melee",
+                "Ranged"
+            ],
+            "regions": [
+                "Ixtal"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/76.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Super Galaxy",
+                "Bewitching",
+                "Dawnbringer",
+                "Warring Kingdoms"
+            ]
         },
         {
             "name": "Nilah",
             "gender": "Female",
-            "position": ["Bottom"],
-            "species": ["Human", "Magically Altered"],
+            "position": [
+                "Bottom"
+            ],
+            "species": [
+                "Human",
+                "Magically Altered"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Bilgewater"],
+            "regions": [
+                "Bilgewater"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/895.png",
-            "releaseYear": 2022
+            "releaseYear": 2022,
+            
+            "skinLines": [
+                "Coven",
+                "Star Guardian"
+            ]
         },
         {
             "name": "Nocturne",
             "gender": "Male",
-            "position": ["Jungle"],
-            "species": ["Demon", "Spirit"],
+            "position": [
+                "Jungle"
+            ],
+            "species": [
+                "Demon",
+                "Spirit"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Runeterra"],
+            "regions": [
+                "Runeterra"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/56.png",
-            "releaseYear": 2011
+            "releaseYear": 2011,
+            
+            "skinLines": [
+                "Broken Covenant",
+                "Hextech"
+            ]
         },
         {
             "name": "Nunu & Willump",
             "gender": "Male",
-            "position": ["Jungle"],
-            "species": ["Human", "Yeti"],
+            "position": [
+                "Jungle"
+            ],
+            "species": [
+                "Human",
+                "Yeti"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Freljord"],
+            "regions": [
+                "Freljord"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/20.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Space Groove"
+            ]
         },
         {
             "name": "Olaf",
             "gender": "Male",
-            "position": ["Jungle", "Top"],
-            "species": ["Human", "Iceborn"],
+            "position": [
+                "Jungle",
+                "Top"
+            ],
+            "species": [
+                "Human",
+                "Iceborn"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Freljord"],
+            "regions": [
+                "Freljord"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/2.png",
-            "releaseYear": 2010
+            "releaseYear": 2010,
+            
+            "skinLines": [
+                "Dragonslayer",
+                "Marauder",
+                "Sentinel"
+            ]
         },
         {
             "name": "Orianna",
             "gender": "Female",
-            "position": ["Middle"],
-            "species": ["Golem"],
+            "position": [
+                "Middle"
+            ],
+            "species": [
+                "Golem"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Piltover"],
+            "regions": [
+                "Piltover"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/61.png",
-            "releaseYear": 2011
+            "releaseYear": 2011,
+            
+            "skinLines": [
+                "Heartseeker",
+                "Dark Star",
+                "Star Guardian",
+                "Pool Party",
+                "Victorious"
+            ]
         },
         {
             "name": "Ornn",
             "gender": "Male",
-            "position": ["Top"],
-            "species": ["God", "Spirit"],
+            "position": [
+                "Top"
+            ],
+            "species": [
+                "God",
+                "Spirit"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Freljord"],
+            "regions": [
+                "Freljord"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/516.png",
-            "releaseYear": 2017
+            "releaseYear": 2017,
+            
+            "skinLines": [
+                "Elderwood",
+                "Space Groove"
+            ]
         },
         {
             "name": "Pantheon",
             "gender": "Male",
-            "position": ["Jungle", "Middle", "Support"],
-            "species": ["Aspect", "Human"],
+            "position": [
+                "Jungle",
+                "Middle",
+                "Support"
+            ],
+            "species": [
+                "Aspect",
+                "Human"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Targon"],
+            "regions": [
+                "Targon"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/80.png",
-            "releaseYear": 2010
+            "releaseYear": 2010,
+            
+            "skinLines": [
+                "Dragonslayer",
+                "Pulsefire"
+            ]
         },
         {
             "name": "Poppy",
             "gender": "Female",
-            "position": ["Jungle", "Top"],
-            "species": ["Yordle"],
+            "position": [
+                "Jungle",
+                "Top"
+            ],
+            "species": [
+                "Yordle"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Demacia"],
+            "regions": [
+                "Demacia"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/78.png",
-            "releaseYear": 2010
+            "releaseYear": 2010,
+            
+            "skinLines": [
+                "Hextech",
+                "Star Guardian",
+                "Astronaut",
+                "Bewitching"
+            ]
         },
         {
             "name": "Pyke",
             "gender": "Male",
-            "position": ["Support"],
-            "species": ["Revenant"],
+            "position": [
+                "Support"
+            ],
+            "species": [
+                "Revenant"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Bilgewater"],
+            "regions": [
+                "Bilgewater"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/555.png",
-            "releaseYear": 2018
+            "releaseYear": 2018,
+            
+            "skinLines": [
+                "Blood Moon",
+                "Empyrean",
+                "PsyOps",
+                "Sentinel",
+                "Soul Fighter"
+            ]
         },
         {
             "name": "Qiyana",
             "gender": "Female",
-            "position": ["Middle"],
-            "species": ["Human", "Magicborn"],
+            "position": [
+                "Middle"
+            ],
+            "species": [
+                "Human",
+                "Magicborn"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Ixtal"],
+            "regions": [
+                "Ixtal"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/246.png",
-            "releaseYear": 2019
+            "releaseYear": 2019,
+            
+            "skinLines": [
+                "Battle Boss"
+            ]
         },
         {
             "name": "Quinn",
             "gender": "Female",
-            "position": ["Top"],
-            "species": ["Human"],
+            "position": [
+                "Top"
+            ],
+            "species": [
+                "Human"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Demacia"],
+            "regions": [
+                "Demacia"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/133.png",
-            "releaseYear": 2013
+            "releaseYear": 2013,
+            
+            "skinLines": [
+                "Heartseeker",
+                "Warden",
+                "Star Guardian"
+            ]
         },
         {
             "name": "Rakan",
             "gender": "Male",
-            "position": ["Support"],
-            "species": ["Vastayan"],
+            "position": [
+                "Support"
+            ],
+            "species": [
+                "Vastayan"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Ionia"],
+            "regions": [
+                "Ionia"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/497.png",
-            "releaseYear": 2017
+            "releaseYear": 2017,
+            
+            "skinLines": [
+                "Elderwood",
+                "Broken Covenant",
+                "Star Guardian"
+            ]
         },
         {
             "name": "Rammus",
             "gender": "Male",
-            "position": ["Jungle"],
-            "species": ["God-Warrior"],
+            "position": [
+                "Jungle"
+            ],
+            "species": [
+                "God-Warrior"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Shurima"],
+            "regions": [
+                "Shurima"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/33.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Hextech",
+                "Guardian of the Sands",
+                "Astronaut"
+            ]
         },
         {
             "name": "Rek'Sai",
             "gender": "Female",
-            "position": ["Jungle"],
-            "species": ["Void-Being"],
+            "position": [
+                "Jungle"
+            ],
+            "species": [
+                "Void-Being"
+            ],
             "resource": "Rage",
             "rangeType": "Melee",
-            "regions": ["Shurima", "Void"],
+            "regions": [
+                "Shurima",
+                "Void"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/421.png",
-            "releaseYear": 2014
+            "releaseYear": 2014,
+            
+            "skinLines": [
+                "Blackfrost",
+                "Elderwood",
+                "Pool Party"
+            ]
         },
         {
             "name": "Rell",
             "gender": "Female",
-            "position": ["Support"],
-            "species": ["Human", "Magically Altered", "Magicborn"],
+            "position": [
+                "Support"
+            ],
+            "species": [
+                "Human",
+                "Magically Altered",
+                "Magicborn"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Noxus"],
+            "regions": [
+                "Noxus"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/526.png",
-            "releaseYear": 2020
+            "releaseYear": 2020,
+            
+            "skinLines": [
+                "Star Guardian"
+            ]
         },
         {
             "name": "Renata Glasc",
             "gender": "Female",
-            "position": ["Support"],
-            "species": ["Chemically Altered", "Human"],
+            "position": [
+                "Support"
+            ],
+            "species": [
+                "Chemically Altered",
+                "Human"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Zaun"],
+            "regions": [
+                "Zaun"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/888.png",
-            "releaseYear": 2022
+            "releaseYear": 2022,
+            
+            "skinLines": [
+                "Fright Night"
+            ]
         },
         {
             "name": "Renekton",
             "gender": "Male",
-            "position": ["Top"],
-            "species": ["God-Warrior"],
+            "position": [
+                "Top"
+            ],
+            "species": [
+                "God-Warrior"
+            ],
             "resource": "Fury",
             "rangeType": "Melee",
-            "regions": ["Shurima"],
+            "regions": [
+                "Shurima"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/58.png",
-            "releaseYear": 2011
+            "releaseYear": 2011,
+            
+            "skinLines": [
+                "Blackfrost",
+                "Hextech",
+                "Pool Party",
+                "Dawnbringer"
+            ]
         },
         {
             "name": "Rengar",
             "gender": "Male",
-            "position": ["Jungle", "Top"],
-            "species": ["Vastayan"],
+            "position": [
+                "Jungle",
+                "Top"
+            ],
+            "species": [
+                "Vastayan"
+            ],
             "resource": "Ferocity",
             "rangeType": "Melee",
-            "regions": ["Ixtal", "Shurima"],
+            "regions": [
+                "Ixtal",
+                "Shurima"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/107.png",
-            "releaseYear": 2012
+            "releaseYear": 2012,
+            
+            "skinLines": [
+                "Guardian of the Sands",
+                "Sentinel"
+            ]
         },
         {
             "name": "Riven",
             "gender": "Female",
-            "position": ["Top"],
-            "species": ["Human"],
+            "position": [
+                "Top"
+            ],
+            "species": [
+                "Human"
+            ],
             "resource": "Manaless",
             "rangeType": "Melee",
-            "regions": ["Ionia", "Noxus"],
+            "regions": [
+                "Ionia",
+                "Noxus"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/92.png",
-            "releaseYear": 2011
+            "releaseYear": 2011,
+            
+            "skinLines": [
+                "Arcade",
+                "Broken Covenant",
+                "Pulsefire",
+                "Spirit Blossom",
+                "Sentinel",
+                "Dawnbringer"
+            ]
         },
         {
             "name": "Rumble",
             "gender": "Male",
-            "position": ["Middle", "Top"],
-            "species": ["Yordle"],
+            "position": [
+                "Middle",
+                "Top"
+            ],
+            "species": [
+                "Yordle"
+            ],
             "resource": "Heat",
             "rangeType": "Melee",
-            "regions": ["Bandle City"],
+            "regions": [
+                "Bandle City"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/68.png",
-            "releaseYear": 2011
+            "releaseYear": 2011,
+            
+            "skinLines": [
+                "Space Groove",
+                "Super Galaxy"
+            ]
         },
         {
             "name": "Ryze",
             "gender": "Male",
-            "position": ["Middle", "Top"],
-            "species": ["Human", "Magically Altered"],
+            "position": [
+                "Middle",
+                "Top"
+            ],
+            "species": [
+                "Human",
+                "Magically Altered"
+            ],
             "rangeType": "Ranged",
             "resource": "Mana",
-            "regions": ["Runeterra"],
+            "regions": [
+                "Runeterra"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/13.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Guardian of the Sands"
+            ]
         },
         {
             "name": "Samira",
             "gender": "Female",
-            "position": ["Bottom"],
-            "species": ["Human"],
+            "position": [
+                "Bottom"
+            ],
+            "species": [
+                "Human"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Noxus", "Shurima"],
+            "regions": [
+                "Noxus",
+                "Shurima"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/360.png",
-            "releaseYear": 2020
+            "releaseYear": 2020,
+            
+            "skinLines": [
+                "High Noon",
+                "PsyOps",
+                "Space Groove",
+                "Soul Fighter"
+            ]
         },
         {
             "name": "Sejuani",
             "gender": "Female",
-            "position": ["Jungle"],
-            "species": ["Human", "Iceborn"],
+            "position": [
+                "Jungle"
+            ],
+            "species": [
+                "Human",
+                "Iceborn"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Freljord"],
+            "regions": [
+                "Freljord"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/113.png",
-            "releaseYear": 2012
+            "releaseYear": 2012,
+            
+            "skinLines": [
+                "Hextech",
+                "Firecracker",
+                "Victorious"
+            ]
         },
         {
             "name": "Senna",
             "gender": "Female",
-            "position": ["Support"],
-            "species": ["Human", "Undead"],
+            "position": [
+                "Support"
+            ],
+            "species": [
+                "Human",
+                "Undead"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Shadow Isles"],
+            "regions": [
+                "Shadow Isles"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/235.png",
-            "releaseYear": 2019
+            "releaseYear": 2019,
+            
+            "skinLines": [
+                "High Noon",
+                "Star Guardian",
+                "Bewitching"
+            ]
         },
         {
             "name": "Seraphine",
             "gender": "Female",
-            "position": ["Support"],
-            "species": ["Human", "Magicborn"],
+            "position": [
+                "Support"
+            ],
+            "species": [
+                "Human",
+                "Magicborn"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Piltover", "Zaun"],
+            "regions": [
+                "Piltover",
+                "Zaun"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/147.png",
-            "releaseYear": 2020
+            "releaseYear": 2020,
+            
+            "skinLines": [
+                "Star Guardian"
+            ]
         },
         {
             "name": "Sett",
             "gender": "Male",
-            "position": ["Top"],
-            "species": ["Human", "Vastayan"],
+            "position": [
+                "Top"
+            ],
+            "species": [
+                "Human",
+                "Vastayan"
+            ],
             "resource": "Grit",
             "rangeType": "Melee",
-            "regions": ["Ionia"],
+            "regions": [
+                "Ionia"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/875.png",
-            "releaseYear": 2020
+            "releaseYear": 2020,
+            
+            "skinLines": [
+                "Firecracker",
+                "Spirit Blossom",
+                "Pool Party",
+                "Soul Fighter"
+            ]
         },
         {
             "name": "Shaco",
             "gender": "Male",
-            "position": ["Jungle"],
-            "species": ["Spirit"],
+            "position": [
+                "Jungle"
+            ],
+            "species": [
+                "Spirit"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Runeterra"],
+            "regions": [
+                "Runeterra"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/35.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Dark Star",
+                "Soul Fighter"
+            ]
         },
         {
             "name": "Shen",
             "gender": "Male",
-            "position": ["Top"],
-            "species": ["Human", "Spiritualist"],
+            "position": [
+                "Top"
+            ],
+            "species": [
+                "Human",
+                "Spiritualist"
+            ],
             "resource": "Energy",
             "rangeType": "Melee",
-            "regions": ["Ionia"],
+            "regions": [
+                "Ionia"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/98.png",
-            "releaseYear": 2010
+            "releaseYear": 2010,
+            
+            "skinLines": [
+                "Infernal",
+                "Blood Moon",
+                "PsyOps",
+                "Pulsefire"
+            ]
         },
         {
             "name": "Shyvana",
             "gender": "Female",
-            "position": ["Jungle"],
-            "species": ["Dragon", "Magically Altered"],
+            "position": [
+                "Jungle"
+            ],
+            "species": [
+                "Dragon",
+                "Magically Altered"
+            ],
             "resource": "Fury",
             "rangeType": "Melee",
-            "regions": ["Demacia"],
+            "regions": [
+                "Demacia"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/102.png",
-            "releaseYear": 2011
+            "releaseYear": 2011,
+            
+            "skinLines": [
+                "Super Galaxy"
+            ]
         },
         {
             "name": "Singed",
             "gender": "Male",
-            "position": ["Top"],
-            "species": ["Chemically Altered", "Human"],
+            "position": [
+                "Top"
+            ],
+            "species": [
+                "Chemically Altered",
+                "Human"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Piltover", "Zaun"],
+            "regions": [
+                "Piltover",
+                "Zaun"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/27.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Hextech",
+                "Snow Day",
+                "Astronaut"
+            ]
         },
         {
             "name": "Sion",
             "gender": "Male",
-            "position": ["Top"],
-            "species": ["Revenant"],
+            "position": [
+                "Top"
+            ],
+            "species": [
+                "Revenant"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Noxus"],
+            "regions": [
+                "Noxus"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/14.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Blackfrost",
+                "Hextech",
+                "High Noon",
+                "Worldbreaker"
+            ]
         },
         {
             "name": "Sivir",
             "gender": "Female",
-            "position": ["Bottom"],
-            "species": ["Human"],
+            "position": [
+                "Bottom"
+            ],
+            "species": [
+                "Human"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Shurima"],
+            "regions": [
+                "Shurima"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/15.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Cafe Cuties",
+                "Warden",
+                "Blood Moon",
+                "Odyssey",
+                "Victorious"
+            ]
         },
         {
             "name": "Skarner",
             "gender": "Male",
-            "position": ["Jungle"],
-            "species": ["Brackern"],
+            "position": [
+                "Jungle"
+            ],
+            "species": [
+                "Brackern"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Shurima"],
+            "regions": [
+                "Shurima"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/72.png",
-            "releaseYear": 2011
+            "releaseYear": 2011,
+            
+            "skinLines": [
+                "Battlecast",
+                "Guardian of the Sands"
+            ]
         },
         {
             "name": "Sona",
             "gender": "Female",
-            "position": ["Support"],
-            "species": ["Human", "Magicborn"],
+            "position": [
+                "Support"
+            ],
+            "species": [
+                "Human",
+                "Magicborn"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Demacia", "Ionia"],
+            "regions": [
+                "Demacia",
+                "Ionia"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/37.png",
-            "releaseYear": 2010
+            "releaseYear": 2010,
+            
+            "skinLines": [
+                "Arcade",
+                "Odyssey",
+                "PsyOps",
+                "Star Guardian"
+            ]
         },
         {
             "name": "Soraka",
             "gender": "Female",
-            "position": ["Support"],
-            "species": ["Celestial"],
+            "position": [
+                "Support"
+            ],
+            "species": [
+                "Celestial"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Ionia", "Targon"],
+            "regions": [
+                "Ionia",
+                "Targon"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/16.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Cafe Cuties",
+                "Spirit Blossom",
+                "Star Guardian",
+                "Dawnbringer"
+            ]
         },
         {
             "name": "Swain",
             "gender": "Male",
-            "position": ["Middle", "Support"],
-            "species": ["Human", "Magically Altered"],
+            "position": [
+                "Middle",
+                "Support"
+            ],
+            "species": [
+                "Human",
+                "Magically Altered"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Noxus"],
+            "regions": [
+                "Noxus"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/50.png",
-            "releaseYear": 2010
+            "releaseYear": 2010,
+            
+            "skinLines": [
+                "Hextech"
+            ]
         },
         {
             "name": "Sylas",
             "gender": "Male",
-            "position": ["Middle"],
-            "species": ["Human", "Magicborn"],
+            "position": [
+                "Middle"
+            ],
+            "species": [
+                "Human",
+                "Magicborn"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Demacia", "Freljord"],
+            "regions": [
+                "Demacia",
+                "Freljord"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/517.png",
-            "releaseYear": 2019
+            "releaseYear": 2019,
+            "skinLines": [
+
+            ]
         },
         {
             "name": "Syndra",
             "gender": "Female",
-            "position": ["Middle"],
-            "species": ["Human", "Magicborn"],
+            "position": [
+                "Middle"
+            ],
+            "species": [
+                "Human",
+                "Magicborn"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Ionia"],
+            "regions": [
+                "Ionia"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/134.png",
-            "releaseYear": 2012
+            "releaseYear": 2012,
+            
+            "skinLines": [
+                "Coven",
+                "Snow Day",
+                "Spirit Blossom",
+                "Star Guardian",
+                "Pool Party",
+                "Bewitching"
+            ]
         },
         {
             "name": "Tahm Kench",
             "gender": "Male",
-            "position": ["Support", "Top"],
-            "species": ["Demon", "Spirit"],
+            "position": [
+                "Support",
+                "Top"
+            ],
+            "species": [
+                "Demon",
+                "Spirit"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Bilgewater", "Runeterra"],
+            "regions": [
+                "Bilgewater",
+                "Runeterra"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/223.png",
-            "releaseYear": 2015
+            "releaseYear": 2015,
+            
+            "skinLines": [
+                "High Noon",
+                "Shan Hai Scrolls"
+            ]
         },
         {
             "name": "Taliyah",
             "gender": "Female",
-            "position": ["Jungle", "Middle"],
-            "species": ["Human", "Magicborn"],
+            "position": [
+                "Jungle",
+                "Middle"
+            ],
+            "species": [
+                "Human",
+                "Magicborn"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Shurima"],
+            "regions": [
+                "Shurima"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/163.png",
-            "releaseYear": 2016
+            "releaseYear": 2016,
+            
+            "skinLines": [
+                "Star Guardian",
+                "Pool Party"
+            ]
         },
         {
             "name": "Talon",
             "gender": "Male",
-            "position": ["Jungle", "Middle"],
-            "species": ["Human"],
+            "position": [
+                "Jungle",
+                "Middle"
+            ],
+            "species": [
+                "Human"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Noxus"],
+            "regions": [
+                "Noxus"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/91.png",
-            "releaseYear": 2011
+            "releaseYear": 2011,
+            
+            "skinLines": [
+                "High Noon",
+                "Blood Moon"
+            ]
         },
         {
             "name": "Taric",
             "gender": "Male",
-            "position": ["Support"],
-            "species": ["Aspect", "Human"],
+            "position": [
+                "Support"
+            ],
+            "species": [
+                "Aspect",
+                "Human"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Demacia", "Targon"],
+            "regions": [
+                "Demacia",
+                "Targon"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/44.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Space Groove",
+                "Pool Party"
+            ]
         },
         {
             "name": "Teemo",
             "gender": "Male",
-            "position": ["Top"],
-            "species": ["Yordle"],
+            "position": [
+                "Top"
+            ],
+            "species": [
+                "Yordle"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Bandle City"],
+            "regions": [
+                "Bandle City"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/17.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Firecracker",
+                "Space Groove",
+                "Spirit Blossom",
+                "Astronaut"
+            ]
         },
         {
             "name": "Thresh",
             "gender": "Male",
-            "position": ["Support"],
-            "species": ["Undead"],
+            "position": [
+                "Support"
+            ],
+            "species": [
+                "Undead"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Shadow Isles"],
+            "regions": [
+                "Shadow Isles"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/412.png",
-            "releaseYear": 2013
+            "releaseYear": 2013,
+            
+            "skinLines": [
+                "Dark Star",
+                "High Noon",
+                "Blood Moon",
+                "Pulsefire",
+                "Spirit Blossom"
+            ]
         },
         {
             "name": "Tristana",
             "gender": "Female",
-            "position": ["Bottom"],
-            "species": ["Yordle"],
+            "position": [
+                "Bottom"
+            ],
+            "species": [
+                "Yordle"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Bandle City"],
+            "regions": [
+                "Bandle City"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/18.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Hextech",
+                "Firecracker",
+                "Spirit Blossom",
+                "Bewitching"
+            ]
         },
         {
             "name": "Trundle",
             "gender": "Male",
-            "position": ["Jungle", "Top"],
-            "species": ["Iceborn", "Troll"],
+            "position": [
+                "Jungle",
+                "Top"
+            ],
+            "species": [
+                "Iceborn",
+                "Troll"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Freljord"],
+            "regions": [
+                "Freljord"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/48.png",
-            "releaseYear": 2010
+            "releaseYear": 2010,
+            
+            "skinLines": [
+                "Dragonslayer",
+                "Fright Night",
+                "Worldbreaker"
+            ]
         },
         {
             "name": "Tryndamere",
             "gender": "Male",
-            "position": ["Top"],
-            "species": ["Human", "Magically Altered"],
+            "position": [
+                "Top"
+            ],
+            "species": [
+                "Human",
+                "Magically Altered"
+            ],
             "resource": "Fury",
             "rangeType": "Melee",
-            "regions": ["Freljord"],
+            "regions": [
+                "Freljord"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/23.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Blood Moon",
+                "Warring Kingdoms"
+            ]
         },
         {
             "name": "Twisted Fate",
             "gender": "Male",
-            "position": ["Middle"],
-            "species": ["Human", "Magicborn"],
+            "position": [
+                "Middle"
+            ],
+            "species": [
+                "Human",
+                "Magicborn"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Bilgewater"],
+            "regions": [
+                "Bilgewater"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/4.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "High Noon",
+                "Blood Moon",
+                "Odyssey",
+                "Pulsefire",
+                "Space Groove"
+            ]
         },
         {
             "name": "Twitch",
             "gender": "Male",
-            "position": ["Bottom"],
-            "species": ["Chemically Altered", "Rat"],
+            "position": [
+                "Bottom"
+            ],
+            "species": [
+                "Chemically Altered",
+                "Rat"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Zaun"],
+            "regions": [
+                "Zaun"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/29.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Crime City",
+                "Dragonslayer",
+                "High Noon",
+                "Vandal"
+            ]
         },
         {
             "name": "Udyr",
             "gender": "Male",
-            "position": ["Jungle", "Top"],
-            "species": ["Human", "Spiritualist"],
+            "position": [
+                "Jungle",
+                "Top"
+            ],
+            "species": [
+                "Human",
+                "Spiritualist"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Freljord", "Ionia"],
+            "regions": [
+                "Freljord",
+                "Ionia"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/77.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Inkshadow"
+            ]
         },
         {
             "name": "Urgot",
             "gender": "Male",
-            "position": ["Top"],
-            "species": ["Chemically Altered", "Cyborg", "Human"],
+            "position": [
+                "Top"
+            ],
+            "species": [
+                "Chemically Altered",
+                "Cyborg",
+                "Human"
+            ],
             "rangeType": "Ranged",
             "resource": "Mana",
-            "regions": ["Noxus", "Zaun"],
+            "regions": [
+                "Noxus",
+                "Zaun"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/6.png",
-            "releaseYear": 2010
+            "releaseYear": 2010,
+            
+            "skinLines": [
+                "Battlecast",
+                "High Noon",
+                "Fright Night"
+            ]
         },
         {
             "name": "Varus",
             "gender": "Male",
-            "position": ["Bottom", "Middle"],
-            "species": ["Darkin", "Human"],
+            "position": [
+                "Bottom",
+                "Middle"
+            ],
+            "species": [
+                "Darkin",
+                "Human"
+            ],
             "rangeType": "Ranged",
             "resource": "Mana",
-            "regions": ["Ionia", "Runeterra", "Shurima"],
+            "regions": [
+                "Ionia",
+                "Runeterra",
+                "Shurima"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/110.png",
-            "releaseYear": 2012
+            "releaseYear": 2012,
+            
+            "skinLines": [
+                "Arclight",
+                "Heartseeker",
+                "Dark Star",
+                "High Noon",
+                "Infernal",
+                "Snow Moon"
+            ]
         },
         {
             "name": "Vayne",
             "gender": "Female",
-            "position": ["Bottom", "Top"],
-            "species": ["Human"],
+            "position": [
+                "Bottom",
+                "Top"
+            ],
+            "species": [
+                "Human"
+            ],
             "rangeType": "Ranged",
             "resource": "Mana",
-            "regions": ["Demacia"],
+            "regions": [
+                "Demacia"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/67.png",
-            "releaseYear": 2011
+            "releaseYear": 2011,
+            
+            "skinLines": [
+                "Arclight",
+                "Heartseeker",
+                "Dragonslayer",
+                "Firecracker",
+                "Spirit Blossom",
+                "Sentinel",
+                "Dawnbringer"
+            ]
         },
         {
             "name": "Veigar",
             "gender": "Male",
-            "position": ["Middle"],
-            "species": ["Yordle"],
+            "position": [
+                "Middle"
+            ],
+            "species": [
+                "Yordle"
+            ],
             "rangeType": "Ranged",
             "resource": "Mana",
-            "regions": ["Bandle City", "Runeterra"],
+            "regions": [
+                "Bandle City",
+                "Runeterra"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/45.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Elderwood",
+                "Astronaut"
+            ]
         },
         {
             "name": "Vel'Koz",
             "gender": "Male",
-            "position": ["Middle", "Support"],
-            "species": ["Void-Being"],
+            "position": [
+                "Middle",
+                "Support"
+            ],
+            "species": [
+                "Void-Being"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Void"],
+            "regions": [
+                "Void"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/161.png",
-            "releaseYear": 2014
+            "releaseYear": 2014,
+            
+            "skinLines": [
+                "Arclight",
+                "Battlecast",
+                "Blackfrost",
+                "Infernal"
+            ]
         },
         {
             "name": "Vex",
             "gender": "Female",
-            "position": ["Middle"],
-            "species": ["Yordle"],
+            "position": [
+                "Middle"
+            ],
+            "species": [
+                "Yordle"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Bandle City", "Shadow Isles"],
+            "regions": [
+                "Bandle City",
+                "Shadow Isles"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/711.png",
-            "releaseYear": 2021
+            "releaseYear": 2021,
+            
+            "skinLines": [
+                "Empyrean",
+                "Dawnbringer"
+            ]
         },
         {
             "name": "Vi",
             "gender": "Female",
-            "position": ["Jungle"],
-            "species": ["Human"],
+            "position": [
+                "Jungle"
+            ],
+            "species": [
+                "Human"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Piltover", "Zaun"],
+            "regions": [
+                "Piltover",
+                "Zaun"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/254.png",
-            "releaseYear": 2012
+            "releaseYear": 2012,
+            
+            "skinLines": [
+                "Debonair",
+                "PsyOps",
+                "Warring Kingdoms"
+            ]
         },
         {
             "name": "Viego",
             "gender": "Male",
-            "position": ["Jungle"],
-            "species": ["Undead"],
+            "position": [
+                "Jungle"
+            ],
+            "species": [
+                "Undead"
+            ],
             "resource": "Manaless",
             "rangeType": "Melee",
-            "regions": ["Camavor", "Shadow Isles"],
+            "regions": [
+                "Camavor",
+                "Shadow Isles"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/234.png",
-            "releaseYear": 2021
+            "releaseYear": 2021,
+            
+            "skinLines": [
+                "Lunar Beast",
+                "Soul Fighter"
+            ]
         },
         {
             "name": "Viktor",
             "gender": "Male",
-            "position": ["Middle"],
-            "species": ["Cyborg", "Human"],
+            "position": [
+                "Middle"
+            ],
+            "species": [
+                "Cyborg",
+                "Human"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Piltover", "Zaun"],
+            "regions": [
+                "Piltover",
+                "Zaun"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/112.png",
-            "releaseYear": 2011
+            "releaseYear": 2011,
+            
+            "skinLines": [
+                "High Noon",
+                "PsyOps"
+            ]
         },
         {
             "name": "Vladimir",
             "gender": "Male",
-            "position": ["Middle"],
-            "species": ["Human", "Magically Altered"],
+            "position": [
+                "Middle"
+            ],
+            "species": [
+                "Human",
+                "Magically Altered"
+            ],
             "resource": "Bloodthirst",
             "rangeType": "Ranged",
-            "regions": ["Camavor", "Noxus", "Shadow Isles"],
+            "regions": [
+                "Camavor",
+                "Noxus",
+                "Shadow Isles"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/8.png",
-            "releaseYear": 2010
+            "releaseYear": 2010,
+            
+            "skinLines": [
+                "Cafe Cuties",
+                "Broken Covenant",
+                "Vandal"
+            ]
         },
         {
             "name": "Volibear",
             "gender": "Male",
-            "position": ["Jungle", "Top"],
-            "species": ["God", "Spirit"],
+            "position": [
+                "Jungle",
+                "Top"
+            ],
+            "species": [
+                "God",
+                "Spirit"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Freljord"],
+            "regions": [
+                "Freljord"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/106.png",
-            "releaseYear": 2011
+            "releaseYear": 2011,
+            
+            "skinLines": [
+                "Inkshadow"
+            ]
         },
         {
             "name": "Warwick",
             "gender": "Male",
-            "position": ["Jungle", "Top"],
-            "species": ["Chemically Altered", "Cyborg", "Human"],
+            "position": [
+                "Jungle",
+                "Top"
+            ],
+            "species": [
+                "Chemically Altered",
+                "Cyborg",
+                "Human"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Zaun"],
+            "regions": [
+                "Zaun"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/19.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Marauder"
+            ]
         },
         {
             "name": "Wukong",
             "gender": "Male",
-            "position": ["Jungle", "Top"],
-            "species": ["Vastayan"],
+            "position": [
+                "Jungle",
+                "Top"
+            ],
+            "species": [
+                "Vastayan"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Ionia"],
+            "regions": [
+                "Ionia"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/62.png",
-            "releaseYear": 2011
+            "releaseYear": 2011,
+            
+            "skinLines": [
+                "Elderwood",
+                "Battle Academia"
+            ]
         },
         {
             "name": "Xayah",
             "gender": "Female",
-            "position": ["Bottom"],
-            "species": ["Vastayan"],
+            "position": [
+                "Bottom"
+            ],
+            "species": [
+                "Vastayan"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Ionia"],
+            "regions": [
+                "Ionia"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/498.png",
-            "releaseYear": 2017
+            "releaseYear": 2017,
+            
+            "skinLines": [
+                "Elderwood",
+                "Broken Covenant",
+                "Star Guardian"
+            ]
         },
         {
             "name": "Xerath",
             "gender": "Male",
-            "position": ["Middle", "Support"],
-            "species": ["God-Warrior"],
+            "position": [
+                "Middle",
+                "Support"
+            ],
+            "species": [
+                "God-Warrior"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Shurima"],
+            "regions": [
+                "Shurima"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/101.png",
-            "releaseYear": 2011
+            "releaseYear": 2011,
+            
+            "skinLines": [
+                "Battlecast",
+                "Dark Star",
+                "Guardian of the Sands",
+                "Astronaut"
+            ]
         },
         {
             "name": "Xin Zhao",
             "gender": "Male",
-            "position": ["Jungle"],
-            "species": ["Human"],
+            "position": [
+                "Jungle"
+            ],
+            "species": [
+                "Human"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Demacia", "Ionia", "Noxus"],
+            "regions": [
+                "Demacia",
+                "Ionia",
+                "Noxus"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/5.png",
-            "releaseYear": 2010
+            "releaseYear": 2010,
+            
+            "skinLines": [
+                "Marauder",
+                "Firecracker",
+                "Warring Kingdoms"
+            ]
         },
         {
             "name": "Yasuo",
             "gender": "Male",
-            "position": ["Middle"],
-            "species": ["Human", "Magicborn"],
+            "position": [
+                "Middle"
+            ],
+            "species": [
+                "Human",
+                "Magicborn"
+            ],
             "resource": "Flow",
             "rangeType": "Melee",
-            "regions": ["Ionia"],
+            "regions": [
+                "Ionia"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/157.png",
-            "releaseYear": 2013
+            "releaseYear": 2013,
+            
+            "skinLines": [
+                "Battle Boss",
+                "High Noon",
+                "Inkshadow",
+                "Blood Moon",
+                "Odyssey",
+                "Spirit Blossom"
+            ]
         },
         {
             "name": "Yone",
             "gender": "Male",
-            "position": ["Middle", "Top"],
-            "species": ["Human", "Magically Altered"],
+            "position": [
+                "Middle",
+                "Top"
+            ],
+            "species": [
+                "Human",
+                "Magically Altered"
+            ],
             "resource": "Manaless",
             "rangeType": "Melee",
-            "regions": ["Ionia"],
+            "regions": [
+                "Ionia"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/777.png",
-            "releaseYear": 2020
+            "releaseYear": 2020,
+            
+            "skinLines": [
+                "Battle Academia",
+                "Inkshadow",
+                "Spirit Blossom",
+                "Dawnbringer"
+            ]
         },
         {
             "name": "Yorick",
             "gender": "Male",
-            "position": ["Top"],
-            "species": ["Human", "Magically Altered"],
+            "position": [
+                "Top"
+            ],
+            "species": [
+                "Human",
+                "Magically Altered"
+            ],
             "resource": "Mana",
             "rangeType": "Melee",
-            "regions": ["Shadow Isles"],
+            "regions": [
+                "Shadow Isles"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/83.png",
-            "releaseYear": 2011
+            "releaseYear": 2011,
+            
+            "skinLines": [
+                "Arclight",
+                "Spirit Blossom"
+            ]
         },
         {
             "name": "Yuumi",
             "gender": "Female",
-            "position": ["Support"],
-            "species": ["Cat", "Magically Altered"],
+            "position": [
+                "Support"
+            ],
+            "species": [
+                "Cat",
+                "Magically Altered"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Bandle City"],
+            "regions": [
+                "Bandle City"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/350.png",
-            "releaseYear": 2019
+            "releaseYear": 2019,
+            
+            "skinLines": [
+                "Heartseeker",
+                "Bewitching"
+            ]
         },
         {
             "name": "Zac",
             "gender": "Male",
-            "position": ["Jungle"],
-            "species": ["Golem"],
+            "position": [
+                "Jungle"
+            ],
+            "species": [
+                "Golem"
+            ],
             "resource": "Health costs",
             "rangeType": "Melee",
-            "regions": ["Zaun"],
+            "regions": [
+                "Zaun"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/154.png",
-            "releaseYear": 2013
+            "releaseYear": 2013,
+            
+            "skinLines": [
+                "Battlecast",
+                "Empyrean",
+                "Pool Party"
+            ]
         },
         {
             "name": "Zed",
             "gender": "Male",
-            "position": ["Middle"],
-            "species": ["Human", "Magically Altered"],
+            "position": [
+                "Middle"
+            ],
+            "species": [
+                "Human",
+                "Magically Altered"
+            ],
             "resource": "Energy",
             "rangeType": "Melee",
-            "regions": ["Ionia"],
+            "regions": [
+                "Ionia"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/238.png",
-            "releaseYear": 2012
+            "releaseYear": 2012,
+            
+            "skinLines": [
+                "Debonair",
+                "Empyrean",
+                "PsyOps"
+            ]
         },
         {
             "name": "Zeri",
             "gender": "Female",
-            "position": ["Bottom"],
-            "species": ["Human", "Magicborn"],
+            "position": [
+                "Bottom"
+            ],
+            "species": [
+                "Human",
+                "Magicborn"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Zaun"],
+            "regions": [
+                "Zaun"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/221.png",
-            "releaseYear": 2022
+            "releaseYear": 2022,
+            "skinLines": [
+
+            ]
         },
         {
             "name": "Ziggs",
             "gender": "Male",
-            "position": ["Bottom", "Middle"],
-            "species": ["Yordle"],
+            "position": [
+                "Bottom",
+                "Middle"
+            ],
+            "species": [
+                "Yordle"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Zaun"],
+            "regions": [
+                "Zaun"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/115.png",
-            "releaseYear": 2012
+            "releaseYear": 2012,
+            
+            "skinLines": [
+                "Battle Boss",
+                "Hextech",
+                "Odyssey",
+                "Snow Day",
+                "Pool Party"
+            ]
         },
         {
             "name": "Zilean",
             "gender": "Male",
-            "position": ["Support"],
-            "species": ["Human", "Magicborn"],
+            "position": [
+                "Support"
+            ],
+            "species": [
+                "Human",
+                "Magicborn"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Icathia", "Runeterra", "Shurima"],
+            "regions": [
+                "Icathia",
+                "Runeterra",
+                "Shurima"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/26.png",
-            "releaseYear": 2009
+            "releaseYear": 2009,
+            
+            "skinLines": [
+                "Blood Moon"
+            ]
         },
         {
             "name": "Zoe",
             "gender": "Female",
-            "position": ["Middle"],
-            "species": ["Aspect", "Human"],
+            "position": [
+                "Middle"
+            ],
+            "species": [
+                "Aspect",
+                "Human"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Targon"],
+            "regions": [
+                "Targon"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/142.png",
-            "releaseYear": 2017
+            "releaseYear": 2017,
+            
+            "skinLines": [
+                "Star Guardian",
+                "Pool Party"
+            ]
         },
         {
             "name": "Zyra",
             "gender": "Female",
-            "position": ["Support"],
-            "species": ["Unknown"],
+            "position": [
+                "Support"
+            ],
+            "species": [
+                "Unknown"
+            ],
             "resource": "Mana",
             "rangeType": "Ranged",
-            "regions": ["Ixtal"],
+            "regions": [
+                "Ixtal"
+            ],
             "thumbnail": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/143.png",
-            "releaseYear": 2012
+            "releaseYear": 2012,
+            "skinLines": [
+                "Coven"
+            ]
         }
     ]
-    
 }

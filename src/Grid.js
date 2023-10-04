@@ -59,7 +59,7 @@ function Grid() {
   }, [guessesLeft])
 
   const checkAttribute = (champ, attr) => {
-    if (attr.type === 'position' || attr.type === 'regions' || attr.type === 'species') {
+    if (attr.type === 'position' || attr.type === 'regions' || attr.type === 'species' || attr.type === 'skinLines') {
       return champ[attr.type].includes(attr.attribute) 
     } else if (attr.type === 'releaseYear' ) {
       const year = parseInt(attr.attribute)

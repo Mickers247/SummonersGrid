@@ -22,6 +22,9 @@ function Grid() {
   const savedGuessesLeft = localStorage.getItem('guessesLeft');
   const savedLastPuzzleDate = localStorage.getItem('savedLastPuzzleDate');
 
+  console.log(savedLastPuzzleDate)
+  console.log(generateSeedFromDate())
+
   if (savedLastPuzzleDate !== generateSeedFromDate()) {
     localStorage.removeItem('gridStatus')
     localStorage.removeItem('guessesLeft')
@@ -133,7 +136,7 @@ function Grid() {
 
 
 
-      return data
+    return data
   }, []);
 
   const gridData = getGridData

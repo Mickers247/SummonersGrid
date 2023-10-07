@@ -126,9 +126,10 @@ function Grid() {
     }
 
     const randomxIndicesString = randomxIndices.toString()
+    const storedRandomxIndicesString = localStorage.getItem('randomxIndicesString')
     console.log(randomxIndicesString)
-    console.log(localStorage.getItem('randomxIndicesString'))
-    if (localStorage.getItem('randomxIndicesString') !== randomxIndicesString) {
+    console.log(storedRandomxIndicesString)
+    if (!storedRandomxIndicesString && storedRandomxIndicesString !== randomxIndicesString) {
       localStorage.removeItem('gridStatus')
       localStorage.removeItem('guessesLeft')
     }

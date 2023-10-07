@@ -125,6 +125,15 @@ function Grid() {
       }
     }
 
+    const randomxIndicesString = randomxIndices.toString()
+    console.log(randomxIndicesString)
+    console.log(localStorage.getItem('randomxIndicesString'))
+    if (localStorage.getItem('randomxIndicesString') !== randomxIndicesString) {
+      localStorage.removeItem('gridStatus')
+      localStorage.removeItem('guessesLeft')
+    }
+    localStorage.setItem('randomxIndicesString', randomxIndicesString)
+
     const data = {
       xlabels: [ 
         xlabelOptions[randomxIndices[0]],

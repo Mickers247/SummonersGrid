@@ -25,7 +25,7 @@ function Grid() {
   console.log(savedLastPuzzleDate)
   console.log(generateSeedFromDate())
 
-  if (savedLastPuzzleDate !== generateSeedFromDate()) {
+  if (!savedLastPuzzleDate && savedLastPuzzleDate !== generateSeedFromDate()) {
     localStorage.removeItem('gridStatus')
     localStorage.removeItem('guessesLeft')
   }

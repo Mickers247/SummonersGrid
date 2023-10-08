@@ -25,7 +25,8 @@ function Grid() {
   console.log(savedLastPuzzleDate)
   console.log(generateSeedFromDate())
 
-  if (!savedLastPuzzleDate && savedLastPuzzleDate !== generateSeedFromDate()) {
+  if (!savedLastPuzzleDate || savedLastPuzzleDate !== generateSeedFromDate()) {
+    console.log('clearingData')
     localStorage.removeItem('gridStatus')
     localStorage.removeItem('guessesLeft')
   }
@@ -129,7 +130,8 @@ function Grid() {
     const storedRandomxIndicesString = localStorage.getItem('randomxIndicesString')
     console.log(randomxIndicesString)
     console.log(storedRandomxIndicesString)
-    if (!storedRandomxIndicesString && storedRandomxIndicesString !== randomxIndicesString) {
+    if (!storedRandomxIndicesString || storedRandomxIndicesString !== randomxIndicesString) {
+      console.log('clearing')
       localStorage.removeItem('gridStatus')
       localStorage.removeItem('guessesLeft')
     }

@@ -32,37 +32,6 @@ function Grid() {
   }
   localStorage.setItem('savedLastPuzzleDate', generateSeedFromDate())
 
-  const [showSearchModal, setShowSearchModal] = useState(false);
-  const [showResultModal, setshowResultModal] = useState(false);
-  const [currentCell, setCurrentCell] = useState(0);
-  const [guessesLeft, setGuessesLeft] = useState(savedGuessesLeft || 9)
-  const [gridStatus, setGridStatus] = useState(savedGridStatus || [
-    {answered: false, champ: {}},
-    {answered: false, champ: {}},
-    {answered: false, champ: {}},
-    {answered: false, champ: {}},
-    {answered: false, champ: {}},
-    {answered: false, champ: {}},
-    {answered: false, champ: {}},
-    {answered: false, champ: {}},
-    {answered: false, champ: {}},
-  ]);
-
-  
-
-  useEffect(() => {
-    localStorage.setItem('gridStatus', JSON.stringify(gridStatus));
-  }, [gridStatus])
-  useEffect(() => {
-    localStorage.setItem('guessesLeft', guessesLeft);
-  }, [guessesLeft])
-
-  useEffect(() => {
-    if (guessesLeft < 1) {
-      setshowResultModal(true);
-    }
-  }, [guessesLeft])
-
   const checkAttribute = (champ, attr) => {
     if (attr.type === 'position' || attr.type === 'regions' || attr.type === 'species' || attr.type === 'skinLines') {
       return champ[attr.type].includes(attr.attribute) 
@@ -150,8 +119,40 @@ function Grid() {
 
     return data
   }, []);
+  
 
   const gridData = getGridData
+
+  const [showSearchModal, setShowSearchModal] = useState(false);
+  const [showResultModal, setshowResultModal] = useState(false);
+  const [currentCell, setCurrentCell] = useState(0);
+  const [guessesLeft, setGuessesLeft] = useState(savedGuessesLeft || 9)
+  const [gridStatus, setGridStatus] = useState(savedGridStatus || [
+    {answered: false, champ: {}},
+    {answered: false, champ: {}},
+    {answered: false, champ: {}},
+    {answered: false, champ: {}},
+    {answered: false, champ: {}},
+    {answered: false, champ: {}},
+    {answered: false, champ: {}},
+    {answered: false, champ: {}},
+    {answered: false, champ: {}},
+  ]);
+
+  
+
+  useEffect(() => {
+    localStorage.setItem('gridStatus', JSON.stringify(gridStatus));
+  }, [gridStatus])
+  useEffect(() => {
+    localStorage.setItem('guessesLeft', guessesLeft);
+  }, [guessesLeft])
+
+  useEffect(() => {
+    if (guessesLeft < 1) {
+      setshowResultModal(true);
+    }
+  }, [guessesLeft])
   
   const handleSearchClick = (cellNo) => {
     setCurrentCell(cellNo)

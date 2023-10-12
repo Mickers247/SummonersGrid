@@ -18,7 +18,6 @@ function Grid() {
     return seed;
   };
 
-  const savedGridStatus = JSON.parse(localStorage.getItem('gridStatus'));
   const savedGuessesLeft = localStorage.getItem('guessesLeft');
   const savedLastPuzzleDate = localStorage.getItem('savedLastPuzzleDate');
 
@@ -122,6 +121,8 @@ function Grid() {
   
 
   const gridData = getGridData
+
+  const savedGridStatus = JSON.parse(localStorage.getItem('gridStatus'));
 
   const [showSearchModal, setShowSearchModal] = useState(false);
   const [showResultModal, setshowResultModal] = useState(false);

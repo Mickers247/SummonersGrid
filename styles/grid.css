@@ -18,7 +18,11 @@
     max-width: 600px;
     max-height: 600px;
     animation: growAnimation 2s ease-in-out; /* Apply the animation */
+    display: grid;
+    
+    
 }
+
 .row {
     height: 20vw;
     max-height: 150px;
@@ -27,6 +31,8 @@
 .grid-square-button {
     height: 100%;
     width: 100%;
+    border: 5px solid rgb(200, 155, 60);
+    box-sizing: border-box;
 }
 
 .text-center {

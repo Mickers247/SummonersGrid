@@ -194,6 +194,7 @@ function SearchModal(props) {
     onClose();
   };
 
+
   return (
     <Modal show={show} onHide={handleClose}>
       <Modal.Header closeButton>
@@ -205,6 +206,7 @@ function SearchModal(props) {
             type="text"
             placeholder="Search a champion"
             value={searchQuery}
+            autoFocus
             onChange={(e) => {
               setSearchQuery(e.target.value);
               updateSuggestions(e.target.value);
